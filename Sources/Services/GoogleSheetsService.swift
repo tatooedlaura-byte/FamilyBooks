@@ -108,6 +108,12 @@ class GoogleSheetsService {
     }
 
     func addBook(_ book: Book) async throws {
+        try await addBooks([book])
+    }
+
+    func addBooks(_ books: [Book]) async throws {
+        guard !books.isEmpty else { return }
+
         let range = "\(sheetName)!A:J"
         let urlString = "\(baseURL)/\(spreadsheetId)/values/\(range):append?valueInputOption=USER_ENTERED&key=\(apiKey)"
 
@@ -116,18 +122,20 @@ class GoogleSheetsService {
         }
 
         let dateFormatter = ISO8601DateFormatter()
-        let values: [[String]] = [[
-            book.isbn,
-            book.title,
-            book.authors,
-            book.publisher,
-            book.publishDate,
-            book.numberOfPages,
-            book.coverURL,
-            book.notes,
-            book.addedBy,
-            dateFormatter.string(from: book.addedAt)
-        ]]
+        let values: [[String]] = books.map { book in
+            [
+                book.isbn,
+                book.title,
+                book.authors,
+                book.publisher,
+                book.publishDate,
+                book.numberOfPages,
+                book.coverURL,
+                book.notes,
+                book.addedBy,
+                dateFormatter.string(from: book.addedAt)
+            ]
+        }
 
         let body = ["values": values]
         let jsonData = try JSONSerialization.data(withJSONObject: body)

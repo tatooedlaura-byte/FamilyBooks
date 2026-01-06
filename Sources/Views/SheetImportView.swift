@@ -7,6 +7,13 @@ struct SheetImportView: View {
     @State private var sheetURL = ""
     @State private var isImporting = false
     @State private var importResult: ImportResult?
+    @State private var importProgress: ImportProgress?
+
+    struct ImportProgress {
+        var current: Int
+        var total: Int
+        var status: String
+    }
 
     enum ImportResult {
         case success(count: Int)
@@ -46,6 +53,20 @@ struct SheetImportView: View {
                         }
                     }
                     .disabled(sheetURL.isEmpty || isImporting)
+                }
+
+                if let progress = importProgress, isImporting {
+                    Section {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text(progress.status)
+                                .font(.subheadline)
+                            ProgressView(value: Double(progress.current), total: Double(progress.total))
+                            Text("\(progress.current) of \(progress.total) books")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
+                        .padding(.vertical, 4)
+                    }
                 }
 
                 if let result = importResult {
@@ -91,6 +112,7 @@ struct SheetImportView: View {
     private func importSheet() async {
         isImporting = true
         importResult = nil
+        importProgress = nil
 
         // Extract spreadsheet ID from URL
         guard let spreadsheetId = extractSpreadsheetId(from: sheetURL) else {
@@ -100,6 +122,8 @@ struct SheetImportView: View {
         }
 
         do {
+            importProgress = ImportProgress(current: 0, total: 0, status: "Fetching books from sheet...")
+
             // Try different sheet names
             var books: [Book] = []
             let sheetNames = ["Books", "Sheet1", "books", "Library", "library"]
@@ -117,24 +141,36 @@ struct SheetImportView: View {
             if books.isEmpty {
                 importResult = .error("No books found. Check sheet is shared publicly and has ISBN column.")
                 isImporting = false
+                importProgress = nil
                 return
             }
 
-            // Add each book to our sheet
+            // Import in batches of 100
+            let batchSize = 100
+            let totalBooks = books.count
             var importedCount = 0
-            for book in books {
+
+            importProgress = ImportProgress(current: 0, total: totalBooks, status: "Importing books...")
+
+            for batchStart in stride(from: 0, to: totalBooks, by: batchSize) {
+                let batchEnd = min(batchStart + batchSize, totalBooks)
+                let batch = Array(books[batchStart..<batchEnd])
+
                 do {
-                    try await bookStore.sheetsService.addBook(book)
-                    importedCount += 1
+                    try await bookStore.sheetsService.addBooks(batch)
+                    importedCount += batch.count
+                    importProgress = ImportProgress(current: importedCount, total: totalBooks, status: "Importing books...")
                 } catch {
-                    // Continue with other books if one fails
+                    // Continue with next batch if one fails
                 }
             }
 
             importResult = .success(count: importedCount)
+            importProgress = nil
             await bookStore.loadBooks()
         } catch {
             importResult = .error("Failed to fetch books: \(error.localizedDescription)")
+            importProgress = nil
         }
 
         isImporting = false
