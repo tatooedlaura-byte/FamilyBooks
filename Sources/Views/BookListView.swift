@@ -9,6 +9,7 @@ struct BookListView: View {
     @State private var showingManualEntry = false
     @State private var manualISBN = ""
     @State private var showingSheetImport = false
+    @State private var showingCSVImport = false
     @State private var sheetURL = ""
 
     var body: some View {
@@ -73,6 +74,12 @@ struct BookListView: View {
                         } label: {
                             Label("Import Google Sheet", systemImage: "square.and.arrow.down")
                         }
+
+                        Button {
+                            showingCSVImport = true
+                        } label: {
+                            Label("Import CSV File", systemImage: "doc.text")
+                        }
                     } label: {
                         Image(systemName: "plus")
                     }
@@ -124,6 +131,9 @@ struct BookListView: View {
             }
             .sheet(isPresented: $showingSheetImport) {
                 SheetImportView()
+            }
+            .sheet(isPresented: $showingCSVImport) {
+                CSVImportView()
             }
         }
         .task {
