@@ -5,6 +5,11 @@ options:
     iOS: "17.0"
   xcodeVersion: "15.0"
 
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk
+    version: 11.6.0
+
 settings:
   base:
     SWIFT_VERSION: "5.9"
@@ -16,6 +21,9 @@ targets:
     platform: iOS
     sources:
       - Sources
+    dependencies:
+      - package: Firebase
+        product: FirebaseDatabase
     settings:
       base:
         INFOPLIST_FILE: Sources/Info.plist

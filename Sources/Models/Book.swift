@@ -1,7 +1,7 @@
 import Foundation
 
 struct Book: Identifiable, Codable {
-    var id: String { isbn }
+    var id: String?
     let isbn: String
     var title: String
     var authors: String
@@ -14,6 +14,7 @@ struct Book: Identifiable, Codable {
     var addedAt: Date
 
     init(
+        id: String? = nil,
         isbn: String,
         title: String = "",
         authors: String = "",
@@ -25,6 +26,7 @@ struct Book: Identifiable, Codable {
         addedBy: String = "",
         addedAt: Date = Date()
     ) {
+        self.id = id ?? isbn
         self.isbn = isbn
         self.title = title
         self.authors = authors

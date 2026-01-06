@@ -18,11 +18,14 @@
 		7D40FD31687FA9F11997B2B3 /* OpenLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D97745AC1053395523D2A43 /* OpenLibraryService.swift */; };
 		B31BC2C06F330C82203F1BFB /* FamilyBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60309FFFB1CD1D10FFDA7 /* FamilyBooksApp.swift */; };
 		BDA39E55AC886C0CB07B0F08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59E6BC0EC5583420B90B35 /* ContentView.swift */; };
+		E5E681DC0A61AE41AC699DDD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 331F8B5734D3DBC90621B6C6 /* FirebaseDatabase */; };
+		EB8D7498A1FE4278F0B5BF04 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BDAA9C51FED921AF88F4F /* FirebaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A39DB3CF30F02B8AC563BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		213FE7226B895C75714E5702 /* SheetImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetImportView.swift; sourceTree = "<group>"; };
+		260BDAA9C51FED921AF88F4F /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
 		2C53DB66B987659CB31A8B8A /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		30803AD31C20A8300A3023B3 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		35A8B6CE69092941885FDF4C /* GoogleSheetsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSheetsService.swift; sourceTree = "<group>"; };
@@ -36,10 +39,22 @@
 		C10BDBD1BC8A29377D067DE9 /* BookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		0DD94A1311BB9E3C0284767C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E681DC0A61AE41AC699DDD /* FirebaseDatabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		20E61C9E0D01780BACF5418D /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				260BDAA9C51FED921AF88F4F /* FirebaseService.swift */,
 				35A8B6CE69092941885FDF4C /* GoogleSheetsService.swift */,
 				7D97745AC1053395523D2A43 /* OpenLibraryService.swift */,
 			);
@@ -104,6 +119,7 @@
 			buildConfigurationList = 3B69CFD2D21CBFB0BA225C3C /* Build configuration list for PBXNativeTarget "FamilyBooks" */;
 			buildPhases = (
 				27738038611F9591AAFF5879 /* Sources */,
+				0DD94A1311BB9E3C0284767C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,6 +127,7 @@
 			);
 			name = FamilyBooks;
 			packageProductDependencies = (
+				331F8B5734D3DBC90621B6C6 /* FirebaseDatabase */,
 			);
 			productName = FamilyBooks;
 			productReference = 7AFF6606D2C677B0F0BA2BA1 /* FamilyBooks.app */;
@@ -140,6 +157,9 @@
 			);
 			mainGroup = 3A2C6472EC69D3D17ECEF8DE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F6889112FD032C08AFDF6C31 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
@@ -162,6 +182,7 @@
 				6C00E01B2E65C53FA657FDA4 /* CSVImportView.swift in Sources */,
 				BDA39E55AC886C0CB07B0F08 /* ContentView.swift in Sources */,
 				B31BC2C06F330C82203F1BFB /* FamilyBooksApp.swift in Sources */,
+				EB8D7498A1FE4278F0B5BF04 /* FirebaseService.swift in Sources */,
 				39F2705938CA1A183C0E7BA9 /* GoogleSheetsService.swift in Sources */,
 				7D40FD31687FA9F11997B2B3 /* OpenLibraryService.swift in Sources */,
 				26DE22D30F4CB2E00F2BD3BC /* SheetImportView.swift in Sources */,
@@ -350,6 +371,25 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6889112FD032C08AFDF6C31 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		331F8B5734D3DBC90621B6C6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6889112FD032C08AFDF6C31 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6266296C883A9CECFFB22A2C /* Project object */;
 }

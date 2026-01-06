@@ -157,7 +157,7 @@ struct SheetImportView: View {
                 let batch = Array(books[batchStart..<batchEnd])
 
                 do {
-                    try await bookStore.sheetsService.addBooks(batch)
+                    try await bookStore.addBooks(batch)
                     importedCount += batch.count
                     importProgress = ImportProgress(current: importedCount, total: totalBooks, status: "Importing books...")
                 } catch {

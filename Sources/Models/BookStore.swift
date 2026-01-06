@@ -11,10 +11,20 @@ class BookStore: ObservableObject {
         }
     }
 
-    let sheetsService = GoogleSheetsService()
+    let firebaseService = FirebaseService.shared
 
     init() {
         self.userName = UserDefaults.standard.string(forKey: "userName") ?? ""
+        setupObserver()
+    }
+
+    private func setupObserver() {
+        firebaseService.observeBooks { [weak self] books in
+            Task { @MainActor in
+                self?.books = books.sorted { $0.title.lowercased() < $1.title.lowercased() }
+                self?.isLoading = false
+            }
+        }
     }
 
     func loadBooks() async {
@@ -22,7 +32,8 @@ class BookStore: ObservableObject {
         error = nil
 
         do {
-            books = try await sheetsService.fetchBooks()
+            books = try await firebaseService.fetchBooks()
+            books.sort { $0.title.lowercased() < $1.title.lowercased() }
         } catch {
             self.error = error.localizedDescription
         }
@@ -38,8 +49,7 @@ class BookStore: ObservableObject {
         bookToAdd.addedBy = userName
 
         do {
-            try await sheetsService.addBook(bookToAdd)
-            await loadBooks()
+            try await firebaseService.addBook(bookToAdd)
             return true
         } catch {
             self.error = error.localizedDescription
@@ -48,13 +58,16 @@ class BookStore: ObservableObject {
         }
     }
 
+    func addBooks(_ books: [Book]) async throws {
+        try await firebaseService.addBooks(books)
+    }
+
     func deleteBook(_ book: Book) async -> Bool {
         isLoading = true
         error = nil
 
         do {
-            try await sheetsService.deleteBook(book)
-            await loadBooks()
+            try await firebaseService.deleteBook(book)
             return true
         } catch {
             self.error = error.localizedDescription
