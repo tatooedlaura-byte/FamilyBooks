@@ -3,10 +3,16 @@ import AVFoundation
 
 struct BarcodeScannerView: View {
     @Environment(\.dismiss) private var dismiss
+    @EnvironmentObject var bookStore: BookStore
     @Binding var scannedCode: String?
+    var quickScanMode: Bool = false
+
     @State private var isScanning = true
     @State private var cameraPermission: AVAuthorizationStatus = .notDetermined
     @State private var localScannedCode: String?
+    @State private var scannedBooks: [String] = []
+    @State private var isLookingUp = false
+    @State private var lastScannedTitle: String?
 
     var body: some View {
         ZStack {
@@ -22,14 +28,39 @@ struct BarcodeScannerView: View {
                         .frame(width: 280, height: 150)
                         .background(.clear)
 
-                    Text("Point at a book's barcode")
-                        .foregroundStyle(.white)
-                        .padding(.top, 20)
-                        .shadow(radius: 2)
+                    if quickScanMode {
+                        if isLookingUp {
+                            Text("Looking up...")
+                                .foregroundStyle(.yellow)
+                                .padding(.top, 20)
+                                .shadow(radius: 2)
+                        } else if let title = lastScannedTitle {
+                            Text("Added: \(title)")
+                                .foregroundStyle(.green)
+                                .padding(.top, 20)
+                                .shadow(radius: 2)
+                                .lineLimit(1)
+                        } else {
+                            Text("Quick Scan - Point at barcodes")
+                                .foregroundStyle(.white)
+                                .padding(.top, 20)
+                                .shadow(radius: 2)
+                        }
+
+                        Text("\(scannedBooks.count) books scanned")
+                            .foregroundStyle(.white.opacity(0.8))
+                            .font(.caption)
+                            .padding(.top, 4)
+                    } else {
+                        Text("Point at a book's barcode")
+                            .foregroundStyle(.white)
+                            .padding(.top, 20)
+                            .shadow(radius: 2)
+                    }
 
                     Spacer()
 
-                    Button("Cancel") {
+                    Button(quickScanMode ? "Done (\(scannedBooks.count) books)" : "Cancel") {
                         dismiss()
                     }
                     .foregroundStyle(.white)
@@ -73,8 +104,25 @@ struct BarcodeScannerView: View {
         }
         .onChange(of: localScannedCode) { _, newValue in
             if let code = newValue {
-                scannedCode = code
-                dismiss()
+                if quickScanMode {
+                    // Quick scan mode - add directly and continue scanning
+                    guard !scannedBooks.contains(code) else {
+                        // Already scanned this one, reset and continue
+                        localScannedCode = nil
+                        isScanning = true
+                        return
+                    }
+                    scannedBooks.append(code)
+                    Task {
+                        await quickAddBook(isbn: code)
+                        localScannedCode = nil
+                        isScanning = true
+                    }
+                } else {
+                    // Normal mode - pass code back and dismiss
+                    scannedCode = code
+                    dismiss()
+                }
             }
         }
     }
@@ -87,6 +135,32 @@ struct BarcodeScannerView: View {
             let granted = await AVCaptureDevice.requestAccess(for: .video)
             cameraPermission = granted ? .authorized : .denied
         }
+    }
+
+    private func quickAddBook(isbn: String) async {
+        isLookingUp = true
+        lastScannedTitle = nil
+
+        var book = Book(isbn: isbn)
+        book.addedBy = bookStore.userName
+
+        // Try to lookup book info
+        if let foundBook = try? await OpenLibraryService.shared.lookupBook(isbn: isbn) {
+            book.title = foundBook.title
+            book.authors = foundBook.authors
+            book.publisher = foundBook.publisher
+            book.publishDate = foundBook.publishDate
+            book.numberOfPages = foundBook.numberOfPages
+            book.coverURL = foundBook.coverURL
+            lastScannedTitle = foundBook.title
+        } else {
+            lastScannedTitle = "ISBN: \(isbn)"
+        }
+
+        // Add to database
+        try? await bookStore.firebaseService.addBook(book)
+
+        isLookingUp = false
     }
 }
 

@@ -210,7 +210,7 @@ struct CSVImportView: View {
                 numberOfPages: columnMap.value(from: values, for: .numberOfPages),
                 coverURL: columnMap.value(from: values, for: .coverURL),
                 notes: columnMap.value(from: values, for: .notes),
-                addedBy: columnMap.value(from: values, for: .addedBy).isEmpty ? "CSV Import" : columnMap.value(from: values, for: .addedBy),
+                addedBy: columnMap.value(from: values, for: .addedBy).isEmpty ? "Laura" : columnMap.value(from: values, for: .addedBy),
                 addedAt: Date()
             )
 

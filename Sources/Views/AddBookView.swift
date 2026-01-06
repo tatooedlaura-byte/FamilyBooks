@@ -9,8 +9,6 @@ struct AddBookView: View {
     @State private var lookupError: String?
     @State private var hasLookedUp = false
 
-    private let openLibrary = OpenLibraryService()
-
     var body: some View {
         NavigationStack {
             Form {
@@ -72,6 +70,13 @@ struct AddBookView: View {
                     Section {
                         Text(error)
                             .foregroundStyle(.orange)
+
+                        Button("Retry Lookup") {
+                            hasLookedUp = false
+                            Task {
+                                await lookupBook()
+                            }
+                        }
                     }
                 }
             }
@@ -97,8 +102,11 @@ struct AddBookView: View {
             }
         }
         .task {
-            guard !hasLookedUp else { return }
+            // Skip lookup if book already has data (was looked up before sheet opened)
+            guard !hasLookedUp && book.title.isEmpty else { return }
             hasLookedUp = true
+            // Wait for sheet animation to complete before starting lookup
+            try? await Task.sleep(nanoseconds: 500_000_000) // 0.5 seconds
             await lookupBook()
         }
     }
@@ -108,7 +116,7 @@ struct AddBookView: View {
         lookupError = nil
 
         do {
-            if let foundBook = try await openLibrary.lookupBook(isbn: book.isbn) {
+            if let foundBook = try await OpenLibraryService.shared.lookupBook(isbn: book.isbn) {
                 book.title = foundBook.title
                 book.authors = foundBook.authors
                 book.publisher = foundBook.publisher
@@ -116,10 +124,10 @@ struct AddBookView: View {
                 book.numberOfPages = foundBook.numberOfPages
                 book.coverURL = foundBook.coverURL
             } else {
-                lookupError = "Book not found in Open Library. Enter details manually."
+                lookupError = "Book not found in Open Library (ISBN: \(book.isbn)). Enter details manually."
             }
         } catch {
-            lookupError = "Lookup failed. Enter details manually."
+            lookupError = "Lookup failed: \(error.localizedDescription)"
         }
 
         isLookingUp = false

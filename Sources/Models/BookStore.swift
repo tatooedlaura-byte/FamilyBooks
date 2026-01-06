@@ -34,11 +34,22 @@ class BookStore: ObservableObject {
         do {
             books = try await firebaseService.fetchBooks()
             books.sort { $0.title.lowercased() < $1.title.lowercased() }
+
+            // One-time migration: update "CSV Import" to "Laura"
+            await migrateCSVImportToLaura()
         } catch {
             self.error = error.localizedDescription
         }
 
         isLoading = false
+    }
+
+    private func migrateCSVImportToLaura() async {
+        let booksToUpdate = books.filter { $0.addedBy == "CSV Import" }
+        for var book in booksToUpdate {
+            book.addedBy = "Laura"
+            _ = await updateBook(book)
+        }
     }
 
     func addBook(_ book: Book) async -> Bool {

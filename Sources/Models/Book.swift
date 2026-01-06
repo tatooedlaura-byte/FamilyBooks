@@ -1,5 +1,21 @@
 import Foundation
 
+enum ReadingStatus: String, Codable, CaseIterable {
+    case none = ""
+    case wantToRead = "Want to Read"
+    case reading = "Reading"
+    case read = "Read"
+
+    var icon: String {
+        switch self {
+        case .none: return ""
+        case .wantToRead: return "bookmark"
+        case .reading: return "book"
+        case .read: return "checkmark.circle"
+        }
+    }
+}
+
 struct Book: Identifiable, Codable {
     var id: String?
     var isbn: String
@@ -13,6 +29,8 @@ struct Book: Identifiable, Codable {
     var addedBy: String
     var addedAt: Date
     var copies: Int
+    var readingStatus: ReadingStatus
+    var isWishlist: Bool
 
     init(
         id: String? = nil,
@@ -26,7 +44,9 @@ struct Book: Identifiable, Codable {
         notes: String = "",
         addedBy: String = "",
         addedAt: Date = Date(),
-        copies: Int = 1
+        copies: Int = 1,
+        readingStatus: ReadingStatus = .none,
+        isWishlist: Bool = false
     ) {
         self.id = id ?? isbn
         self.isbn = isbn
@@ -40,5 +60,7 @@ struct Book: Identifiable, Codable {
         self.addedBy = addedBy
         self.addedAt = addedAt
         self.copies = copies
+        self.readingStatus = readingStatus
+        self.isWishlist = isWishlist
     }
 }

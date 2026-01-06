@@ -38,6 +38,9 @@ class FirebaseService {
                         continue
                     }
 
+                    let statusString = dict["readingStatus"] as? String ?? ""
+                    let readingStatus = ReadingStatus(rawValue: statusString) ?? .none
+
                     let book = Book(
                         id: childSnapshot.key,
                         isbn: dict["isbn"] as? String ?? "",
@@ -50,7 +53,9 @@ class FirebaseService {
                         notes: dict["notes"] as? String ?? "",
                         addedBy: dict["addedBy"] as? String ?? "",
                         addedAt: Date(timeIntervalSince1970: (dict["addedAt"] as? Double ?? 0) / 1000),
-                        copies: dict["copies"] as? Int ?? 1
+                        copies: dict["copies"] as? Int ?? 1,
+                        readingStatus: readingStatus,
+                        isWishlist: dict["isWishlist"] as? Bool ?? false
                     )
                     books.append(book)
                 }
@@ -79,7 +84,9 @@ class FirebaseService {
                 "notes": book.notes,
                 "addedBy": book.addedBy,
                 "addedAt": book.addedAt.timeIntervalSince1970 * 1000,
-                "copies": book.copies
+                "copies": book.copies,
+                "readingStatus": book.readingStatus.rawValue,
+                "isWishlist": book.isWishlist
             ]
 
             try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
@@ -122,7 +129,9 @@ class FirebaseService {
             "notes": book.notes,
             "addedBy": book.addedBy,
             "addedAt": book.addedAt.timeIntervalSince1970 * 1000,
-            "copies": book.copies
+            "copies": book.copies,
+            "readingStatus": book.readingStatus.rawValue,
+            "isWishlist": book.isWishlist
         ]
 
         try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
@@ -146,6 +155,9 @@ class FirebaseService {
                     continue
                 }
 
+                let statusString = dict["readingStatus"] as? String ?? ""
+                let readingStatus = ReadingStatus(rawValue: statusString) ?? .none
+
                 let book = Book(
                     id: childSnapshot.key,
                     isbn: dict["isbn"] as? String ?? "",
@@ -158,7 +170,9 @@ class FirebaseService {
                     notes: dict["notes"] as? String ?? "",
                     addedBy: dict["addedBy"] as? String ?? "",
                     addedAt: Date(timeIntervalSince1970: (dict["addedAt"] as? Double ?? 0) / 1000),
-                    copies: dict["copies"] as? Int ?? 1
+                    copies: dict["copies"] as? Int ?? 1,
+                    readingStatus: readingStatus,
+                    isWishlist: dict["isWishlist"] as? Bool ?? false
                 )
                 books.append(book)
             }
