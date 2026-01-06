@@ -148,9 +148,12 @@ struct BookListView: View {
             }
             .onChange(of: scannedISBN) { _, newValue in
                 if let isbn = newValue {
-                    bookToAdd = Book(isbn: isbn)
-                    showingAddBook = true
                     scannedISBN = nil
+                    bookToAdd = Book(isbn: isbn)
+                    // Delay to let scanner dismiss first
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                        showingAddBook = true
+                    }
                 }
             }
             .sheet(isPresented: $showingAddBook) {

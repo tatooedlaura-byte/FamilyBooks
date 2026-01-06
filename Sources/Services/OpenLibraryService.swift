@@ -79,6 +79,28 @@ class OpenLibraryService {
     }
 
     func lookupBook(isbn: String) async throws -> Book? {
+        // Try direct ISBN lookup first
+        if let book = try await directISBNLookup(isbn: isbn) {
+            return book
+        }
+
+        // Fallback to search by ISBN
+        if let info = try await searchByISBN(isbn: isbn) {
+            return Book(
+                isbn: isbn,
+                title: info.title,
+                authors: info.authors,
+                publisher: info.publisher,
+                publishDate: info.publishDate,
+                numberOfPages: info.numberOfPages,
+                coverURL: info.coverURL
+            )
+        }
+
+        return nil
+    }
+
+    private func directISBNLookup(isbn: String) async throws -> Book? {
         let urlString = "https://openlibrary.org/api/books?bibkeys=ISBN:\(isbn)&format=json&jscmd=data"
 
         guard let url = URL(string: urlString) else {
@@ -93,6 +115,7 @@ class OpenLibraryService {
         }
 
         let title = bookData["title"] as? String ?? ""
+        guard !title.isEmpty else { return nil }
 
         var authors = ""
         if let authorList = bookData["authors"] as? [[String: Any]] {
@@ -120,6 +143,45 @@ class OpenLibraryService {
             publisher: publisher,
             publishDate: publishDate,
             numberOfPages: numberOfPages,
+            coverURL: coverURL
+        )
+    }
+
+    private func searchByISBN(isbn: String) async throws -> BookInfo? {
+        let urlString = "https://openlibrary.org/search.json?isbn=\(isbn)&limit=1"
+
+        guard let url = URL(string: urlString) else {
+            throw URLError(.badURL)
+        }
+
+        let (data, _) = try await URLSession.shared.data(from: url)
+
+        guard let json = try JSONSerialization.jsonObject(with: data) as? [String: Any],
+              let docs = json["docs"] as? [[String: Any]],
+              let firstDoc = docs.first else {
+            return nil
+        }
+
+        let title = firstDoc["title"] as? String ?? ""
+        guard !title.isEmpty else { return nil }
+
+        var coverURL = ""
+        if let coverID = firstDoc["cover_i"] as? Int {
+            coverURL = "https://covers.openlibrary.org/b/id/\(coverID)-M.jpg"
+        }
+
+        let authors = (firstDoc["author_name"] as? [String])?.joined(separator: ", ") ?? ""
+        let publisher = (firstDoc["publisher"] as? [String])?.first ?? ""
+        let publishYear = (firstDoc["first_publish_year"] as? Int).map { String($0) } ?? ""
+        let pages = (firstDoc["number_of_pages_median"] as? Int).map { String($0) } ?? ""
+
+        return BookInfo(
+            isbn: isbn,
+            title: title,
+            authors: authors,
+            publisher: publisher,
+            publishDate: publishYear,
+            numberOfPages: pages,
             coverURL: coverURL
         )
     }

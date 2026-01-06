@@ -6,12 +6,12 @@ struct BarcodeScannerView: View {
     @Binding var scannedCode: String?
     @State private var isScanning = true
     @State private var cameraPermission: AVAuthorizationStatus = .notDetermined
-    @State private var showPermissionAlert = false
+    @State private var localScannedCode: String?
 
     var body: some View {
         ZStack {
             if cameraPermission == .authorized {
-                CameraPreview(scannedCode: $scannedCode, isScanning: $isScanning)
+                CameraPreview(scannedCode: $localScannedCode, isScanning: $isScanning)
                     .ignoresSafeArea()
 
                 VStack {
@@ -71,8 +71,9 @@ struct BarcodeScannerView: View {
         .task {
             await checkCameraPermission()
         }
-        .onChange(of: scannedCode) { _, newValue in
-            if newValue != nil {
+        .onChange(of: localScannedCode) { _, newValue in
+            if let code = newValue {
+                scannedCode = code
                 dismiss()
             }
         }
@@ -94,29 +95,50 @@ struct CameraPreview: UIViewRepresentable {
     @Binding var isScanning: Bool
 
     func makeUIView(context: Context) -> UIView {
-        let view = UIView(frame: .zero)
+        let view = UIView(frame: UIScreen.main.bounds)
         view.backgroundColor = .black
 
+        DispatchQueue.main.async {
+            self.setupCamera(in: view, context: context)
+        }
+
+        return view
+    }
+
+    private func setupCamera(in view: UIView, context: Context) {
         let captureSession = AVCaptureSession()
+        captureSession.sessionPreset = .high
         context.coordinator.captureSession = captureSession
 
-        guard let videoCaptureDevice = AVCaptureDevice.default(for: .video),
-              let videoInput = try? AVCaptureDeviceInput(device: videoCaptureDevice),
-              captureSession.canAddInput(videoInput) else {
-            return view
+        guard let videoCaptureDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .back) else {
+            print("No camera available")
+            return
+        }
+
+        guard let videoInput = try? AVCaptureDeviceInput(device: videoCaptureDevice) else {
+            print("Could not create video input")
+            return
+        }
+
+        guard captureSession.canAddInput(videoInput) else {
+            print("Could not add video input")
+            return
         }
 
         captureSession.addInput(videoInput)
 
         let metadataOutput = AVCaptureMetadataOutput()
-        if captureSession.canAddOutput(metadataOutput) {
-            captureSession.addOutput(metadataOutput)
-            metadataOutput.setMetadataObjectsDelegate(context.coordinator, queue: .main)
-            metadataOutput.metadataObjectTypes = [.ean8, .ean13, .upce]
+        guard captureSession.canAddOutput(metadataOutput) else {
+            print("Could not add metadata output")
+            return
         }
 
+        captureSession.addOutput(metadataOutput)
+        metadataOutput.setMetadataObjectsDelegate(context.coordinator, queue: .main)
+        metadataOutput.metadataObjectTypes = [.ean8, .ean13, .upce]
+
         let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
-        previewLayer.frame = UIScreen.main.bounds
+        previewLayer.frame = view.bounds
         previewLayer.videoGravity = .resizeAspectFill
         view.layer.addSublayer(previewLayer)
         context.coordinator.previewLayer = previewLayer
@@ -124,8 +146,6 @@ struct CameraPreview: UIViewRepresentable {
         DispatchQueue.global(qos: .userInitiated).async {
             captureSession.startRunning()
         }
-
-        return view
     }
 
     func updateUIView(_ uiView: UIView, context: Context) {
@@ -155,10 +175,12 @@ struct CameraPreview: UIViewRepresentable {
             }
 
             isScanning = false
-            captureSession?.stopRunning()
-
             AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
-            scannedCode = code
+
+            // Set the code after a tiny delay to let UI update
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                self.scannedCode = code
+            }
         }
     }
 }
