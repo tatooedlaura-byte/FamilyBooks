@@ -134,10 +134,13 @@ struct BookListView: View {
                             .refreshable {
                                 await bookStore.loadBooks()
                             }
+                            .contentMargins(.leading, 0, for: .scrollContent)
+                            .contentMargins(.trailing, 36, for: .scrollContent)
 
-                            // Alphabet index on the left side (to not interfere with swipe delete)
+                            // Alphabet index on the right side
                             if searchText.isEmpty && availableLetters.count > 1 {
                                 HStack {
+                                    Spacer()
                                     VStack(spacing: 0) {
                                         ForEach(availableLetters, id: \.self) { letter in
                                             Button {
@@ -155,8 +158,7 @@ struct BookListView: View {
                                     .padding(.horizontal, 2)
                                     .background(.ultraThinMaterial)
                                     .clipShape(RoundedRectangle(cornerRadius: 8))
-                                    .padding(.leading, 4)
-                                    Spacer()
+                                    .padding(.trailing, 4)
                                 }
                             }
                         }
