@@ -8,20 +8,22 @@ class FirebaseService {
     private let database: Database
     private let booksRef: DatabaseReference
 
+    private static let databaseURL = "https://familyrecipes-9809d-default-rtdb.europe-west1.firebasedatabase.app"
+
     private init() {
         // Configure Firebase if not already configured
         if FirebaseApp.app() == nil {
             let options = FirebaseOptions(
-                googleAppID: "1:307834373790:ios:familybooks",
+                googleAppID: "1:307834373790:ios:113acb9456eebc5daa5d8f",
                 gcmSenderID: "307834373790"
             )
             options.apiKey = "AIzaSyDrI3Y7IVC_H7W4iWxvOwf-bybt3SO-u_8"
             options.projectID = "familyrecipes-9809d"
-            options.databaseURL = "https://familyrecipes-9809d-default-rtdb.europe-west1.firebasedatabase.app"
+            options.databaseURL = Self.databaseURL
             FirebaseApp.configure(options: options)
         }
 
-        database = Database.database()
+        database = Database.database(url: Self.databaseURL)
         booksRef = database.reference().child("books")
     }
 

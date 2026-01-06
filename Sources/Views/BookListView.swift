@@ -11,6 +11,18 @@ struct BookListView: View {
     @State private var showingSheetImport = false
     @State private var showingCSVImport = false
     @State private var sheetURL = ""
+    @State private var searchText = ""
+
+    var filteredBooks: [Book] {
+        if searchText.isEmpty {
+            return bookStore.books
+        }
+        let query = searchText.lowercased()
+        return bookStore.books.filter {
+            $0.title.lowercased().contains(query) ||
+            $0.authors.lowercased().contains(query)
+        }
+    }
 
     var body: some View {
         NavigationStack {
@@ -23,7 +35,7 @@ struct BookListView: View {
                     )
                 } else {
                     List {
-                        ForEach(bookStore.books) { book in
+                        ForEach(filteredBooks) { book in
                             BookRowView(book: book)
                                 .swipeActions(edge: .trailing, allowsFullSwipe: false) {
                                     Button(role: .destructive) {
@@ -42,6 +54,7 @@ struct BookListView: View {
                 }
             }
             .navigationTitle("Family Books")
+            .searchable(text: $searchText, prompt: "Search by title or author")
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Menu {
