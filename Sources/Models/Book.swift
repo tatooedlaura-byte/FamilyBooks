@@ -12,6 +12,7 @@ struct Book: Identifiable, Codable {
     var notes: String
     var addedBy: String
     var addedAt: Date
+    var copies: Int
 
     init(
         id: String? = nil,
@@ -24,7 +25,8 @@ struct Book: Identifiable, Codable {
         coverURL: String = "",
         notes: String = "",
         addedBy: String = "",
-        addedAt: Date = Date()
+        addedAt: Date = Date(),
+        copies: Int = 1
     ) {
         self.id = id ?? isbn
         self.isbn = isbn
@@ -37,5 +39,6 @@ struct Book: Identifiable, Codable {
         self.notes = notes
         self.addedBy = addedBy
         self.addedAt = addedAt
+        self.copies = copies
     }
 }

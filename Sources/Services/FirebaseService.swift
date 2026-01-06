@@ -49,7 +49,8 @@ class FirebaseService {
                         coverURL: dict["coverURL"] as? String ?? "",
                         notes: dict["notes"] as? String ?? "",
                         addedBy: dict["addedBy"] as? String ?? "",
-                        addedAt: Date(timeIntervalSince1970: (dict["addedAt"] as? Double ?? 0) / 1000)
+                        addedAt: Date(timeIntervalSince1970: (dict["addedAt"] as? Double ?? 0) / 1000),
+                        copies: dict["copies"] as? Int ?? 1
                     )
                     books.append(book)
                 }
@@ -77,7 +78,8 @@ class FirebaseService {
                 "coverURL": book.coverURL,
                 "notes": book.notes,
                 "addedBy": book.addedBy,
-                "addedAt": book.addedAt.timeIntervalSince1970 * 1000
+                "addedAt": book.addedAt.timeIntervalSince1970 * 1000,
+                "copies": book.copies
             ]
 
             try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
@@ -119,7 +121,8 @@ class FirebaseService {
             "coverURL": book.coverURL,
             "notes": book.notes,
             "addedBy": book.addedBy,
-            "addedAt": book.addedAt.timeIntervalSince1970 * 1000
+            "addedAt": book.addedAt.timeIntervalSince1970 * 1000,
+            "copies": book.copies
         ]
 
         try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
@@ -154,7 +157,8 @@ class FirebaseService {
                     coverURL: dict["coverURL"] as? String ?? "",
                     notes: dict["notes"] as? String ?? "",
                     addedBy: dict["addedBy"] as? String ?? "",
-                    addedAt: Date(timeIntervalSince1970: (dict["addedAt"] as? Double ?? 0) / 1000)
+                    addedAt: Date(timeIntervalSince1970: (dict["addedAt"] as? Double ?? 0) / 1000),
+                    copies: dict["copies"] as? Int ?? 1
                 )
                 books.append(book)
             }

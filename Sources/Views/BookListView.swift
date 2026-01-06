@@ -14,6 +14,7 @@ struct BookListView: View {
     @State private var searchText = ""
     @State private var isLookingUp = false
     @State private var lookupProgress: (current: Int, total: Int)?
+    @State private var showingDuplicates = false
 
     var filteredBooks: [Book] {
         if searchText.isEmpty {
@@ -85,6 +86,12 @@ struct BookListView: View {
                             Label("Lookup Missing Info", systemImage: "magnifyingglass")
                         }
                         .disabled(isLookingUp)
+
+                        Button {
+                            showingDuplicates = true
+                        } label: {
+                            Label("Find Duplicates", systemImage: "doc.on.doc")
+                        }
                     } label: {
                         Label(bookStore.userName, systemImage: "person.circle")
                     }
@@ -171,6 +178,9 @@ struct BookListView: View {
             .sheet(isPresented: $showingCSVImport) {
                 CSVImportView()
             }
+            .sheet(isPresented: $showingDuplicates) {
+                DuplicatesView()
+            }
         }
         .task {
             await bookStore.loadBooks()
@@ -249,6 +259,17 @@ struct BookRowView: View {
             }
 
             Spacer()
+
+            if book.copies > 1 {
+                Text("\(book.copies)x")
+                    .font(.caption)
+                    .fontWeight(.semibold)
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 4)
+                    .background(Color.blue.opacity(0.15))
+                    .foregroundStyle(.blue)
+                    .clipShape(Capsule())
+            }
         }
         .padding(.vertical, 4)
     }

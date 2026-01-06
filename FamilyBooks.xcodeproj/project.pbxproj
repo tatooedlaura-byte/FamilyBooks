@@ -15,6 +15,7 @@
 		3C5762CBD96F8CDAD6FB61ED /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A764F21BBA7BF31CE1B57759 /* BookListView.swift */; };
 		6C00E01B2E65C53FA657FDA4 /* CSVImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A304D38EE67B2098D0471 /* CSVImportView.swift */; };
 		6F2ADAA2F4D65F402A64BBC0 /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10BDBD1BC8A29377D067DE9 /* BookStore.swift */; };
+		7646BDF52AB99D6DDA631465 /* DuplicatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE1DE5A15A6B0B360529A3 /* DuplicatesView.swift */; };
 		7D40FD31687FA9F11997B2B3 /* OpenLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D97745AC1053395523D2A43 /* OpenLibraryService.swift */; };
 		B31BC2C06F330C82203F1BFB /* FamilyBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B60309FFFB1CD1D10FFDA7 /* FamilyBooksApp.swift */; };
 		BDA39E55AC886C0CB07B0F08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59E6BC0EC5583420B90B35 /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 		7F4721593EAA09A738B5B1C3 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		82B60309FFFB1CD1D10FFDA7 /* FamilyBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyBooksApp.swift; sourceTree = "<group>"; };
 		A764F21BBA7BF31CE1B57759 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
+		B7CE1DE5A15A6B0B360529A3 /* DuplicatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicatesView.swift; sourceTree = "<group>"; };
 		C10BDBD1BC8A29377D067DE9 /* BookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 				A764F21BBA7BF31CE1B57759 /* BookListView.swift */,
 				6C59E6BC0EC5583420B90B35 /* ContentView.swift */,
 				6A9A304D38EE67B2098D0471 /* CSVImportView.swift */,
+				B7CE1DE5A15A6B0B360529A3 /* DuplicatesView.swift */,
 				213FE7226B895C75714E5702 /* SheetImportView.swift */,
 			);
 			path = Views;
@@ -181,6 +184,7 @@
 				6F2ADAA2F4D65F402A64BBC0 /* BookStore.swift in Sources */,
 				6C00E01B2E65C53FA657FDA4 /* CSVImportView.swift in Sources */,
 				BDA39E55AC886C0CB07B0F08 /* ContentView.swift in Sources */,
+				7646BDF52AB99D6DDA631465 /* DuplicatesView.swift in Sources */,
 				B31BC2C06F330C82203F1BFB /* FamilyBooksApp.swift in Sources */,
 				EB8D7498A1FE4278F0B5BF04 /* FirebaseService.swift in Sources */,
 				39F2705938CA1A183C0E7BA9 /* GoogleSheetsService.swift in Sources */,
