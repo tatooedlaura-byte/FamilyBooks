@@ -5,41 +5,86 @@ struct BarcodeScannerView: View {
     @Environment(\.dismiss) private var dismiss
     @Binding var scannedCode: String?
     @State private var isScanning = true
+    @State private var cameraPermission: AVAuthorizationStatus = .notDetermined
+    @State private var showPermissionAlert = false
 
     var body: some View {
         ZStack {
-            CameraPreview(scannedCode: $scannedCode, isScanning: $isScanning)
-                .ignoresSafeArea()
+            if cameraPermission == .authorized {
+                CameraPreview(scannedCode: $scannedCode, isScanning: $isScanning)
+                    .ignoresSafeArea()
 
-            VStack {
-                Spacer()
+                VStack {
+                    Spacer()
 
-                RoundedRectangle(cornerRadius: 12)
-                    .stroke(.white, lineWidth: 3)
-                    .frame(width: 280, height: 150)
-                    .background(.clear)
+                    RoundedRectangle(cornerRadius: 12)
+                        .stroke(.white, lineWidth: 3)
+                        .frame(width: 280, height: 150)
+                        .background(.clear)
 
-                Text("Point at a book's barcode")
+                    Text("Point at a book's barcode")
+                        .foregroundStyle(.white)
+                        .padding(.top, 20)
+                        .shadow(radius: 2)
+
+                    Spacer()
+
+                    Button("Cancel") {
+                        dismiss()
+                    }
                     .foregroundStyle(.white)
-                    .padding(.top, 20)
-                    .shadow(radius: 2)
-
-                Spacer()
-
-                Button("Cancel") {
-                    dismiss()
+                    .padding()
+                    .background(.ultraThinMaterial)
+                    .clipShape(Capsule())
+                    .padding(.bottom, 40)
                 }
-                .foregroundStyle(.white)
+            } else {
+                VStack(spacing: 20) {
+                    Image(systemName: "camera.fill")
+                        .font(.system(size: 60))
+                        .foregroundStyle(.secondary)
+
+                    Text("Camera Access Required")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+
+                    Text("Please allow camera access in Settings to scan barcodes")
+                        .multilineTextAlignment(.center)
+                        .foregroundStyle(.secondary)
+                        .padding(.horizontal)
+
+                    Button("Open Settings") {
+                        if let url = URL(string: UIApplication.openSettingsURLString) {
+                            UIApplication.shared.open(url)
+                        }
+                    }
+                    .buttonStyle(.borderedProminent)
+
+                    Button("Cancel") {
+                        dismiss()
+                    }
+                    .foregroundStyle(.secondary)
+                }
                 .padding()
-                .background(.ultraThinMaterial)
-                .clipShape(Capsule())
-                .padding(.bottom, 40)
             }
+        }
+        .task {
+            await checkCameraPermission()
         }
         .onChange(of: scannedCode) { _, newValue in
             if newValue != nil {
                 dismiss()
             }
+        }
+    }
+
+    private func checkCameraPermission() async {
+        let status = AVCaptureDevice.authorizationStatus(for: .video)
+        cameraPermission = status
+
+        if status == .notDetermined {
+            let granted = await AVCaptureDevice.requestAccess(for: .video)
+            cameraPermission = granted ? .authorized : .denied
         }
     }
 }
