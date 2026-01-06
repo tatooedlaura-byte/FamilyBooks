@@ -75,4 +75,41 @@ class BookStore: ObservableObject {
             return false
         }
     }
+
+    func updateBook(_ book: Book) async -> Bool {
+        do {
+            try await firebaseService.updateBook(book)
+            return true
+        } catch {
+            self.error = error.localizedDescription
+            return false
+        }
+    }
+
+    func lookupAndUpdateBook(_ book: Book) async -> Bool {
+        guard let info = try? await OpenLibraryService.shared.searchBook(title: book.title, author: book.authors) else {
+            return false
+        }
+
+        var updatedBook = book
+
+        // Only update fields that are empty or if we found better data
+        if updatedBook.isbn.isEmpty || updatedBook.isbn.hasPrefix("imported-") {
+            updatedBook.isbn = info.isbn
+        }
+        if updatedBook.coverURL.isEmpty && !info.coverURL.isEmpty {
+            updatedBook.coverURL = info.coverURL
+        }
+        if updatedBook.publisher.isEmpty && !info.publisher.isEmpty {
+            updatedBook.publisher = info.publisher
+        }
+        if updatedBook.publishDate.isEmpty && !info.publishDate.isEmpty {
+            updatedBook.publishDate = info.publishDate
+        }
+        if updatedBook.numberOfPages.isEmpty && !info.numberOfPages.isEmpty {
+            updatedBook.numberOfPages = info.numberOfPages
+        }
+
+        return await updateBook(updatedBook)
+    }
 }

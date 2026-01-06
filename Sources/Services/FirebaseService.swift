@@ -106,6 +106,33 @@ class FirebaseService {
         }
     }
 
+    func updateBook(_ book: Book) async throws {
+        guard let bookId = book.id else { return }
+
+        let bookData: [String: Any] = [
+            "isbn": book.isbn,
+            "title": book.title,
+            "authors": book.authors,
+            "publisher": book.publisher,
+            "publishDate": book.publishDate,
+            "numberOfPages": book.numberOfPages,
+            "coverURL": book.coverURL,
+            "notes": book.notes,
+            "addedBy": book.addedBy,
+            "addedAt": book.addedAt.timeIntervalSince1970 * 1000
+        ]
+
+        try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
+            booksRef.child(bookId).updateChildValues(bookData) { error, _ in
+                if let error = error {
+                    continuation.resume(throwing: error)
+                } else {
+                    continuation.resume()
+                }
+            }
+        }
+    }
+
     func observeBooks(onChange: @escaping ([Book]) -> Void) {
         booksRef.observe(.value) { snapshot in
             var books: [Book] = []

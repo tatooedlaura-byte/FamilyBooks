@@ -12,6 +12,8 @@ struct BookListView: View {
     @State private var showingCSVImport = false
     @State private var sheetURL = ""
     @State private var searchText = ""
+    @State private var isLookingUp = false
+    @State private var lookupProgress: (current: Int, total: Int)?
 
     var filteredBooks: [Book] {
         if searchText.isEmpty {
@@ -46,6 +48,16 @@ struct BookListView: View {
                                         Label("Delete", systemImage: "trash")
                                     }
                                 }
+                                .swipeActions(edge: .leading, allowsFullSwipe: true) {
+                                    Button {
+                                        Task {
+                                            await bookStore.lookupAndUpdateBook(book)
+                                        }
+                                    } label: {
+                                        Label("Lookup", systemImage: "magnifyingglass")
+                                    }
+                                    .tint(.blue)
+                                }
                         }
                     }
                     .refreshable {
@@ -62,6 +74,17 @@ struct BookListView: View {
                         Button("Change Name") {
                             bookStore.userName = ""
                         }
+
+                        Divider()
+
+                        Button {
+                            Task {
+                                await lookupAllMissing()
+                            }
+                        } label: {
+                            Label("Lookup Missing Info", systemImage: "magnifyingglass")
+                        }
+                        .disabled(isLookingUp)
                     } label: {
                         Label(bookStore.userName, systemImage: "person.circle")
                     }
@@ -152,6 +175,41 @@ struct BookListView: View {
         .task {
             await bookStore.loadBooks()
         }
+        .overlay {
+            if isLookingUp, let progress = lookupProgress {
+                VStack(spacing: 16) {
+                    ProgressView()
+                        .scaleEffect(1.5)
+                    Text("Looking up book info...")
+                        .font(.headline)
+                    Text("\(progress.current) of \(progress.total)")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(.ultraThinMaterial)
+            }
+        }
+    }
+
+    private func lookupAllMissing() async {
+        let booksToLookup = bookStore.books.filter { $0.coverURL.isEmpty }
+
+        guard !booksToLookup.isEmpty else { return }
+
+        isLookingUp = true
+        lookupProgress = (0, booksToLookup.count)
+
+        for (index, book) in booksToLookup.enumerated() {
+            lookupProgress = (index + 1, booksToLookup.count)
+            _ = await bookStore.lookupAndUpdateBook(book)
+
+            // Small delay to avoid rate limiting
+            try? await Task.sleep(nanoseconds: 500_000_000) // 0.5 seconds
+        }
+
+        isLookingUp = false
+        lookupProgress = nil
     }
 }
 

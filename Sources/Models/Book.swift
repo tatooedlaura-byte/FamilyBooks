@@ -2,7 +2,7 @@ import Foundation
 
 struct Book: Identifiable, Codable {
     var id: String?
-    let isbn: String
+    var isbn: String
     var title: String
     var authors: String
     var publisher: String
