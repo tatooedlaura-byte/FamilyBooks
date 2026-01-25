@@ -64,6 +64,16 @@ struct AddBookView: View {
                         TextField("Add notes (optional)", text: $book.notes, axis: .vertical)
                             .lineLimit(3...6)
                     }
+
+                    Section("Format") {
+                        Picker("Format", selection: $book.format) {
+                            ForEach(BookFormat.allCases, id: \.self) { format in
+                                Label(format.rawValue, systemImage: format.icon)
+                                    .tag(format)
+                            }
+                        }
+                        .pickerStyle(.segmented)
+                    }
                 }
 
                 if let error = lookupError {

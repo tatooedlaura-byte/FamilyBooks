@@ -16,6 +16,28 @@ enum ReadingStatus: String, Codable, CaseIterable {
     }
 }
 
+enum BookFormat: String, Codable, CaseIterable {
+    case physical = "Physical"
+    case ebook = "Ebook"
+    case audiobook = "Audiobook"
+
+    var icon: String {
+        switch self {
+        case .physical: return "book.closed.fill"
+        case .ebook: return "ipad"
+        case .audiobook: return "headphones"
+        }
+    }
+
+    var color: String {
+        switch self {
+        case .physical: return "brown"
+        case .ebook: return "blue"
+        case .audiobook: return "purple"
+        }
+    }
+}
+
 struct Book: Identifiable, Codable {
     var id: String?
     var isbn: String
@@ -31,6 +53,7 @@ struct Book: Identifiable, Codable {
     var copies: Int
     var readingStatus: ReadingStatus
     var isWishlist: Bool
+    var format: BookFormat
 
     init(
         id: String? = nil,
@@ -46,7 +69,8 @@ struct Book: Identifiable, Codable {
         addedAt: Date = Date(),
         copies: Int = 1,
         readingStatus: ReadingStatus = .none,
-        isWishlist: Bool = false
+        isWishlist: Bool = false,
+        format: BookFormat = .physical
     ) {
         self.id = id ?? isbn
         self.isbn = isbn
@@ -62,5 +86,6 @@ struct Book: Identifiable, Codable {
         self.copies = copies
         self.readingStatus = readingStatus
         self.isWishlist = isWishlist
+        self.format = format
     }
 }

@@ -10,6 +10,7 @@ struct BookListView: View {
     @State private var manualISBN = ""
     @State private var showingSheetImport = false
     @State private var showingCSVImport = false
+    @State private var showingJSONImport = false
     @State private var sheetURL = ""
     @State private var searchText = ""
     @State private var isLookingUp = false
@@ -19,6 +20,8 @@ struct BookListView: View {
     @State private var sortByAuthor = false
     @State private var showWishlist = false
     @State private var showingQuickScan = false
+    @State private var showGridView = false
+    @State private var showingSettings = false
 
     // Strip leading articles (a, an, the) from a string for sorting
     func sortableTitle(_ title: String) -> String {
@@ -93,7 +96,27 @@ struct BookListView: View {
                         systemImage: "book.closed",
                         description: Text("Tap + to scan a book barcode")
                     )
+                } else if showGridView {
+                    // Grid View
+                    ScrollView {
+                        LazyVGrid(columns: [
+                            GridItem(.adaptive(minimum: 100, maximum: 120), spacing: 16)
+                        ], spacing: 16) {
+                            ForEach(filteredBooks) { book in
+                                NavigationLink {
+                                    BookDetailView(book: book)
+                                } label: {
+                                    BookGridItem(book: book)
+                                }
+                            }
+                        }
+                        .padding()
+                    }
+                    .refreshable {
+                        await bookStore.loadBooks()
+                    }
                 } else {
+                    // List View
                     ScrollViewReader { proxy in
                         ZStack {
                             List {
@@ -243,8 +266,32 @@ struct BookListView: View {
                         } label: {
                             Label("Import CSV File", systemImage: "doc.text")
                         }
+
+                        Button {
+                            showingJSONImport = true
+                        } label: {
+                            Label("Import JSON File", systemImage: "doc.badge.plus")
+                        }
+
+                        Divider()
+
+                        Button {
+                            showingSettings = true
+                        } label: {
+                            Label("Settings", systemImage: "gear")
+                        }
                     } label: {
                         Label(bookStore.userName, systemImage: "person.circle")
+                    }
+                }
+
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        withAnimation {
+                            showGridView.toggle()
+                        }
+                    } label: {
+                        Image(systemName: showGridView ? "list.bullet" : "square.grid.2x2")
                     }
                 }
 
@@ -343,6 +390,12 @@ struct BookListView: View {
             }
             .sheet(isPresented: $showingDuplicates) {
                 DuplicatesView()
+            }
+            .sheet(isPresented: $showingJSONImport) {
+                JSONImportView()
+            }
+            .sheet(isPresented: $showingSettings) {
+                SettingsView()
             }
         }
         .task {
@@ -462,6 +515,12 @@ struct BookRowView: View {
                         .foregroundStyle(book.readingStatus == .read ? .green : .blue)
                 }
 
+                if book.format != .physical {
+                    Image(systemName: book.format.icon)
+                        .font(.caption)
+                        .foregroundStyle(book.format == .ebook ? .blue : .purple)
+                }
+
                 if book.copies > 1 {
                     Text("\(book.copies)x")
                         .font(.caption)
@@ -475,6 +534,90 @@ struct BookRowView: View {
             }
         }
         .padding(.vertical, 4)
+    }
+}
+
+struct BookGridItem: View {
+    let book: Book
+
+    var formatColor: Color {
+        switch book.format {
+        case .physical: return .brown
+        case .ebook: return .blue
+        case .audiobook: return .purple
+        }
+    }
+
+    var body: some View {
+        VStack(spacing: 8) {
+            ZStack {
+                AsyncImage(url: URL(string: book.coverURL)) { image in
+                    image
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                } placeholder: {
+                    ZStack {
+                        Color.gray.opacity(0.15)
+                        Image(systemName: "book.closed.fill")
+                            .font(.largeTitle)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+                .frame(width: 100, height: 150)
+                .clipShape(RoundedRectangle(cornerRadius: 8))
+                .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+
+                // Reading status badge (top right)
+                if book.readingStatus != .none {
+                    VStack {
+                        HStack {
+                            Spacer()
+                            Image(systemName: book.readingStatus.icon)
+                                .font(.caption)
+                                .foregroundStyle(.white)
+                                .padding(6)
+                                .background(book.readingStatus == .read ? Color.green : Color.blue)
+                                .clipShape(Circle())
+                                .offset(x: 6, y: -6)
+                        }
+                        Spacer()
+                    }
+                }
+
+                // Format badge (bottom left)
+                if book.format != .physical {
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Image(systemName: book.format.icon)
+                                .font(.caption2)
+                                .foregroundStyle(.white)
+                                .padding(5)
+                                .background(formatColor)
+                                .clipShape(RoundedRectangle(cornerRadius: 4))
+                                .offset(x: -4, y: 4)
+                            Spacer()
+                        }
+                    }
+                }
+            }
+            .frame(width: 100, height: 150)
+
+            Text(book.title.isEmpty ? "Unknown" : book.title)
+                .font(.caption)
+                .fontWeight(.medium)
+                .lineLimit(2)
+                .multilineTextAlignment(.center)
+                .foregroundStyle(.primary)
+
+            if !book.authors.isEmpty {
+                Text(book.authors)
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(1)
+            }
+        }
+        .frame(width: 100)
     }
 }
 

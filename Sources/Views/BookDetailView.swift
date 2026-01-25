@@ -58,6 +58,15 @@ struct BookDetailView: View {
                     Task { await bookStore.updateBook(book) }
                 }
 
+                Picker("Format", selection: $book.format) {
+                    Label("Physical", systemImage: "book.closed.fill").tag(BookFormat.physical)
+                    Label("Ebook", systemImage: "ipad").tag(BookFormat.ebook)
+                    Label("Audiobook", systemImage: "headphones").tag(BookFormat.audiobook)
+                }
+                .onChange(of: book.format) { _, _ in
+                    Task { await bookStore.updateBook(book) }
+                }
+
                 Toggle("Wishlist (don't own yet)", isOn: $book.isWishlist)
                     .onChange(of: book.isWishlist) { _, _ in
                         Task { await bookStore.updateBook(book) }

@@ -1,5 +1,10 @@
 import Foundation
 
+enum StorageMode: String {
+    case local = "local"
+    case googleSheets = "googleSheets"
+}
+
 @MainActor
 class BookStore: ObservableObject {
     @Published var books: [Book] = []
@@ -11,20 +16,24 @@ class BookStore: ObservableObject {
         }
     }
 
-    let firebaseService = FirebaseService.shared
+    @Published var storageMode: StorageMode {
+        didSet {
+            UserDefaults.standard.set(storageMode.rawValue, forKey: "storageMode")
+        }
+    }
+
+    private let googleSheetsService: GoogleSheetsService
+    private let localStorageService = LocalStorageService.shared
+
+    var isGoogleSheetsConfigured: Bool {
+        GoogleSheetsService.isConfigured
+    }
 
     init() {
         self.userName = UserDefaults.standard.string(forKey: "userName") ?? ""
-        setupObserver()
-    }
-
-    private func setupObserver() {
-        firebaseService.observeBooks { [weak self] books in
-            Task { @MainActor in
-                self?.books = books.sorted { $0.title.lowercased() < $1.title.lowercased() }
-                self?.isLoading = false
-            }
-        }
+        let savedMode = UserDefaults.standard.string(forKey: "storageMode") ?? StorageMode.local.rawValue
+        self.storageMode = StorageMode(rawValue: savedMode) ?? .local
+        self.googleSheetsService = GoogleSheetsService()
     }
 
     func loadBooks() async {
@@ -32,24 +41,18 @@ class BookStore: ObservableObject {
         error = nil
 
         do {
-            books = try await firebaseService.fetchBooks()
+            switch storageMode {
+            case .local:
+                books = try localStorageService.fetchBooks()
+            case .googleSheets:
+                books = try await googleSheetsService.fetchBooks()
+            }
             books.sort { $0.title.lowercased() < $1.title.lowercased() }
-
-            // One-time migration: update "CSV Import" to "Laura"
-            await migrateCSVImportToLaura()
         } catch {
             self.error = error.localizedDescription
         }
 
         isLoading = false
-    }
-
-    private func migrateCSVImportToLaura() async {
-        let booksToUpdate = books.filter { $0.addedBy == "CSV Import" }
-        for var book in booksToUpdate {
-            book.addedBy = "Laura"
-            _ = await updateBook(book)
-        }
     }
 
     func addBook(_ book: Book) async -> Bool {
@@ -60,7 +63,13 @@ class BookStore: ObservableObject {
         bookToAdd.addedBy = userName
 
         do {
-            try await firebaseService.addBook(bookToAdd)
+            switch storageMode {
+            case .local:
+                try localStorageService.addBook(bookToAdd)
+            case .googleSheets:
+                try await googleSheetsService.addBook(bookToAdd)
+            }
+            await loadBooks()
             return true
         } catch {
             self.error = error.localizedDescription
@@ -70,7 +79,19 @@ class BookStore: ObservableObject {
     }
 
     func addBooks(_ books: [Book]) async throws {
-        try await firebaseService.addBooks(books)
+        let booksToAdd = books.map { book -> Book in
+            var b = book
+            b.addedBy = userName
+            return b
+        }
+
+        switch storageMode {
+        case .local:
+            try localStorageService.addBooks(booksToAdd)
+        case .googleSheets:
+            try await googleSheetsService.addBooks(booksToAdd)
+        }
+        await loadBooks()
     }
 
     func deleteBook(_ book: Book) async -> Bool {
@@ -78,7 +99,13 @@ class BookStore: ObservableObject {
         error = nil
 
         do {
-            try await firebaseService.deleteBook(book)
+            switch storageMode {
+            case .local:
+                try localStorageService.deleteBook(book)
+            case .googleSheets:
+                try await googleSheetsService.deleteBook(book)
+            }
+            await loadBooks()
             return true
         } catch {
             self.error = error.localizedDescription
@@ -89,7 +116,14 @@ class BookStore: ObservableObject {
 
     func updateBook(_ book: Book) async -> Bool {
         do {
-            try await firebaseService.updateBook(book)
+            switch storageMode {
+            case .local:
+                try localStorageService.updateBook(book)
+            case .googleSheets:
+                try await googleSheetsService.deleteBook(book)
+                try await googleSheetsService.addBook(book)
+            }
+            await loadBooks()
             return true
         } catch {
             self.error = error.localizedDescription
@@ -104,7 +138,6 @@ class BookStore: ObservableObject {
 
         var updatedBook = book
 
-        // Only update fields that are empty or if we found better data
         if updatedBook.isbn.isEmpty || updatedBook.isbn.hasPrefix("imported-") {
             updatedBook.isbn = info.isbn
         }
@@ -122,5 +155,26 @@ class BookStore: ObservableObject {
         }
 
         return await updateBook(updatedBook)
+    }
+
+    // Sync local books to Google Sheets
+    func syncToGoogleSheets() async throws {
+        guard isGoogleSheetsConfigured else {
+            throw NSError(domain: "BookStore", code: 1, userInfo: [NSLocalizedDescriptionKey: "Google Sheets not configured"])
+        }
+
+        let localBooks = try localStorageService.fetchBooks()
+        try await googleSheetsService.addBooks(localBooks)
+    }
+
+    // Import from Google Sheets to local
+    func importFromGoogleSheets() async throws {
+        guard isGoogleSheetsConfigured else {
+            throw NSError(domain: "BookStore", code: 1, userInfo: [NSLocalizedDescriptionKey: "Google Sheets not configured"])
+        }
+
+        let sheetBooks = try await googleSheetsService.fetchBooks()
+        try localStorageService.saveBooks(sheetBooks)
+        await loadBooks()
     }
 }

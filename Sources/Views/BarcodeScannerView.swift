@@ -158,7 +158,7 @@ struct BarcodeScannerView: View {
         }
 
         // Add to database
-        try? await bookStore.firebaseService.addBook(book)
+        _ = await bookStore.addBook(book)
 
         isLookingUp = false
     }

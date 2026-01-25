@@ -3,9 +3,15 @@ import Foundation
 class GoogleSheetsService {
     // CONFIGURE THESE VALUES
     private static let defaultApiKey = "AIzaSyDYaCJGAUrZyrqaDEMKCSVa3BgQNapZfV0"
-    private static let defaultSpreadsheetId = "189Iwq3CGmFcNQjqhExXGh2XAMOJyHY4oklUMa5QUdWU"
+    private static let defaultSpreadsheetId = "1VHGjb2sZ9dtJgxtGZ_oH1VyWGhe5kMkWMQt3fUpZczI"
 
-    static var currentSpreadsheetId: String { defaultSpreadsheetId }
+    static var currentSpreadsheetId: String {
+        UserDefaults.standard.string(forKey: "googleSpreadsheetId") ?? defaultSpreadsheetId
+    }
+
+    static var isConfigured: Bool {
+        UserDefaults.standard.string(forKey: "googleSpreadsheetId") != nil
+    }
 
     private let apiKey: String
     private let spreadsheetId: String
@@ -13,8 +19,8 @@ class GoogleSheetsService {
 
     private let baseURL = "https://sheets.googleapis.com/v4/spreadsheets"
 
-    init(spreadsheetId: String? = nil, apiKey: String? = nil, sheetName: String = "Books") {
-        self.spreadsheetId = spreadsheetId ?? Self.defaultSpreadsheetId
+    init(spreadsheetId: String? = nil, apiKey: String? = nil, sheetName: String = "strandtfamilybooks") {
+        self.spreadsheetId = spreadsheetId ?? Self.currentSpreadsheetId
         self.apiKey = apiKey ?? Self.defaultApiKey
         self.sheetName = sheetName
     }
@@ -51,7 +57,20 @@ class GoogleSheetsService {
             let addedAtString = columnMap.value(from: row, for: .addedAt)
             let addedAt = dateFormatter.date(from: addedAtString) ?? Date()
 
+            let statusString = columnMap.value(from: row, for: .readingStatus)
+            let readingStatus = ReadingStatus(rawValue: statusString) ?? .none
+
+            let formatString = columnMap.value(from: row, for: .format)
+            let format = BookFormat(rawValue: formatString) ?? .physical
+
+            let copiesString = columnMap.value(from: row, for: .copies)
+            let copies = Int(copiesString) ?? 1
+
+            let wishlistString = columnMap.value(from: row, for: .isWishlist)
+            let isWishlist = wishlistString.lowercased() == "true" || wishlistString == "1"
+
             return Book(
+                id: isbn,
                 isbn: isbn,
                 title: columnMap.value(from: row, for: .title),
                 authors: columnMap.value(from: row, for: .authors),
@@ -61,14 +80,18 @@ class GoogleSheetsService {
                 coverURL: columnMap.value(from: row, for: .coverURL),
                 notes: columnMap.value(from: row, for: .notes),
                 addedBy: columnMap.value(from: row, for: .addedBy),
-                addedAt: addedAt
+                addedAt: addedAt,
+                copies: copies,
+                readingStatus: readingStatus,
+                isWishlist: isWishlist,
+                format: format
             )
         }
     }
 
     private struct ColumnMap {
         enum Column: CaseIterable {
-            case isbn, title, authors, publisher, publishDate, numberOfPages, coverURL, notes, addedBy, addedAt
+            case isbn, title, authors, publisher, publishDate, numberOfPages, coverURL, notes, addedBy, addedAt, copies, readingStatus, isWishlist, format
 
             var possibleNames: [String] {
                 switch self {
@@ -82,6 +105,10 @@ class GoogleSheetsService {
                 case .notes: return ["notes", "note", "comments", "description", "memo"]
                 case .addedBy: return ["added by", "addedby", "added_by", "user", "owner", "who added", "contributor"]
                 case .addedAt: return ["added at", "addedat", "added_at", "date added", "added", "created", "timestamp"]
+                case .copies: return ["copies", "copy", "quantity", "count"]
+                case .readingStatus: return ["reading status", "readingstatus", "status", "reading"]
+                case .isWishlist: return ["wishlist", "iswishlist", "is wishlist", "wish list", "want"]
+                case .format: return ["format", "type", "book format", "media"]
                 }
             }
         }
@@ -114,7 +141,7 @@ class GoogleSheetsService {
     func addBooks(_ books: [Book]) async throws {
         guard !books.isEmpty else { return }
 
-        let range = "\(sheetName)!A:J"
+        let range = "\(sheetName)!A:N"
         let urlString = "\(baseURL)/\(spreadsheetId)/values/\(range):append?valueInputOption=USER_ENTERED&key=\(apiKey)"
 
         guard let url = URL(string: urlString) else {
@@ -133,7 +160,11 @@ class GoogleSheetsService {
                 book.coverURL,
                 book.notes,
                 book.addedBy,
-                dateFormatter.string(from: book.addedAt)
+                dateFormatter.string(from: book.addedAt),
+                String(book.copies),
+                book.readingStatus.rawValue,
+                book.isWishlist ? "true" : "false",
+                book.format.rawValue
             ]
         }
 
