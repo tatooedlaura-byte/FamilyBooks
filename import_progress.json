@@ -1,0 +1,3821 @@
+{
+  "processed": {
+    "11/22/63|Stephen King": {
+      "isbn": "9781451627282",
+      "coverURL": "https://covers.openlibrary.org/b/id/14652974-M.jpg"
+    },
+    "13 Minutes|Sarah Pinborough": {
+      "isbn": "9781250123879",
+      "coverURL": "https://covers.openlibrary.org/b/id/10152021-M.jpg"
+    },
+    "882 1/2 Amazing Answers to Your Questions about the Titanic|Hugh Brewster,Laurie Coulter": {
+      "isbn": "9780228101512",
+      "coverURL": "https://covers.openlibrary.org/b/id/4980229-M.jpg"
+    },
+    "1984|George Orwell": {
+      "isbn": "9780547249643",
+      "coverURL": "https://covers.openlibrary.org/b/id/14630372-M.jpg"
+    },
+    "2001: A Space Odyssey|Arthur C. Clarke": {
+      "isbn": "9780143111573",
+      "coverURL": "https://covers.openlibrary.org/b/id/14560025-M.jpg"
+    },
+    "2010: Odyssey Two|Arthur C. Clarke": {
+      "isbn": "9780345303066",
+      "coverURL": "https://covers.openlibrary.org/b/id/6379441-M.jpg"
+    },
+    "2061: Odyssey Three|Arthur C. Clarke": {
+      "isbn": "9780345358790",
+      "coverURL": "https://covers.openlibrary.org/b/id/9513634-M.jpg"
+    },
+    "3001|Arthur C. Clarke": {
+      "isbn": "9780795324888",
+      "coverURL": "https://covers.openlibrary.org/b/id/207047-M.jpg"
+    },
+    "3001 The Final Odyssey|Arthur C. Clarke": {
+      "isbn": "9780345423498",
+      "coverURL": "https://covers.openlibrary.org/b/id/6379459-M.jpg"
+    },
+    "A Big Ball of String|Marion Holland": {
+      "isbn": "9780394800059",
+      "coverURL": "https://covers.openlibrary.org/b/id/4616408-M.jpg"
+    },
+    "A Christmas Carol|Charles Dickens,Lee Krutop": {
+      "isbn": "9781742486345",
+      "coverURL": ""
+    },
+    "A Court of Mist and Fury|Sarah J. Maas": {
+      "isbn": "9781635575583",
+      "coverURL": "https://covers.openlibrary.org/b/id/15152921-M.jpg"
+    },
+    "A \u200bCourt of Silver Flames|Sarah J. Maas": {
+      "isbn": "9781635577990",
+      "coverURL": "https://covers.openlibrary.org/b/id/14350041-M.jpg"
+    },
+    "A Court of Thorns and Roses|Sarah J. Maas": {
+      "isbn": "9781635575569",
+      "coverURL": "https://covers.openlibrary.org/b/id/14832049-M.jpg"
+    },
+    "A Court of Wings and Ruin|Sarah J. Maas": {
+      "isbn": "9781635575606",
+      "coverURL": "https://covers.openlibrary.org/b/id/11404765-M.jpg"
+    },
+    "A Day with the Dinosaurs|Edward Packard": {
+      "isbn": "9780553156126",
+      "coverURL": "https://covers.openlibrary.org/b/id/12691193-M.jpg"
+    },
+    "A Deadly Education|Naomi Novik": {
+      "isbn": "9780593128503",
+      "coverURL": "https://covers.openlibrary.org/b/id/10856980-M.jpg"
+    },
+    "A Dirty Job|Christopher Moore": {
+      "isbn": "9780060590284",
+      "coverURL": "https://covers.openlibrary.org/b/id/31311-M.jpg"
+    },
+    "A Discovery of Witches|Deborah Harkness": {
+      "isbn": "9780143119685",
+      "coverURL": "https://covers.openlibrary.org/b/id/6998669-M.jpg"
+    },
+    "A House Like a Lotus|Madeleine L'Engle": {
+      "isbn": "9781466814134",
+      "coverURL": "https://covers.openlibrary.org/b/id/223891-M.jpg"
+    },
+    "A Killing Frost|John Marsden": {
+      "isbn": "9780395837351",
+      "coverURL": "https://covers.openlibrary.org/b/id/257046-M.jpg"
+    },
+    "A Light in the Attic|Shel Silverstein": {
+      "isbn": "9780062999702",
+      "coverURL": "https://covers.openlibrary.org/b/id/15138676-M.jpg"
+    },
+    "A Man Called Ove|Fredrik Backman": {
+      "isbn": "9781476738024",
+      "coverURL": "https://covers.openlibrary.org/b/id/8314262-M.jpg"
+    },
+    "A Man on the Moon|Andrew Chaikin": {
+      "isbn": "9780143112358",
+      "coverURL": "https://covers.openlibrary.org/b/id/12132374-M.jpg"
+    },
+    "A Matter-of-Fact Magic Book: The Witch at the Window|Ruth Chew": {
+      "isbn": "9780449815663",
+      "coverURL": ""
+    },
+    "A Model Crime|Carolyn Keene": {
+      "isbn": "9781481428170",
+      "coverURL": "https://covers.openlibrary.org/b/id/15155953-M.jpg"
+    },
+    "A Night to Remember|Walter Lord": {
+      "isbn": "9780805077643",
+      "coverURL": "https://covers.openlibrary.org/b/id/12183308-M.jpg"
+    },
+    "A Pocket for Corduroy|Don Freeman": {
+      "isbn": "9780451471130",
+      "coverURL": "https://covers.openlibrary.org/b/id/401190-M.jpg"
+    },
+    "A Ring of Endless Light|Madeleine L'Engle": {
+      "isbn": "9781466814196",
+      "coverURL": "https://covers.openlibrary.org/b/id/224078-M.jpg"
+    },
+    "A Safe Place|Lorenzo Carcaterra": {
+      "isbn": "9780345383488",
+      "coverURL": "https://covers.openlibrary.org/b/id/208067-M.jpg"
+    },
+    "A Short History of Nearly Everything|Bill Bryson": {
+      "isbn": "9780767908184",
+      "coverURL": "https://covers.openlibrary.org/b/id/12995805-M.jpg"
+    },
+    "A Swiftly Tilting Planet|Madeleine L'Engle": {
+      "isbn": "9780312368609",
+      "coverURL": "https://covers.openlibrary.org/b/id/1170041-M.jpg"
+    },
+    "A Time to Kill (pb)|John Grisham": {
+      "isbn": "9780440211723",
+      "coverURL": "https://covers.openlibrary.org/b/id/12014099-M.jpg"
+    },
+    "A Treasury of Peter Rabbit and Other Stories|Beatrix Potter": {
+      "isbn": "9780517239483",
+      "coverURL": ""
+    },
+    "A Week in the Woods|Andrew Clements": {
+      "isbn": "9780689859748",
+      "coverURL": "https://covers.openlibrary.org/b/id/435248-M.jpg"
+    },
+    "A Wind in the Door|Madeleine L'Engle": {
+      "isbn": "9780312368548",
+      "coverURL": "https://covers.openlibrary.org/b/id/181292-M.jpg"
+    },
+    "A Winter's Promise|Christelle Dabos": {
+      "isbn": "9781609456078",
+      "coverURL": "https://covers.openlibrary.org/b/id/10316274-M.jpg"
+    },
+    "A Wrinkle in Time|Madeleine L'Engle": {
+      "isbn": "9781429915649",
+      "coverURL": "https://covers.openlibrary.org/b/id/8737958-M.jpg"
+    },
+    "Abominable Snowman|Raymond A. Montgomery,R. A. Montgomery": {
+      "isbn": "9780553233322",
+      "coverURL": "https://covers.openlibrary.org/b/id/9720724-M.jpg"
+    },
+    "Abraham Lincoln|Seth Grahame-Smith": {
+      "isbn": "9780446563086",
+      "coverURL": "https://covers.openlibrary.org/b/id/11584367-M.jpg"
+    },
+    "Adventures of Little Bear|Else Holmelund Minarik": {
+      "isbn": "9780760709566",
+      "coverURL": "https://covers.openlibrary.org/b/id/6617336-M.jpg"
+    },
+    "Akin to Anne|L. M. Montgomery": {
+      "isbn": "9780553283877",
+      "coverURL": "https://covers.openlibrary.org/b/id/14637546-M.jpg"
+    },
+    "Alexander and the Terrible, Horrible, No Good, Very Bad Day|Judith Viorst": {
+      "isbn": "9780689711732",
+      "coverURL": "https://covers.openlibrary.org/b/id/433572-M.jpg"
+    },
+    "Alfred Goes House Hunting|Bill Binzen": {
+      "isbn": "9780385082235",
+      "coverURL": ""
+    },
+    "Alien, Go Home!|Seddon Johnson": {
+      "isbn": "9780836813043",
+      "coverURL": "https://covers.openlibrary.org/b/id/3887148-M.jpg"
+    },
+    "All in|Jennifer Lynn Barnes": {
+      "isbn": "9780316540841",
+      "coverURL": "https://covers.openlibrary.org/b/id/14089681-M.jpg"
+    },
+    "All the Lovely Bad Ones|Mary Downing Hahn": {
+      "isbn": "9780547248783",
+      "coverURL": "https://covers.openlibrary.org/b/id/6454920-M.jpg"
+    },
+    "Allegiant|Veronica Roth": {
+      "isbn": "9780062024060",
+      "coverURL": "https://covers.openlibrary.org/b/id/7276393-M.jpg"
+    },
+    "Aloha, Baby-Sitters! (The Baby-Sitters Club: Super Special #13)|Ann M. Martin": {
+      "isbn": "9780545690553",
+      "coverURL": ""
+    },
+    "Along the Shore|L. M. Montgomery": {
+      "isbn": "9780771061707",
+      "coverURL": "https://covers.openlibrary.org/b/id/14637870-M.jpg"
+    },
+    "Amazing Bats|Seymour Simon": {
+      "isbn": "9780439802017",
+      "coverURL": "https://covers.openlibrary.org/b/id/10516109-M.jpg"
+    },
+    "Amazing Stories|Kim Mohan": {
+      "isbn": "9780312890483",
+      "coverURL": "https://covers.openlibrary.org/b/id/6937837-M.jpg"
+    },
+    "American Eclipse|David Baron": {
+      "isbn": "9781324094692",
+      "coverURL": ""
+    },
+    "American Prometheus|Kai Bird,Martin J. Sherwin": {
+      "isbn": "9780375726262",
+      "coverURL": "https://covers.openlibrary.org/b/id/229635-M.jpg"
+    },
+    "American Royals|Katharine McGee": {
+      "isbn": "9781984830203",
+      "coverURL": "https://covers.openlibrary.org/b/id/10330617-M.jpg"
+    },
+    "Among the Shadows|L. M. Montgomery": {
+      "isbn": "9780771061554",
+      "coverURL": "https://covers.openlibrary.org/b/id/6616033-M.jpg"
+    },
+    "An Acceptable Time|Madeleine L'Engle": {
+      "isbn": "9781429994378",
+      "coverURL": "https://covers.openlibrary.org/b/id/8285726-M.jpg"
+    },
+    "An Offer from a Gentleman|Julia Quinn": {
+      "isbn": "9780063138643",
+      "coverURL": "https://covers.openlibrary.org/b/id/10937709-M.jpg"
+    },
+    "And Another Thing...|Eoin Colfer": {
+      "isbn": "9781401323585",
+      "coverURL": "https://covers.openlibrary.org/b/id/6300400-M.jpg"
+    },
+    "Anne of Avonlea|L. M. Montgomery": {
+      "isbn": "9781520875781",
+      "coverURL": "https://covers.openlibrary.org/b/id/14638062-M.jpg"
+    },
+    "Anne of Green Gables|L. M. Montgomery": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/14641084-M.jpg"
+    },
+    "Anne of Ingleside|L. M. Montgomery": {
+      "isbn": "9798745283857",
+      "coverURL": "https://covers.openlibrary.org/b/id/14640696-M.jpg"
+    },
+    "Anne of the Island|L. M. Montgomery": {
+      "isbn": "9781775411154",
+      "coverURL": "https://covers.openlibrary.org/b/id/14639028-M.jpg"
+    },
+    "Anne of Windy Poplars|L. M. Montgomery": {
+      "isbn": "9781473373914",
+      "coverURL": "https://covers.openlibrary.org/b/id/14640411-M.jpg"
+    },
+    "Anne's House of Dreams|L. M. Montgomery": {
+      "isbn": "9781546725633",
+      "coverURL": "https://covers.openlibrary.org/b/id/14640440-M.jpg"
+    },
+    "Antimatter Formula|Jay Leibold": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/8871841-M.jpg"
+    },
+    "Anxious People|Fredrik Backman": {
+      "isbn": "9781501160844",
+      "coverURL": "https://covers.openlibrary.org/b/id/10534939-M.jpg"
+    },
+    "Apollo 13|United States. National Aeronautics and Space Administration": {
+      "isbn": "9781896522555",
+      "coverURL": "https://covers.openlibrary.org/b/id/944673-M.jpg"
+    },
+    "Apollyon|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9781414341248",
+      "coverURL": "https://covers.openlibrary.org/b/id/540881-M.jpg"
+    },
+    "Apprentice to the Villain|Hannah Nicole Maehrer": {
+      "isbn": "9781649377173",
+      "coverURL": "https://covers.openlibrary.org/b/id/15126631-M.jpg"
+    },
+    "Archenemies|Marissa Meyer": {
+      "isbn": "9781250078308",
+      "coverURL": "https://covers.openlibrary.org/b/id/8837972-M.jpg"
+    },
+    "Are You My Mother?|P.D. Eastman": {
+      "isbn": "9780394800189",
+      "coverURL": "https://covers.openlibrary.org/b/id/8972709-M.jpg"
+    },
+    "Armageddon|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9781414341309",
+      "coverURL": "https://covers.openlibrary.org/b/id/1471454-M.jpg"
+    },
+    "Around the World in Eighty Days|Jules Verne": {
+      "isbn": "9781904919568",
+      "coverURL": "https://covers.openlibrary.org/b/id/951817-M.jpg"
+    },
+    "Artemis|Andy Weir": {
+      "isbn": "9780553448146",
+      "coverURL": "https://covers.openlibrary.org/b/id/12065493-M.jpg"
+    },
+    "Assassins|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9781414334950",
+      "coverURL": "https://covers.openlibrary.org/b/id/7644968-M.jpg"
+    },
+    "Assistant to the Villain|Hannah Nicole Maehrer": {
+      "isbn": "9781649375803",
+      "coverURL": "https://covers.openlibrary.org/b/id/15115360-M.jpg"
+    },
+    "Auras and Other Rainbow Secrets|Lila Sprague McGinnis": {
+      "isbn": "9780803805514",
+      "coverURL": "https://covers.openlibrary.org/b/id/8476577-M.jpg"
+    },
+    "B Is For Betsy|Carolyn Haywood": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/1120412-M.jpg"
+    },
+    "Baby-sitter's on Board!|Ann M. Martin": {
+      "isbn": "9781761209352",
+      "coverURL": "https://covers.openlibrary.org/b/id/13465750-M.jpg"
+    },
+    "Baby-sitters at Shadow Lake|Ann M. Martin": {
+      "isbn": "9780545632638",
+      "coverURL": ""
+    },
+    "Baby-Sitters' Island Adventure (The Baby-Sitters Club: Super Special #4)|Ann M. Martin": {
+      "isbn": "9780545630733",
+      "coverURL": ""
+    },
+    "Baby-Sitters' Summer Vacation! (The Baby-Sitters Club: Super Special #2)|Ann M. Martin": {
+      "isbn": "9780545628105",
+      "coverURL": "https://covers.openlibrary.org/b/id/14413179-M.jpg"
+    },
+    "Baby-Sitters' Winter Vacation (The Baby-Sitters Club: Super Special #3)|Ann M. Martin": {
+      "isbn": "9780545630726",
+      "coverURL": ""
+    },
+    "Bad Medicine|Carolyn Keene": {
+      "isbn": "9781481424844",
+      "coverURL": "https://covers.openlibrary.org/b/id/6986688-M.jpg"
+    },
+    "Beach Read|Emily Henry": {
+      "isbn": "9781984806734",
+      "coverURL": "https://covers.openlibrary.org/b/id/9426296-M.jpg"
+    },
+    "Bear Snores on|Karen A. Wilson": {
+      "isbn": "9780689878022",
+      "coverURL": ""
+    },
+    "Bear Stays Up for Christmas|Karma Wilson": {
+      "isbn": "9780439807227",
+      "coverURL": "https://covers.openlibrary.org/b/id/437224-M.jpg"
+    },
+    "Bears|Stan & Jan Berenstain": {
+      "isbn": "9780394809670",
+      "coverURL": "https://covers.openlibrary.org/b/id/6790038-M.jpg"
+    },
+    "Beartown|Fredrik Backman": {
+      "isbn": "9781501160776",
+      "coverURL": "https://covers.openlibrary.org/b/id/12648576-M.jpg"
+    },
+    "Beezus and Ramona|Beverly Cleary": {
+      "isbn": "9780192750969",
+      "coverURL": "https://covers.openlibrary.org/b/id/117386-M.jpg"
+    },
+    "Before I Fall|Lauren Oliver": {
+      "isbn": "9780061726804",
+      "coverURL": "https://covers.openlibrary.org/b/id/6310486-M.jpg"
+    },
+    "Belles on Their Toes|Frank Bunker Gilbreth,Ernestine Gilbreth": {
+      "isbn": "9780844094731",
+      "coverURL": ""
+    },
+    "Belles on Their Toes|Frank B. Gilbreth,Ernestine Gilbreth Carey": {
+      "isbn": "9781480457089",
+      "coverURL": "https://covers.openlibrary.org/b/id/6385506-M.jpg"
+    },
+    "Betsy and Billy|Carolyn Haywood": {
+      "isbn": "9780152051044",
+      "coverURL": "https://covers.openlibrary.org/b/id/1120413-M.jpg"
+    },
+    "Betsy-Tacy|Maud Hart Lovelace": {
+      "isbn": "9780061998300",
+      "coverURL": "https://covers.openlibrary.org/b/id/23941-M.jpg"
+    },
+    "Better Than the Movies|Lynn Painter": {
+      "isbn": "9781398536531",
+      "coverURL": "https://covers.openlibrary.org/b/id/11182600-M.jpg"
+    },
+    "Beyond the Deepwoods|Paul Stewart,Chris Riddell,Volker Niederfahrenhorst": {
+      "isbn": "9780385750684",
+      "coverURL": "https://covers.openlibrary.org/b/id/244428-M.jpg"
+    },
+    "Beyond the Fall of Night|Arthur C. Clarke,Gregory Benford": {
+      "isbn": "9780517079775",
+      "coverURL": "https://covers.openlibrary.org/b/id/8465283-M.jpg"
+    },
+    "Big Book of Backyard Adventures|Various": {
+      "isbn": "9781416938422",
+      "coverURL": "https://covers.openlibrary.org/b/id/761783-M.jpg"
+    },
+    "Big Nate lives it up|Lincoln Peirce": {
+      "isbn": "9780062111081",
+      "coverURL": "https://covers.openlibrary.org/b/id/10411048-M.jpg"
+    },
+    "Big Nate: Here Goes Nothing|Lincoln Peirce": {
+      "isbn": "9780062086969",
+      "coverURL": "https://covers.openlibrary.org/b/id/12729319-M.jpg"
+    },
+    "Biscuit|Alyssa Satin Capucilli": {
+      "isbn": "9780064442121",
+      "coverURL": "https://covers.openlibrary.org/b/id/51503-M.jpg"
+    },
+    "Biscuit Finds a Friend|Alyssa Satin Capucilli": {
+      "isbn": "9780064442435",
+      "coverURL": "https://covers.openlibrary.org/b/id/8096511-M.jpg"
+    },
+    "Bitterblue|Kristin Cashore": {
+      "isbn": "9780142426012",
+      "coverURL": "https://covers.openlibrary.org/b/id/10520687-M.jpg"
+    },
+    "Blockade Billy|Stephen King": {
+      "isbn": "9781451608212",
+      "coverURL": "https://covers.openlibrary.org/b/id/9399957-M.jpg"
+    },
+    "Box socials|W. P. Kinsella": {
+      "isbn": "9780345377494",
+      "coverURL": "https://covers.openlibrary.org/b/id/6624207-M.jpg"
+    },
+    "Boy-Crazy Stacey: Classic Edition (The Baby-Sitters Club #8)|Ann M. Martin": {
+      "isbn": "9780545532549",
+      "coverURL": ""
+    },
+    "Bradbury Classic Stories 1|Ray Bradbury": {
+      "isbn": "9780553286373",
+      "coverURL": "https://covers.openlibrary.org/b/id/9351044-M.jpg"
+    },
+    "Bread And Butter Journey|Anne Colver": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/6936970-M.jpg"
+    },
+    "Breaking Dawn|Stephenie Meyer": {
+      "isbn": "9780316067928",
+      "coverURL": "https://covers.openlibrary.org/b/id/12643375-M.jpg"
+    },
+    "Breaking the Ice|Barbara J. Mumma": {
+      "isbn": "9780553176544",
+      "coverURL": "https://covers.openlibrary.org/b/id/12480180-M.jpg"
+    },
+    "Bridgerton|Julia Quinn": {
+      "isbn": "9780063078901",
+      "coverURL": "https://covers.openlibrary.org/b/id/10533827-M.jpg"
+    },
+    "Bucky F*cking Dent|David Duchovny": {
+      "isbn": "9780374110420",
+      "coverURL": "https://covers.openlibrary.org/b/id/13086783-M.jpg"
+    },
+    "Buried Secrets|Carolyn Keene": {
+      "isbn": "9781481414548",
+      "coverURL": "https://covers.openlibrary.org/b/id/15144333-M.jpg"
+    },
+    "Burning for Revenge|John Marsden": {
+      "isbn": "9780395960547",
+      "coverURL": "https://covers.openlibrary.org/b/id/257937-M.jpg"
+    },
+    "Buzz Boy and Fly Guy|Tedd Arnold": {
+      "isbn": "9780545222747",
+      "coverURL": "https://covers.openlibrary.org/b/id/7309380-M.jpg"
+    },
+    "Buzz Off I'm Busy|Christine Tagg": {
+      "isbn": "9781571457523",
+      "coverURL": "https://covers.openlibrary.org/b/id/820205-M.jpg"
+    },
+    "By Balloon To The Sahara|D. Terman": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/4672812-M.jpg"
+    },
+    "By the Shores of Silver Lake|Laura Ingalls Wilder": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/30789-M.jpg"
+    },
+    "Cabin Fever|Jeff Kinney": {
+      "isbn": "9781419702235",
+      "coverURL": "https://covers.openlibrary.org/b/id/7282324-M.jpg"
+    },
+    "Caddie Woodlawn|Carol Ryrie Brink": {
+      "isbn": "9781416940289",
+      "coverURL": "https://covers.openlibrary.org/b/id/761856-M.jpg"
+    },
+    "California Girls!|Ann M. Martin": {
+      "isbn": "9780590550383",
+      "coverURL": "https://covers.openlibrary.org/b/id/6385893-M.jpg"
+    },
+    "Caps for Sale|Esphyr Slobodkina": {
+      "isbn": "9780439120616",
+      "coverURL": "https://covers.openlibrary.org/b/id/7393896-M.jpg"
+    },
+    "Captive!|Bill Hampton,Luann Hampton": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/6905049-M.jpg"
+    },
+    "Caraval|Stephanie Garber": {
+      "isbn": "9781250095251",
+      "coverURL": "https://covers.openlibrary.org/b/id/15130160-M.jpg"
+    },
+    "Carrie|Stephen King": {
+      "isbn": "9781984898104",
+      "coverURL": "https://covers.openlibrary.org/b/id/12625111-M.jpg"
+    },
+    "Castle of Darkness|R. A. Montgomery": {
+      "isbn": "9780553482324",
+      "coverURL": "https://covers.openlibrary.org/b/id/4673260-M.jpg"
+    },
+    "Catching Fire|Suzanne Collins": {
+      "isbn": "9780439023498",
+      "coverURL": "https://covers.openlibrary.org/b/id/14649869-M.jpg"
+    },
+    "CDC?|William Steig": {
+      "isbn": "9780374310158",
+      "coverURL": "https://covers.openlibrary.org/b/id/223729-M.jpg"
+    },
+    "Charlotte's Web|E. B. White": {
+      "isbn": "9780062406781",
+      "coverURL": "https://covers.openlibrary.org/b/id/14382038-M.jpg"
+    },
+    "Cheaper by the Dozen|Frank B. Gilbreth,Ernestine Gilbreth Carey": {
+      "isbn": "9781480457072",
+      "coverURL": "https://covers.openlibrary.org/b/id/7410688-M.jpg"
+    },
+    "Childhood's End|Arthur C. Clarke": {
+      "isbn": "9780795324970",
+      "coverURL": "https://covers.openlibrary.org/b/id/210200-M.jpg"
+    },
+    "Chinese Dragons|R. A. Montgomery": {
+      "isbn": "9781933390307",
+      "coverURL": "https://covers.openlibrary.org/b/id/7605231-M.jpg"
+    },
+    "Choosing Sides|Carolyn Keene": {
+      "isbn": "9781481438629",
+      "coverURL": "https://covers.openlibrary.org/b/id/13054523-M.jpg"
+    },
+    "Chronicles of Avonlea|L. M. Montgomery": {
+      "isbn": "9781682991800",
+      "coverURL": "https://covers.openlibrary.org/b/id/14635990-M.jpg"
+    },
+    "Cinder|Marissa Meyer": {
+      "isbn": "9780312641894",
+      "coverURL": "https://covers.openlibrary.org/b/id/10386402-M.jpg"
+    },
+    "Circle of Evil|Carolyn Keene": {
+      "isbn": "9781481415699",
+      "coverURL": "https://covers.openlibrary.org/b/id/15145977-M.jpg"
+    },
+    "Clash of the Sky Galleons|Paul Stewart,Chris Riddell": {
+      "isbn": "9780375837425",
+      "coverURL": "https://covers.openlibrary.org/b/id/6751265-M.jpg"
+    },
+    "Classic Disney Adventures CD Storybook|Disney": {
+      "isbn": "9781865153049",
+      "coverURL": "https://covers.openlibrary.org/b/id/12745320-M.jpg"
+    },
+    "Claudia and Mean Janine|Ann M. Martin": {
+      "isbn": "9780545262095",
+      "coverURL": "https://covers.openlibrary.org/b/id/7129735-M.jpg"
+    },
+    "Claudia and the Bad Joke: Classic Edition (The Baby-Sitters Club #19)|Ann M. Martin": {
+      "isbn": "9780545535168",
+      "coverURL": ""
+    },
+    "Claudia and the New Girl|Ann M. Martin": {
+      "isbn": "9780590251679",
+      "coverURL": "https://covers.openlibrary.org/b/id/6477143-M.jpg"
+    },
+    "Claudia and the Phantom Phone Calls: Classic Edition (The Baby-Sitters Club #2)|Ann M. Martin": {
+      "isbn": "9780545532488",
+      "coverURL": ""
+    },
+    "Claudia and the Sad Good-Bye (the Baby-Sitters Club #26)|Ann M. Martin": {
+      "isbn": "9781338875652",
+      "coverURL": ""
+    },
+    "Cloudy With a Chance of Meatballs|Judi Barrett": {
+      "isbn": "9780689707490",
+      "coverURL": "https://covers.openlibrary.org/b/id/6475217-M.jpg"
+    },
+    "Cold As Ice|Carolyn Keene": {
+      "isbn": "9781481428217",
+      "coverURL": "https://covers.openlibrary.org/b/id/15145972-M.jpg"
+    },
+    "Computer Takeover|Edward Packard": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/12687146-M.jpg"
+    },
+    "Confessions of an Ugly Stepsister|Gregory Maguire": {
+      "isbn": "9780060987527",
+      "coverURL": "https://covers.openlibrary.org/b/id/7249104-M.jpg"
+    },
+    "Contact|Carl Sagan": {
+      "isbn": "9781501172311",
+      "coverURL": "https://covers.openlibrary.org/b/id/4143957-M.jpg"
+    },
+    "Corduroy|Don Freeman": {
+      "isbn": "9780670241330",
+      "coverURL": "https://covers.openlibrary.org/b/id/7347348-M.jpg"
+    },
+    "Corduroy's Snow Day|Don Freeman": {
+      "isbn": "9780670060467",
+      "coverURL": "https://covers.openlibrary.org/b/id/1333385-M.jpg"
+    },
+    "Court of Frost and Starlight|Sarah J. Maas": {
+      "isbn": "9781635575620",
+      "coverURL": "https://covers.openlibrary.org/b/id/14348662-M.jpg"
+    },
+    "Cradle|Arthur C. Clarke": {
+      "isbn": "0446356018",
+      "coverURL": "https://covers.openlibrary.org/b/id/6822540-M.jpg"
+    },
+    "Cress|Marissa Meyer": {
+      "isbn": "9780312642976",
+      "coverURL": "https://covers.openlibrary.org/b/id/14637887-M.jpg"
+    },
+    "Crown of Midnight|Sarah J. Maas": {
+      "isbn": "9781639730971",
+      "coverURL": "https://covers.openlibrary.org/b/id/14348038-M.jpg"
+    },
+    "Curse Of Batterslea Hall|Richard Brightfield": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/7227506-M.jpg"
+    },
+    "Danger in Disguise|Carolyn Keene": {
+      "isbn": "9781481424820",
+      "coverURL": "https://covers.openlibrary.org/b/id/6641143-M.jpg"
+    },
+    "Daphne's Book|Mary Downing Hahn": {
+      "isbn": "9780547562674",
+      "coverURL": "https://covers.openlibrary.org/b/id/699918-M.jpg"
+    },
+    "Dark History of the Popes|Brenda Ralph Lewis": {
+      "isbn": "9781908696328",
+      "coverURL": "https://covers.openlibrary.org/b/id/12662697-M.jpg"
+    },
+    "Darke|Angie Sage": {
+      "isbn": "9781408806272",
+      "coverURL": "https://covers.openlibrary.org/b/id/8227102-M.jpg"
+    },
+    "Darkness, be my friend|John Marsden": {
+      "isbn": "9780395922743",
+      "coverURL": "https://covers.openlibrary.org/b/id/257668-M.jpg"
+    },
+    "Daughter of Sparta|Claire Andrews": {
+      "isbn": "9780316540087",
+      "coverURL": "https://covers.openlibrary.org/b/id/14780631-M.jpg"
+    },
+    "David Copperfield|Charles Dickens": {
+      "isbn": "9781593080631",
+      "coverURL": "https://covers.openlibrary.org/b/id/869655-M.jpg"
+    },
+    "Dawn and the Impossible Three|Ann M. Martin": {
+      "isbn": "9781536421590",
+      "coverURL": "https://covers.openlibrary.org/b/id/8790095-M.jpg"
+    },
+    "Dawn on the Coast (The Baby-Sitters Club #23)|Ann M. Martin": {
+      "isbn": "9780545628082",
+      "coverURL": ""
+    },
+    "Day of Infamy, 60th Anniversary|Walter Lord": {
+      "isbn": "9780805068030",
+      "coverURL": "https://covers.openlibrary.org/b/id/580792-M.jpg"
+    },
+    "Day One|Peter Wyden": {
+      "isbn": "9780671461423",
+      "coverURL": "https://covers.openlibrary.org/b/id/-1-M.jpg"
+    },
+    "Dead Poets Society|N.H. Kleinbaum": {
+      "isbn": "9781401305598",
+      "coverURL": "https://covers.openlibrary.org/b/id/369083-M.jpg"
+    },
+    "Deadly Intent|Carolyn Keene": {
+      "isbn": "9781481414463",
+      "coverURL": "https://covers.openlibrary.org/b/id/15140359-M.jpg"
+    },
+    "Deadly Shadow|Richard Brightfield": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/368658-M.jpg"
+    },
+    "Deadwood City|Edward Packard": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/8087376-M.jpg"
+    },
+    "Dear Mr. Henshaw|Beverly Cleary": {
+      "isbn": "9780688024062",
+      "coverURL": "https://covers.openlibrary.org/b/id/12858582-M.jpg"
+    },
+    "Dear Mrs. LaRue|Mark Teague": {
+      "isbn": "9780439569590",
+      "coverURL": "https://covers.openlibrary.org/b/id/6485592-M.jpg"
+    },
+    "Death by Design|Carolyn Keene": {
+      "isbn": "9781481424790",
+      "coverURL": "https://covers.openlibrary.org/b/id/15151726-M.jpg"
+    },
+    "Death In The Dorm|R. A. Montgomery": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/4673564-M.jpg"
+    },
+    "Deep and Dark and Dangerous|Mary Downing Hahn": {
+      "isbn": "9780547532141",
+      "coverURL": "https://covers.openlibrary.org/b/id/10607595-M.jpg"
+    },
+    "Deep-Sea Countdown|Justin Spelvin": {
+      "isbn": "9781416914846",
+      "coverURL": "https://covers.openlibrary.org/b/id/761201-M.jpg"
+    },
+    "Desecration|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9781414334981",
+      "coverURL": "https://covers.openlibrary.org/b/id/7828424-M.jpg"
+    },
+    "Diary of a Spider|Doreen Cronin": {
+      "isbn": "9780545243308",
+      "coverURL": "https://covers.openlibrary.org/b/id/20186-M.jpg"
+    },
+    "Diary of a Wimpy Kid|Jeff Kinney": {
+      "isbn": "9781419707292",
+      "coverURL": "https://covers.openlibrary.org/b/id/11619107-M.jpg"
+    },
+    "Diary of a Wimpy Kid # 1|Jeff Kinney": {
+      "isbn": "9780810993136",
+      "coverURL": ""
+    },
+    "Diary of a Wimpy Kid # 2 - Rodrick Rules|Jeff Kinney": {
+      "isbn": "9780810994737",
+      "coverURL": "https://covers.openlibrary.org/b/id/2646387-M.jpg"
+    },
+    "Diary of a Wimpy Kid # 3 - The Last Straw|Jeff Kinney": {
+      "isbn": "9780810970687",
+      "coverURL": "https://covers.openlibrary.org/b/id/6391127-M.jpg"
+    },
+    "Diary of a Wimpy Kid: Hard Luck|Jeff Kinney": {
+      "isbn": "9781419711329",
+      "coverURL": "https://covers.openlibrary.org/b/id/10223048-M.jpg"
+    },
+    "Diary of a Worm|Doreen Cronin": {
+      "isbn": "9780439677745",
+      "coverURL": "https://covers.openlibrary.org/b/id/7349501-M.jpg"
+    },
+    "Dirk Gently's Holistic Detective Agency|Douglas Adams": {
+      "isbn": "0671660632",
+      "coverURL": "https://covers.openlibrary.org/b/id/14656532-M.jpg"
+    },
+    "Disclosure|Michael Crichton": {
+      "isbn": "9780345391056",
+      "coverURL": "https://covers.openlibrary.org/b/id/10657322-M.jpg"
+    },
+    "Disney Bedtime Favorites (Disney Storybook Collections)|Various": {
+      "isbn": "9781423104407",
+      "coverURL": "https://covers.openlibrary.org/b/id/1817756-M.jpg"
+    },
+    "Disney my first 1000 words|Thea Feldman": {
+      "isbn": "9780786834099",
+      "coverURL": "https://covers.openlibrary.org/b/id/15102032-M.jpg"
+    },
+    "Divergent|Veronica Roth": {
+      "isbn": "9780062024022",
+      "coverURL": "https://covers.openlibrary.org/b/id/7276222-M.jpg"
+    },
+    "Do Not Open this Crate!|Stephen Krensky": {
+      "isbn": "9780375824883",
+      "coverURL": "https://covers.openlibrary.org/b/id/233971-M.jpg"
+    },
+    "Does a Kangaroo Have a Mother, Too?|Eric Carle": {
+      "isbn": "9780061120220",
+      "coverURL": "https://covers.openlibrary.org/b/id/6281490-M.jpg"
+    },
+    "Dog's noisy day|Emma Dodd": {
+      "isbn": "9780525470151",
+      "coverURL": "https://covers.openlibrary.org/b/id/10370230-M.jpg"
+    },
+    "Don't blame the music.|Caroline B. Cooney": {
+      "isbn": "9780416102420",
+      "coverURL": "https://covers.openlibrary.org/b/id/13905928-M.jpg"
+    },
+    "Don't Look Twice|Carolyn Keene": {
+      "isbn": "9781481428248",
+      "coverURL": "https://covers.openlibrary.org/b/id/6916663-M.jpg"
+    },
+    "Doomsday Book|Connie Willis": {
+      "isbn": "9780553562736",
+      "coverURL": "https://covers.openlibrary.org/b/id/9636186-M.jpg"
+    },
+    "Down by the Station|Jess Stockham": {
+      "isbn": "9780859534574",
+      "coverURL": "https://covers.openlibrary.org/b/id/5014575-M.jpg"
+    },
+    "Dracula|Bram Stoker": {
+      "isbn": "9781435129733",
+      "coverURL": "https://covers.openlibrary.org/b/id/12453610-M.jpg"
+    },
+    "Dragons in the Waters|Madeleine L'Engle": {
+      "isbn": "9781466814110",
+      "coverURL": "https://covers.openlibrary.org/b/id/1529944-M.jpg"
+    },
+    "Drawing Digital|Lisa Bardot": {
+      "isbn": "9780760385326",
+      "coverURL": ""
+    },
+    "Driving blind|Ray Bradbury": {
+      "isbn": "0380973812",
+      "coverURL": "https://covers.openlibrary.org/b/id/10720561-M.jpg"
+    },
+    "Dune|Frank Herbert": {
+      "isbn": "9780441172719",
+      "coverURL": "https://covers.openlibrary.org/b/id/15110282-M.jpg"
+    },
+    "Earthlight|Arthur C. Clarke": {
+      "isbn": "9780795325151",
+      "coverURL": "https://covers.openlibrary.org/b/id/8674492-M.jpg"
+    },
+    "Eclipse|Stephenie Meyer": {
+      "isbn": "9780316027656",
+      "coverURL": "https://covers.openlibrary.org/b/id/6300421-M.jpg"
+    },
+    "Ellen|John Willoughby": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "Ellen Tebbits|Beverly Cleary": {
+      "isbn": "9780061972164",
+      "coverURL": "https://covers.openlibrary.org/b/id/12868329-M.jpg"
+    },
+    "Emily Climbs Illustrated|L. M. Montgomery": {
+      "isbn": "9798775704032",
+      "coverURL": ""
+    },
+    "Emily of New Moon|L. M. Montgomery": {
+      "isbn": "9780771093555",
+      "coverURL": "https://covers.openlibrary.org/b/id/13343930-M.jpg"
+    },
+    "Emily's Quest|L. M. Montgomery": {
+      "isbn": "9780369408860",
+      "coverURL": "https://covers.openlibrary.org/b/id/14640662-M.jpg"
+    },
+    "Empire of Storms|Sarah J. Maas": {
+      "isbn": "9781639731039",
+      "coverURL": "https://covers.openlibrary.org/b/id/13314830-M.jpg"
+    },
+    "Empire of the Vampire|Jay Kristoff": {
+      "isbn": "9781250246516",
+      "coverURL": "https://covers.openlibrary.org/b/id/13178888-M.jpg"
+    },
+    "Epic Rivalry|Von Hardesty,Gene Eisman": {
+      "isbn": "9781426203213",
+      "coverURL": "https://covers.openlibrary.org/b/id/767396-M.jpg"
+    },
+    "Escape|R. A. Montgomery": {
+      "isbn": "9781933390086",
+      "coverURL": "https://covers.openlibrary.org/b/id/8311608-M.jpg"
+    },
+    "Every Last Word|Tamara Ireland Stone": {
+      "isbn": "9781484723647",
+      "coverURL": "https://covers.openlibrary.org/b/id/8861320-M.jpg"
+    },
+    "Everything You Need to Ace Science in One Big Fat Notebook|Workman Publishing": {
+      "isbn": "9780761160953",
+      "coverURL": "https://covers.openlibrary.org/b/id/10318264-M.jpg"
+    },
+    "Everything You Need to Ace U.S. History in One Big Fat Notebook, 2nd Edition|Workman Publishing": {
+      "isbn": "9781523515943",
+      "coverURL": "https://covers.openlibrary.org/b/id/-1-M.jpg"
+    },
+    "Everything you need to ace world history in one big fat notebook|Ximena Vengoecheo": {
+      "isbn": "9780761160946",
+      "coverURL": ""
+    },
+    "Everything, Everything|Nicola Yoon": {
+      "isbn": "9780553496673",
+      "coverURL": "https://covers.openlibrary.org/b/id/8140499-M.jpg"
+    },
+    "Exiled to Earth|R. A. Montgomery": {
+      "isbn": "9780553169300",
+      "coverURL": "https://covers.openlibrary.org/b/id/6498598-M.jpg"
+    },
+    "Extraterrestrial Contact|Unknown": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "Face The Music|Barbara J. Mumma": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/7294984-M.jpg"
+    },
+    "Fahrenheit 451|Ray Bradbury": {
+      "isbn": "9780345342966",
+      "coverURL": "https://covers.openlibrary.org/b/id/12993656-M.jpg"
+    },
+    "Failure Is Not an Option|Gene Kranz": {
+      "isbn": "9781439148815",
+      "coverURL": "https://covers.openlibrary.org/b/id/10084545-M.jpg"
+    },
+    "Fairest|Marissa Meyer": {
+      "isbn": "9781250060556",
+      "coverURL": "https://covers.openlibrary.org/b/id/15092141-M.jpg"
+    },
+    "Fairy Tale|Stephen King": {
+      "isbn": "9781668002193",
+      "coverURL": "https://covers.openlibrary.org/b/id/13181348-M.jpg"
+    },
+    "Falling Up|Shel Silverstein": {
+      "isbn": "9780062999696",
+      "coverURL": "https://covers.openlibrary.org/b/id/26482-M.jpg"
+    },
+    "False Moves|Carolyn Keene": {
+      "isbn": "9781481414531",
+      "coverURL": "https://covers.openlibrary.org/b/id/15145288-M.jpg"
+    },
+    "Fantastic Beasts and where to Find Them|J. K. Rowling": {
+      "isbn": "9781408803011",
+      "coverURL": "https://covers.openlibrary.org/b/id/8417016-M.jpg"
+    },
+    "Fantastic Voyage|Isaac Asimov": {
+      "isbn": "9780553275728",
+      "coverURL": "https://covers.openlibrary.org/b/id/9300840-M.jpg"
+    },
+    "Fantastic Voyage II|Isaac Asimov": {
+      "isbn": "9780553273274",
+      "coverURL": "https://covers.openlibrary.org/b/id/14633155-M.jpg"
+    },
+    "Far from the Tree|Robin Benway": {
+      "isbn": "9780062330635",
+      "coverURL": "https://covers.openlibrary.org/b/id/8797750-M.jpg"
+    },
+    "Farmer Boy|Laura Ingalls Wilder": {
+      "isbn": "9780060885380",
+      "coverURL": "https://covers.openlibrary.org/b/id/11277249-M.jpg"
+    },
+    "Farmer Boy Goes West|Heather Williams": {
+      "isbn": "9780061242519",
+      "coverURL": "https://covers.openlibrary.org/b/id/12708212-M.jpg"
+    },
+    "Fatal Attraction|Carolyn Keene": {
+      "isbn": "9780671028930",
+      "coverURL": "https://covers.openlibrary.org/b/id/10754514-M.jpg"
+    },
+    "Fatal Ransom|Carolyn Keene": {
+      "isbn": "9781481415637",
+      "coverURL": "https://covers.openlibrary.org/b/id/15142386-M.jpg"
+    },
+    "Fifth Grade Magic|Beatrice Gormley": {
+      "isbn": "9780380674398",
+      "coverURL": "https://covers.openlibrary.org/b/id/8012521-M.jpg"
+    },
+    "Fifty Short Science Fiction Tales|Isaac Asimov,Groff Conklin": {
+      "isbn": "9780020163909",
+      "coverURL": "https://covers.openlibrary.org/b/id/13161244-M.jpg"
+    },
+    "Find Waldo Now|Martin Handford": {
+      "isbn": "9780316342926",
+      "coverURL": "https://covers.openlibrary.org/b/id/6929993-M.jpg"
+    },
+    "Finding Nemo|Art Mawhinney": {
+      "isbn": "9780785382379",
+      "coverURL": "https://covers.openlibrary.org/b/id/6611753-M.jpg"
+    },
+    "Fire|Kristin Cashore": {
+      "isbn": "9780142415917",
+      "coverURL": "https://covers.openlibrary.org/b/id/6681073-M.jpg"
+    },
+    "Fire And Ice|Edward Packard": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "Firestarter|Stephen King": {
+      "isbn": "9781501143793",
+      "coverURL": "https://covers.openlibrary.org/b/id/8899214-M.jpg"
+    },
+    "Five Broken Blades (Deluxe Limited Edition)|Mai Corland": {
+      "isbn": "9781649376909",
+      "coverURL": "https://covers.openlibrary.org/b/id/14810912-M.jpg"
+    },
+    "Five Feet Apart|Rachael Lippincott": {
+      "isbn": "9781534451568",
+      "coverURL": "https://covers.openlibrary.org/b/id/8795082-M.jpg"
+    },
+    "Five Little Monkeys Storybook Treasury|Eileen Christelow": {
+      "isbn": "9780547238739",
+      "coverURL": "https://covers.openlibrary.org/b/id/7495559-M.jpg"
+    },
+    "Five Little Peppers and How They Grew|Margaret Sidney,James Sidney": {
+      "isbn": "9781557095916",
+      "coverURL": "https://covers.openlibrary.org/b/id/779562-M.jpg"
+    },
+    "Five Little Peppers And Their Friends|Margaret Sidney": {
+      "isbn": "9789359320830",
+      "coverURL": "https://covers.openlibrary.org/b/id/2895080-M.jpg"
+    },
+    "Five Little Peppers In The Little Town House|Margaret Sidney": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "Five Total Strangers|Natalie D. Richards": {
+      "isbn": "9781492657217",
+      "coverURL": "https://covers.openlibrary.org/b/id/12361209-M.jpg"
+    },
+    "Flight #116 Is Down|Caroline B. Cooney": {
+      "isbn": "9781453295373",
+      "coverURL": "https://covers.openlibrary.org/b/id/383970-M.jpg"
+    },
+    "Flirting with Danger|Carolyn Keene": {
+      "isbn": "9781481428040",
+      "coverURL": "https://covers.openlibrary.org/b/id/15149187-M.jpg"
+    },
+    "Fluke|Christopher Moore": {
+      "isbn": "9780060566685",
+      "coverURL": "https://covers.openlibrary.org/b/id/6991013-M.jpg"
+    },
+    "Fly Guy and the Frankenfly|Tedd Arnold": {
+      "isbn": "9780545609180",
+      "coverURL": "https://covers.openlibrary.org/b/id/10181106-M.jpg"
+    },
+    "Flyte|Angie Sage,Mark Zug": {
+      "isbn": "9781408814925",
+      "coverURL": "https://covers.openlibrary.org/b/id/11412112-M.jpg"
+    },
+    "Ford County: Stories (HC)|John Grisham": {
+      "isbn": "9780385532457",
+      "coverURL": "https://covers.openlibrary.org/b/id/10670894-M.jpg"
+    },
+    "Forest of Fear|Louise Munro Foley": {
+      "isbn": "9780553254907",
+      "coverURL": "https://covers.openlibrary.org/b/id/12683216-M.jpg"
+    },
+    "Foundation|Isaac Asimov": {
+      "isbn": "9780553293357",
+      "coverURL": "https://covers.openlibrary.org/b/id/9300825-M.jpg"
+    },
+    "Foundation and Empire|Isaac Asimov": {
+      "isbn": "9780553293371",
+      "coverURL": "https://covers.openlibrary.org/b/id/369224-M.jpg"
+    },
+    "Foundation's Edge|Isaac Asimov": {
+      "isbn": "9780553293388",
+      "coverURL": "https://covers.openlibrary.org/b/id/9972611-M.jpg"
+    },
+    "Freckles|Gene Stratton-Porter": {
+      "isbn": "9781425011253",
+      "coverURL": "https://covers.openlibrary.org/b/id/6022196-M.jpg"
+    },
+    "Freefall|Mindi Scott": {
+      "isbn": "9781442402799",
+      "coverURL": "https://covers.openlibrary.org/b/id/6618880-M.jpg"
+    },
+    "Freeglader|Paul Stewart,Chris Riddell": {
+      "isbn": "9780385750820",
+      "coverURL": "https://covers.openlibrary.org/b/id/244441-M.jpg"
+    },
+    "Fright Night|Edward Packard": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/372128-M.jpg"
+    },
+    "Frindle|Andrew Clements": {
+      "isbn": "9780153143977",
+      "coverURL": "https://covers.openlibrary.org/b/id/9849850-M.jpg"
+    },
+    "Fugitive|Edward Packard": {
+      "isbn": "9780553567526",
+      "coverURL": "https://covers.openlibrary.org/b/id/8869447-M.jpg"
+    },
+    "Further Chronicles of Avonlea|L. M. Montgomery": {
+      "isbn": "9781540825704",
+      "coverURL": "https://covers.openlibrary.org/b/id/14636002-M.jpg"
+    },
+    "Fyre: Septimus Heap|Angie Sage": {
+      "isbn": "9781408806258",
+      "coverURL": "https://covers.openlibrary.org/b/id/12850694-M.jpg"
+    },
+    "Gallop!|Rufus Butler Seder": {
+      "isbn": "9780761147633",
+      "coverURL": "https://covers.openlibrary.org/b/id/2605309-M.jpg"
+    },
+    "Ghost Hunter|Edward Packard": {
+      "isbn": "9780553269833",
+      "coverURL": "https://covers.openlibrary.org/b/id/6506412-M.jpg"
+    },
+    "Ghost Train|Louise Munro Foley": {
+      "isbn": "9780553293586",
+      "coverURL": "https://covers.openlibrary.org/b/id/8871819-M.jpg"
+    },
+    "Ghosts Along the Texas Coast|Docia Schultz Williams": {
+      "isbn": "9780585270838",
+      "coverURL": "https://covers.openlibrary.org/b/id/776858-M.jpg"
+    },
+    "Ghosts and Haunts from the Appalachian Foothills|James V. Burchill": {
+      "isbn": "9781558532533",
+      "coverURL": "https://covers.openlibrary.org/b/id/783484-M.jpg"
+    },
+    "Ghosts of Colorado|Dennis Baker": {
+      "isbn": "9780764330520",
+      "coverURL": ""
+    },
+    "Ghosts of the World|Susan Smitten": {
+      "isbn": "9781894877657",
+      "coverURL": "https://covers.openlibrary.org/b/id/2100330-M.jpg"
+    },
+    "Giant Treasury of Beatrix Potter|Beatrix Potter": {
+      "isbn": "9780517431214",
+      "coverURL": "https://covers.openlibrary.org/b/id/322095-M.jpg"
+    },
+    "Girl of the Limberlost|Gene Stratton-Porter": {
+      "isbn": "9781557092922",
+      "coverURL": "https://covers.openlibrary.org/b/id/779468-M.jpg"
+    },
+    "Glorious Appearing|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9781414335018",
+      "coverURL": "https://covers.openlibrary.org/b/id/9769213-M.jpg"
+    },
+    "Go the Distance|W. P. Kinsella": {
+      "isbn": "9780870743887",
+      "coverURL": "https://covers.openlibrary.org/b/id/3888765-M.jpg"
+    },
+    "Go, Dog. Go!|P.D. Eastman": {
+      "isbn": "9780394800202",
+      "coverURL": "https://covers.openlibrary.org/b/id/6508012-M.jpg"
+    },
+    "Gold Medal Secret|Doug Wilhelm": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/8871631-M.jpg"
+    },
+    "Goodnight Moon|Margaret Wise Brown": {
+      "isbn": "9780062662897",
+      "coverURL": "https://covers.openlibrary.org/b/id/35556-M.jpg"
+    },
+    "Graceling|Kristin Cashore": {
+      "isbn": "9780547258300",
+      "coverURL": "https://covers.openlibrary.org/b/id/13438406-M.jpg"
+    },
+    "Grand Canyon Odyssey|Jay Leibold": {
+      "isbn": "9780553248227",
+      "coverURL": "https://covers.openlibrary.org/b/id/6505680-M.jpg"
+    },
+    "Great American Civil War Stories|Lamar Underwood": {
+      "isbn": "9781493069095",
+      "coverURL": ""
+    },
+    "Great Expectations|Charles Dickens": {
+      "isbn": "9781593081164",
+      "coverURL": "https://covers.openlibrary.org/b/id/1983313-M.jpg"
+    },
+    "Great Zopper Toothpaste Treasure|Jennifer Bach": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/12691181-M.jpg"
+    },
+    "Greed, Guns, and Gold|Edward Packard": {
+      "isbn": "9780553566284",
+      "coverURL": "https://covers.openlibrary.org/b/id/4673604-M.jpg"
+    },
+    "Green Eggs and Ham|Dr. Seuss": {
+      "isbn": "9780394800165",
+      "coverURL": "https://covers.openlibrary.org/b/id/6507741-M.jpg"
+    },
+    "Greenwitch|Susan Cooper": {
+      "isbn": "9781665932929",
+      "coverURL": "https://covers.openlibrary.org/b/id/101366-M.jpg"
+    },
+    "Gus Was a Friendly Ghost|Jane Thayer": {
+      "isbn": "9781930900745",
+      "coverURL": "https://covers.openlibrary.org/b/id/13980853-M.jpg"
+    },
+    "Hannibal|Thomas Harris": {
+      "isbn": "9780440224679",
+      "coverURL": "https://covers.openlibrary.org/b/id/12002913-M.jpg"
+    },
+    "Hannibal (HC)(pb)|Thomas Harris": {
+      "isbn": "9780385299299",
+      "coverURL": "https://covers.openlibrary.org/b/id/8384212-M.jpg"
+    },
+    "Hannibal Rising|Thomas Harris": {
+      "isbn": "9780385339414",
+      "coverURL": "https://covers.openlibrary.org/b/id/12002898-M.jpg"
+    },
+    "Hans Brinker (Illustrated Edition)|Mary Mapes Dodge": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "Harold and the purple crayon|Crockett Johnson": {
+      "isbn": "9780064430227",
+      "coverURL": "https://covers.openlibrary.org/b/id/6962772-M.jpg"
+    },
+    "Harry Potter|J. K. Rowling": {
+      "isbn": "9780439139595",
+      "coverURL": "https://covers.openlibrary.org/b/id/12631313-M.jpg"
+    },
+    "Harry Potter and the Chamber of Secrets|J. K. Rowling": {
+      "isbn": "9780545791328",
+      "coverURL": "https://covers.openlibrary.org/b/id/12631320-M.jpg"
+    },
+    "Harry Potter and the Deathly Hallows|J. K. Rowling": {
+      "isbn": "9780545010221",
+      "coverURL": "https://covers.openlibrary.org/b/id/15159977-M.jpg"
+    },
+    "Harry Potter and the Goblet of Fire|J. K. Rowling": {
+      "isbn": "9780545791427",
+      "coverURL": "https://covers.openlibrary.org/b/id/15156423-M.jpg"
+    },
+    "Harry Potter and the Half-Blood Prince|J. K. Rowling,Mary GrandPr\u00e9": {
+      "isbn": "9780439784542",
+      "coverURL": "https://covers.openlibrary.org/b/id/15155926-M.jpg"
+    },
+    "Harry Potter and the Order of the Phoenix|J. K. Rowling": {
+      "isbn": "9780439358064",
+      "coverURL": "https://covers.openlibrary.org/b/id/15158603-M.jpg"
+    },
+    "Harry Potter and the Order of the Phoenix: The Illustrated Edition (Harry Potter, Book 5)|J. K. Rowling": {
+      "isbn": "9780545791434",
+      "coverURL": "https://covers.openlibrary.org/b/id/12960783-M.jpg"
+    },
+    "Harry Potter and the Philosopher's Stone|J. K. Rowling": {
+      "isbn": "9780747532743",
+      "coverURL": "https://covers.openlibrary.org/b/id/15155835-M.jpg"
+    },
+    "Harry Potter and the Prisoner of Azkaban|J. K. Rowling": {
+      "isbn": "9780545791342",
+      "coverURL": "https://covers.openlibrary.org/b/id/12728915-M.jpg"
+    },
+    "Harry Potter and the Sorcerer's Stone|J. K. Rowling": {
+      "isbn": "9780545790352",
+      "coverURL": "https://covers.openlibrary.org/b/id/15154778-M.jpg"
+    },
+    "Harry the Dirty Dog|Gene Zion": {
+      "isbn": "9780060268657",
+      "coverURL": "https://covers.openlibrary.org/b/id/24282-M.jpg"
+    },
+    "Harry the Dirty Dog Board Book|Gene Zion": {
+      "isbn": "9780060842444",
+      "coverURL": "https://covers.openlibrary.org/b/id/37859-M.jpg"
+    },
+    "Hate List|Jennifer Brown": {
+      "isbn": "9780316041454",
+      "coverURL": "https://covers.openlibrary.org/b/id/6716719-M.jpg"
+    },
+    "Heart of Danger|Carolyn Keene": {
+      "isbn": "9781481414555",
+      "coverURL": "https://covers.openlibrary.org/b/id/15141657-M.jpg"
+    },
+    "Heartless|Marissa Meyer": {
+      "isbn": "9781250044655",
+      "coverURL": "https://covers.openlibrary.org/b/id/15092072-M.jpg"
+    },
+    "Heidi|Johanna Spyri": {
+      "isbn": "9781443432962",
+      "coverURL": "https://covers.openlibrary.org/b/id/2668686-M.jpg"
+    },
+    "Heir of Fire|Sarah J. Maas": {
+      "isbn": "9781639730995",
+      "coverURL": "https://covers.openlibrary.org/b/id/14819404-M.jpg"
+    },
+    "Hello Kitty|Elizabeth Simpson Smith": {
+      "isbn": "9780810988415",
+      "coverURL": "https://covers.openlibrary.org/b/id/8882441-M.jpg"
+    },
+    "Hello, Mallory: Classic Edition (The Baby-Sitters Club #14)|Ann M. Martin": {
+      "isbn": "9780545533898",
+      "coverURL": ""
+    },
+    "Help! You're Shrinking|Edward Packard": {
+      "isbn": "9780553151954",
+      "coverURL": "https://covers.openlibrary.org/b/id/6508871-M.jpg"
+    },
+    "Henry and Ribsy|Beverly Cleary": {
+      "isbn": "9780380709175",
+      "coverURL": "https://covers.openlibrary.org/b/id/14876218-M.jpg"
+    },
+    "Her Name, Titanic|Charles R. Pellegrino": {
+      "isbn": "9780380708925",
+      "coverURL": "https://covers.openlibrary.org/b/id/6708470-M.jpg"
+    },
+    "Here Come the Bridesmaids!|Ann M. Martin": {
+      "isbn": "9780545633406",
+      "coverURL": "https://covers.openlibrary.org/b/id/384566-M.jpg"
+    },
+    "Hi! Fly Guy|Tedd Arnold": {
+      "isbn": "9780439639033",
+      "coverURL": "https://covers.openlibrary.org/b/id/6459286-M.jpg"
+    },
+    "High Marks for Malice|Carolyn Keene": {
+      "isbn": "9781481424813",
+      "coverURL": "https://covers.openlibrary.org/b/id/6628248-M.jpg"
+    },
+    "Hijacked!|Richard Brightfield": {
+      "isbn": "9780553286359",
+      "coverURL": "https://covers.openlibrary.org/b/id/6510025-M.jpg"
+    },
+    "His Dark Materials: The Amber Spyglass (Book 3)|Philip Pullman": {
+      "isbn": "9780440418566",
+      "coverURL": "https://covers.openlibrary.org/b/id/12614567-M.jpg"
+    },
+    "His Dark Materials: The Subtle Knife (Book 2)|Philip Pullman": {
+      "isbn": "9780440418337",
+      "coverURL": "https://covers.openlibrary.org/b/id/6996479-M.jpg"
+    },
+    "Hit and Run Holiday|Carolyn Keene": {
+      "isbn": "9781481414494",
+      "coverURL": "https://covers.openlibrary.org/b/id/15139778-M.jpg"
+    },
+    "Holding Up the Universe|Jennifer Niven": {
+      "isbn": "9780385755955",
+      "coverURL": "https://covers.openlibrary.org/b/id/8827960-M.jpg"
+    },
+    "Holes|Louis Sachar": {
+      "isbn": "9780307798367",
+      "coverURL": "https://covers.openlibrary.org/b/id/19797-M.jpg"
+    },
+    "Holy Cow|David Duchovny": {
+      "isbn": "9780374172077",
+      "coverURL": "https://covers.openlibrary.org/b/id/9895495-M.jpg"
+    },
+    "Hook, Line, and Sinker|Tessa Bailey": {
+      "isbn": "9780063045699",
+      "coverURL": "https://covers.openlibrary.org/b/id/12389149-M.jpg"
+    },
+    "Hooked|Emily McIntire": {
+      "isbn": "9781737508373",
+      "coverURL": "https://covers.openlibrary.org/b/id/14420484-M.jpg"
+    },
+    "Hop on Pop|Dr. Seuss": {
+      "isbn": "9780394800295",
+      "coverURL": "https://covers.openlibrary.org/b/id/7091614-M.jpg"
+    },
+    "Horror Of High Ridge|Julius Goodman": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/368603-M.jpg"
+    },
+    "Horton Hears a Who!|Dr. Seuss": {
+      "isbn": "9780394800783",
+      "coverURL": "https://covers.openlibrary.org/b/id/6628469-M.jpg"
+    },
+    "Hostage!|Edward Packard": {
+      "isbn": "9780553566277",
+      "coverURL": "https://covers.openlibrary.org/b/id/4673609-M.jpg"
+    },
+    "Hot Pursuit|Carolyn Keene": {
+      "isbn": "9781481428460",
+      "coverURL": "https://covers.openlibrary.org/b/id/6640767-M.jpg"
+    },
+    "Hotel Magnifique|Emily J. Taylor": {
+      "isbn": "9780593404539",
+      "coverURL": "https://covers.openlibrary.org/b/id/13342974-M.jpg"
+    },
+    "House of Danger|R. A. Montgomery": {
+      "isbn": "9781933390468",
+      "coverURL": "https://covers.openlibrary.org/b/id/3062261-M.jpg"
+    },
+    "House of Earth and Blood|Sarah J. Maas": {
+      "isbn": "9781635574043",
+      "coverURL": "https://covers.openlibrary.org/b/id/13316191-M.jpg"
+    },
+    "House of Flame and Shadow|Sarah J. Maas": {
+      "isbn": "9781635574104",
+      "coverURL": "https://covers.openlibrary.org/b/id/14576237-M.jpg"
+    },
+    "House of Sky and Breath|Sarah J. Maas": {
+      "isbn": "9781639731756",
+      "coverURL": "https://covers.openlibrary.org/b/id/14565760-M.jpg"
+    },
+    "How NASA Learned to Fly in Space|David Michael Harland": {
+      "isbn": "9781894959070",
+      "coverURL": "https://covers.openlibrary.org/b/id/12179466-M.jpg"
+    },
+    "How to Become the Dark Lord and Die Trying|Django Wexler": {
+      "isbn": "9780316392204",
+      "coverURL": "https://covers.openlibrary.org/b/id/14633608-M.jpg"
+    },
+    "How to Eat Fried Worms|Thomas Rockwell": {
+      "isbn": "9781417813087",
+      "coverURL": "https://covers.openlibrary.org/b/id/14228597-M.jpg"
+    },
+    "Hurricane!|Richard Brightfield,Rick Brightfield": {
+      "isbn": "9780553273564",
+      "coverURL": "https://covers.openlibrary.org/b/id/13160067-M.jpg"
+    },
+    "Hyperspace|Edward Packard": {
+      "isbn": "9780553233247",
+      "coverURL": "https://covers.openlibrary.org/b/id/6952707-M.jpg"
+    },
+    "I Am Captain Kirk|Frank Berrios,Ethen Beavers": {
+      "isbn": "9781984829733",
+      "coverURL": ""
+    },
+    "I Am Mr. Spock (Star Trek)|Elizabeth Schaefer": {
+      "isbn": "9781984829757",
+      "coverURL": ""
+    },
+    "I Am Pusheen the Cat|Claire Belton": {
+      "isbn": "9781501123382",
+      "coverURL": "https://covers.openlibrary.org/b/id/8476071-M.jpg"
+    },
+    "I Could Chew On This And Other Poems By Dogs|Francesco Marciuliano": {
+      "isbn": "9781452119038",
+      "coverURL": "https://covers.openlibrary.org/b/id/7863475-M.jpg"
+    },
+    "I Could Pee on This|Francesco Marciuliano": {
+      "isbn": "9781452110585",
+      "coverURL": "https://covers.openlibrary.org/b/id/9563652-M.jpg"
+    },
+    "I Could Pee on This Too|Francesco Marciuliano": {
+      "isbn": "9781452132945",
+      "coverURL": "https://covers.openlibrary.org/b/id/12918540-M.jpg"
+    },
+    "I Die Each Time I Hear the Sound|Mike Doughty": {
+      "isbn": "9780306825316",
+      "coverURL": "https://covers.openlibrary.org/b/id/13865823-M.jpg"
+    },
+    "I Sing the Body Electric!|Ray Bradbury": {
+      "isbn": "9780553141023",
+      "coverURL": "https://covers.openlibrary.org/b/id/14828150-M.jpg"
+    },
+    "I Spy Spooky Night|Jean Marzollo,Walter Wick": {
+      "isbn": "9780590481373",
+      "coverURL": "https://covers.openlibrary.org/b/id/384525-M.jpg"
+    },
+    "I Spy Treasure Hunt|Jean Marzollo": {
+      "isbn": "9780439026741",
+      "coverURL": "https://covers.openlibrary.org/b/id/1227904-M.jpg"
+    },
+    "I Spy Ultimate Challenger!|Jean Marzollo": {
+      "isbn": "9780439454018",
+      "coverURL": "https://covers.openlibrary.org/b/id/8753099-M.jpg"
+    },
+    "I Want a Dog for Christmas, Charlie Brown!|Jim Thomas,Charles Monroe Schulz": {
+      "isbn": "9781416913801",
+      "coverURL": "https://covers.openlibrary.org/b/id/10422522-M.jpg"
+    },
+    "I Wish That I Had Duck Feet|Dr. Seuss": {
+      "isbn": "9780394800400",
+      "coverURL": "https://covers.openlibrary.org/b/id/6906575-M.jpg"
+    },
+    "If I Stay|Gayle Forman": {
+      "isbn": "9780142415436",
+      "coverURL": "https://covers.openlibrary.org/b/id/6300478-M.jpg"
+    },
+    "If Looks Could Kill|Carolyn Keene": {
+      "isbn": "9781481440011",
+      "coverURL": "https://covers.openlibrary.org/b/id/15140802-M.jpg"
+    },
+    "If You Take a Mouse to the Movies: A Special Christmas Edition|Laura Numeroff": {
+      "isbn": "9780061762802",
+      "coverURL": ""
+    },
+    "In a Dark, Dark Wood|Ruth Ware": {
+      "isbn": "9781501112331",
+      "coverURL": "https://covers.openlibrary.org/b/id/9151062-M.jpg"
+    },
+    "In a People House|Dr. Seuss": {
+      "isbn": "9780394823959",
+      "coverURL": "https://covers.openlibrary.org/b/id/8790141-M.jpg"
+    },
+    "In the Garden of Iden|Kage Baker": {
+      "isbn": "0380731797",
+      "coverURL": "https://covers.openlibrary.org/b/id/11300615-M.jpg"
+    },
+    "Inca Gold|Jim Beckett,James Beckett": {
+      "isbn": "9780553274158",
+      "coverURL": ""
+    },
+    "Inside UFO 54-40|Edward Packard": {
+      "isbn": "9780553231755",
+      "coverURL": "https://covers.openlibrary.org/b/id/8007011-M.jpg"
+    },
+    "Insurgent|Veronica Roth,Gemme": {
+      "isbn": "9780062024046",
+      "coverURL": "https://covers.openlibrary.org/b/id/14831780-M.jpg"
+    },
+    "Into the Dream|William Sleator": {
+      "isbn": "9780833568717",
+      "coverURL": "https://covers.openlibrary.org/b/id/108525-M.jpg"
+    },
+    "Into the Water|Paula Hawkins": {
+      "isbn": "9780735211223",
+      "coverURL": "https://covers.openlibrary.org/b/id/8047692-M.jpg"
+    },
+    "Invaders from Within|Edward Packard": {
+      "isbn": "9780836814019",
+      "coverURL": "https://covers.openlibrary.org/b/id/3909843-M.jpg"
+    },
+    "Island of the Blue Dolphins|Scott O'Dell": {
+      "isbn": "9780395069622",
+      "coverURL": "https://covers.openlibrary.org/b/id/7335090-M.jpg"
+    },
+    "Islands in the Sky|Arthur Charles Clarke": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/4392857-M.jpg"
+    },
+    "It Ends with Us|Colleen Hoover": {
+      "isbn": "9781668055960",
+      "coverURL": "https://covers.openlibrary.org/b/id/14652503-M.jpg"
+    },
+    "It Happened One Summer|Tessa Bailey": {
+      "isbn": "9780063045651",
+      "coverURL": "https://covers.openlibrary.org/b/id/10514448-M.jpg"
+    },
+    "It's in His Kiss|Julia Quinn": {
+      "isbn": "9780062353795",
+      "coverURL": "https://covers.openlibrary.org/b/id/1473370-M.jpg"
+    },
+    "Jane Eyre (HC)(pb)|Charlotte Bronte\u0308": {
+      "isbn": "9780307946447",
+      "coverURL": "https://covers.openlibrary.org/b/id/11657939-M.jpg"
+    },
+    "Jane of Lantern Hill|L. M. Montgomery": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/14640685-M.jpg"
+    },
+    "Journey Into Darkness: New Orleans Ghosts And Vampires|Unknown": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "Journey To Stonehenge|Fred Graver": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/6629137-M.jpg"
+    },
+    "Journey to the Year 3000|Edward Packard": {
+      "isbn": "9780553261578",
+      "coverURL": "https://covers.openlibrary.org/b/id/12691207-M.jpg"
+    },
+    "Journey Under the Sea|R. A. Montgomery": {
+      "isbn": "9781432877996",
+      "coverURL": "https://covers.openlibrary.org/b/id/3062257-M.jpg"
+    },
+    "Jules Verne Collected Novels|Jules Verne": {
+      "isbn": "9780890097991",
+      "coverURL": ""
+    },
+    "Jungle Beasts Pop-up|Sally Hewitt": {
+      "isbn": "9780810942615",
+      "coverURL": ""
+    },
+    "Jungle Colors|Nancy Parent": {
+      "isbn": "9781416907978",
+      "coverURL": "https://covers.openlibrary.org/b/id/6520543-M.jpg"
+    },
+    "Jurassic Park : [novel]|Michael Crichton": {
+      "isbn": "9780345370778",
+      "coverURL": "https://covers.openlibrary.org/b/id/12008002-M.jpg"
+    },
+    "Just as Long as We're Together|Judy Blume": {
+      "isbn": "9780307817778",
+      "coverURL": "https://covers.openlibrary.org/b/id/6522350-M.jpg"
+    },
+    "Just Listen|Sarah Dessen": {
+      "isbn": "9780670061051",
+      "coverURL": "https://covers.openlibrary.org/b/id/14847666-M.jpg"
+    },
+    "Katy No-Pocket|Emmy Payne": {
+      "isbn": "9780547562469",
+      "coverURL": "https://covers.openlibrary.org/b/id/255437-M.jpg"
+    },
+    "Keeping the Moon|Sarah Dessen": {
+      "isbn": "9781101042700",
+      "coverURL": "https://covers.openlibrary.org/b/id/6419437-M.jpg"
+    },
+    "Killer Virus|R. A. Montgomery": {
+      "isbn": "9780553567533",
+      "coverURL": "https://covers.openlibrary.org/b/id/372137-M.jpg"
+    },
+    "King Tuts Gameboard|Ellerby": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "Kingdom Come|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9781414341354",
+      "coverURL": "https://covers.openlibrary.org/b/id/7073342-M.jpg"
+    },
+    "KL Auschwitz Seen by the SS|Jadwiga Bezwi\u0144ska": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/13501808-M.jpg"
+    },
+    "Krakatoa|Simon Winchester": {
+      "isbn": "9780141926230",
+      "coverURL": "https://covers.openlibrary.org/b/id/37675-M.jpg"
+    },
+    "Kristy and the Mother's Day Surprise (The Baby-Sitters Club #24)|Ann M. Martin": {
+      "isbn": "9780545630689",
+      "coverURL": ""
+    },
+    "Kristy and the Snobs|Ann Matthews Martin": {
+      "isbn": "9780833519900",
+      "coverURL": "https://covers.openlibrary.org/b/id/9052326-M.jpg"
+    },
+    "Kristy and the Walking Disaster: Classic Edition (The Baby-Sitters Club #20)|Ann M. Martin": {
+      "isbn": "9780545535175",
+      "coverURL": ""
+    },
+    "Kristy's Big Day|Ann M. Martin": {
+      "isbn": "9780545262101",
+      "coverURL": "https://covers.openlibrary.org/b/id/11550071-M.jpg"
+    },
+    "Kristy's Great Idea|Ann M. Martin": {
+      "isbn": "9781663604989",
+      "coverURL": "https://covers.openlibrary.org/b/id/6696793-M.jpg"
+    },
+    "Lamb|Christopher Moore": {
+      "isbn": "9780380813810",
+      "coverURL": "https://covers.openlibrary.org/b/id/237227-M.jpg"
+    },
+    "Laura|Donald Zochert": {
+      "isbn": "9780380016365",
+      "coverURL": "https://covers.openlibrary.org/b/id/234743-M.jpg"
+    },
+    "Laura's Luck|Marilyn Sachs": {
+      "isbn": "9780590410731",
+      "coverURL": "https://covers.openlibrary.org/b/id/9943611-M.jpg"
+    },
+    "Left Behind|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9781414334905",
+      "coverURL": "https://covers.openlibrary.org/b/id/7467523-M.jpg"
+    },
+    "Legendary|Stephanie Garber": {
+      "isbn": "9781250095329",
+      "coverURL": "https://covers.openlibrary.org/b/id/8739046-M.jpg"
+    },
+    "Liberation 1945|United States Holocaust Memorial Museum": {
+      "isbn": "9780896047013",
+      "coverURL": "https://covers.openlibrary.org/b/id/4767686-M.jpg"
+    },
+    "LIFE Titanic|The Editors of LIFE": {
+      "isbn": "9781547841721",
+      "coverURL": ""
+    },
+    "Life, the Universe and Everything|Douglas Adams": {
+      "isbn": "9780345391827",
+      "coverURL": "https://covers.openlibrary.org/b/id/8569246-M.jpg"
+    },
+    "Liftoff|Michael Collins": {
+      "isbn": "9781854100276",
+      "coverURL": "https://covers.openlibrary.org/b/id/10558798-M.jpg"
+    },
+    "Lighthouse at the End of the World|Jules Verne": {
+      "isbn": "9780803209558",
+      "coverURL": "https://covers.openlibrary.org/b/id/3360825-M.jpg"
+    },
+    "Little Fires Everywhere: Reese's Book Club|Celeste Ng": {
+      "isbn": "9780735224315",
+      "coverURL": "https://covers.openlibrary.org/b/id/8577805-M.jpg"
+    },
+    "Little House in the Big Woods|Laura Ingalls Wilder": {
+      "isbn": "9781417701469",
+      "coverURL": "https://covers.openlibrary.org/b/id/28677-M.jpg"
+    },
+    "Little House on Rocky Ridge|Roger Lea MacBride": {
+      "isbn": "9780061148095",
+      "coverURL": "https://covers.openlibrary.org/b/id/6686153-M.jpg"
+    },
+    "Little House on the Prairie|Laura Ingalls Wilder": {
+      "isbn": "9780062094889",
+      "coverURL": "https://covers.openlibrary.org/b/id/11277564-M.jpg"
+    },
+    "Little Miss Stoneybrook...and Dawn: Classic Edition (The Baby-Sitters Club #15)|Ann M. Martin": {
+      "isbn": "9780545533904",
+      "coverURL": ""
+    },
+    "Little Town on the Prairie|Laura Ingalls Wilder": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/49861-M.jpg"
+    },
+    "Little Women|Louisa May Alcott": {
+      "isbn": "9781877527937",
+      "coverURL": "https://covers.openlibrary.org/b/id/-1-M.jpg"
+    },
+    "Local Woman Missing|Mary Kubica": {
+      "isbn": "9780778311669",
+      "coverURL": "https://covers.openlibrary.org/b/id/10922323-M.jpg"
+    },
+    "Logan Likes Mary Anne!|Ann M. Martin": {
+      "isbn": "9780590411240",
+      "coverURL": "https://covers.openlibrary.org/b/id/11544059-M.jpg"
+    },
+    "Longhorn Territory|Marc Newman": {
+      "isbn": "9780553269048",
+      "coverURL": "https://covers.openlibrary.org/b/id/9516716-M.jpg"
+    },
+    "Lord of the Flies|William Golding": {
+      "isbn": "9780399501487",
+      "coverURL": "https://covers.openlibrary.org/b/id/8231827-M.jpg"
+    },
+    "Lost on the Amazon|R. A. Montgomery": {
+      "isbn": "9781933390093",
+      "coverURL": "https://covers.openlibrary.org/b/id/11414417-M.jpg"
+    },
+    "Louis Braille|Margaret Davidson,Janet Compere,Mike Dooling": {
+      "isbn": "9780812498226",
+      "coverURL": ""
+    },
+    "Lyra's Oxford|Philip Pullman": {
+      "isbn": "9781409014096",
+      "coverURL": "https://covers.openlibrary.org/b/id/1189265-M.jpg"
+    },
+    "Madeline|Ludwig Bemelmans": {
+      "isbn": "9780670445806",
+      "coverURL": "https://covers.openlibrary.org/b/id/10206219-M.jpg"
+    },
+    "Magic for Marigold|L. M. Montgomery": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/14640668-M.jpg"
+    },
+    "Magyk|Angie Sage": {
+      "isbn": "9781408814932",
+      "coverURL": "https://covers.openlibrary.org/b/id/8762579-M.jpg"
+    },
+    "Making Waves|Carolyn Keene": {
+      "isbn": "9781481438599",
+      "coverURL": "https://covers.openlibrary.org/b/id/13096961-M.jpg"
+    },
+    "Mallory and the Mystery Diary|Ann M. Martin": {
+      "isbn": "9780836812503",
+      "coverURL": "https://covers.openlibrary.org/b/id/1578439-M.jpg"
+    },
+    "Many Waters|Madeleine L'Engle": {
+      "isbn": "9781429994361",
+      "coverURL": "https://covers.openlibrary.org/b/id/6536498-M.jpg"
+    },
+    "Mary Anne and the Search for Tigger (The Baby-Sitters Club #25)|Ann M. Martin": {
+      "isbn": "9780545630702",
+      "coverURL": ""
+    },
+    "Mary Anne Saves the Day|Ann M. Martin": {
+      "isbn": "9780702306297",
+      "coverURL": "https://covers.openlibrary.org/b/id/383285-M.jpg"
+    },
+    "Master of Aikido|Richard Brightfield,Edward Packard": {
+      "isbn": "9780553566260",
+      "coverURL": "https://covers.openlibrary.org/b/id/6664070-M.jpg"
+    },
+    "Master of Kung Fu|Richard Brightfield,Rick Brightfield": {
+      "isbn": "9780836813098",
+      "coverURL": "https://covers.openlibrary.org/b/id/636741-M.jpg"
+    },
+    "Masters of the Air|Donald L. Miller": {
+      "isbn": "9780743235457",
+      "coverURL": "https://covers.openlibrary.org/b/id/1384480-M.jpg"
+    },
+    "Mayday|Edward Packard": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/10264342-M.jpg"
+    },
+    "Meet the Austins|Madeleine L'Engle": {
+      "isbn": "9781466814141",
+      "coverURL": "https://covers.openlibrary.org/b/id/223973-M.jpg"
+    },
+    "Merry Christmas, Big Hungry Bear!|Audrey Wood": {
+      "isbn": "9780439708203",
+      "coverURL": "https://covers.openlibrary.org/b/id/10622713-M.jpg"
+    },
+    "Michigan Haunts and Hauntings|Marion Kuclo": {
+      "isbn": "9781882376001",
+      "coverURL": "https://covers.openlibrary.org/b/id/928434-M.jpg"
+    },
+    "Midnight over Sanctaphrax|Paul Stewart,Chris Riddell,STEWART, PAUL, RIDDELL, CHRIS": {
+      "isbn": "9780385750721",
+      "coverURL": "https://covers.openlibrary.org/b/id/244432-M.jpg"
+    },
+    "Miracle, and Other Christmas Stories|Connie Willis": {
+      "isbn": "9780553111118",
+      "coverURL": "https://covers.openlibrary.org/b/id/6697048-M.jpg"
+    },
+    "Mitch and Amy|Beverly Cleary": {
+      "isbn": "9780061972263",
+      "coverURL": "https://covers.openlibrary.org/b/id/12868330-M.jpg"
+    },
+    "Mixed Signals|Carolyn Keene": {
+      "isbn": "9780671851392",
+      "coverURL": "https://covers.openlibrary.org/b/id/15145916-M.jpg"
+    },
+    "Moby Dick|Herman Melville": {
+      "isbn": "9780812541564",
+      "coverURL": "https://covers.openlibrary.org/b/id/2647790-M.jpg"
+    },
+    "Mockingjay|Suzanne Collins": {
+      "isbn": "9780439023511",
+      "coverURL": "https://covers.openlibrary.org/b/id/12646459-M.jpg"
+    },
+    "Monsters of Men : Chaos Walking|Patrick Ness": {
+      "isbn": "9780763656652",
+      "coverURL": "https://covers.openlibrary.org/b/id/8536140-M.jpg"
+    },
+    "Moon Quest|Anson Montgomery": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/372066-M.jpg"
+    },
+    "Most Likely to Die|Carolyn Keene": {
+      "isbn": "9781481423991",
+      "coverURL": "https://covers.openlibrary.org/b/id/15142064-M.jpg"
+    },
+    "Mostly Harmless|Douglas Adams": {
+      "isbn": "9780345379337",
+      "coverURL": "https://covers.openlibrary.org/b/id/6879044-M.jpg"
+    },
+    "Mother Goose Nursery Rhymes|Jan Lewis,Sarah Smith": {
+      "isbn": "9781902272399",
+      "coverURL": "https://covers.openlibrary.org/b/id/10591584-M.jpg"
+    },
+    "Mount Rushmore|Unknown": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "Mountain Biker|Edward Packard": {
+      "isbn": "9780553566253",
+      "coverURL": "https://covers.openlibrary.org/b/id/372067-M.jpg"
+    },
+    "Mountain Survival|Edward Packard": {
+      "isbn": "9780553238686",
+      "coverURL": "https://covers.openlibrary.org/b/id/368604-M.jpg"
+    },
+    "Mr. Brown Can Moo! Can You?|Dr. Seuss": {
+      "isbn": "9780394806228",
+      "coverURL": "https://covers.openlibrary.org/b/id/254603-M.jpg"
+    },
+    "Murder on Ice|Carolyn Keene": {
+      "isbn": "9781481414470",
+      "coverURL": "https://covers.openlibrary.org/b/id/15146225-M.jpg"
+    },
+    "Mutiny In Space|R. A. Montgomery": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "My Deadly Valentine|Carolyn Keene": {
+      "isbn": "9780606059459",
+      "coverURL": "https://covers.openlibrary.org/b/id/15144925-M.jpg"
+    },
+    "My Life with the Walter Boys|Ali Novak": {
+      "isbn": "9781402297878",
+      "coverURL": "https://covers.openlibrary.org/b/id/10346801-M.jpg"
+    },
+    "My Most Excellent Year|Steve Kluger": {
+      "isbn": "9780803732278",
+      "coverURL": "https://covers.openlibrary.org/b/id/12366041-M.jpg"
+    },
+    "My Plain Jane|Cynthia Hand,Brodi Ashton,Jodi Meadows": {
+      "isbn": "9780062652782",
+      "coverURL": "https://covers.openlibrary.org/b/id/12194910-M.jpg"
+    },
+    "Mystery of the Maya|R. A. Montgomery": {
+      "isbn": "9780553146004",
+      "coverURL": "https://covers.openlibrary.org/b/id/8870229-M.jpg"
+    },
+    "Mystery Of The Sacred Stones|Louise Munro Foley": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/12683240-M.jpg"
+    },
+    "NASA Archives|Piers Bizony": {
+      "isbn": "9783836588089",
+      "coverURL": "https://covers.openlibrary.org/b/id/14342122-M.jpg"
+    },
+    "Neanderthal Opens the Door to the Universe|Preston Norton": {
+      "isbn": "9781484798683",
+      "coverURL": "https://covers.openlibrary.org/b/id/8796870-M.jpg"
+    },
+    "Neverworld Wake|Marisha Pessl": {
+      "isbn": "9780399553943",
+      "coverURL": "https://covers.openlibrary.org/b/id/10243110-M.jpg"
+    },
+    "New Moon|Stephenie Meyer": {
+      "isbn": "9780316007726",
+      "coverURL": "https://covers.openlibrary.org/b/id/6397603-M.jpg"
+    },
+    "New Orleans Ghosts|Victor C. Klein": {
+      "isbn": "9780966181227",
+      "coverURL": "https://covers.openlibrary.org/b/id/8335859-M.jpg"
+    },
+    "New York, New York! (The Baby-Sitters Club: Super Special #6)|Ann M. Martin": {
+      "isbn": "9780545630863",
+      "coverURL": ""
+    },
+    "Next|Michael Crichton": {
+      "isbn": "9780060872984",
+      "coverURL": "https://covers.openlibrary.org/b/id/12007805-M.jpg"
+    },
+    "Nicholas Nickleby|Charles Dickens": {
+      "isbn": "9780679423072",
+      "coverURL": "https://covers.openlibrary.org/b/id/417757-M.jpg"
+    },
+    "Nick and Norah's Infinite Playlist|Rachel Cohn,David Levithan": {
+      "isbn": "9780375835315",
+      "coverURL": "https://covers.openlibrary.org/b/id/234208-M.jpg"
+    },
+    "Nicolae|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9781414341224",
+      "coverURL": "https://covers.openlibrary.org/b/id/1471191-M.jpg"
+    },
+    "Nightmares & Dreamscapes|Stephen King": {
+      "isbn": "9780670851089",
+      "coverURL": "https://covers.openlibrary.org/b/id/14651258-M.jpg"
+    },
+    "Ninja Avenger|Jay Leibold": {
+      "isbn": "9780553567502",
+      "coverURL": "https://covers.openlibrary.org/b/id/14363027-M.jpg"
+    },
+    "No Laughing Matter|Carolyn Keene": {
+      "isbn": "9781481438544",
+      "coverURL": "https://covers.openlibrary.org/b/id/407886-M.jpg"
+    },
+    "No Roses for Harry!|Gene Zion": {
+      "isbn": "0590759477",
+      "coverURL": "https://covers.openlibrary.org/b/id/50748-M.jpg"
+    },
+    "Nothing's Fair in Fifth Grade|Barthe DeClements": {
+      "isbn": "9781101077665",
+      "coverURL": "https://covers.openlibrary.org/b/id/6397397-M.jpg"
+    },
+    "Oddballs|William Sleator": {
+      "isbn": "9780140374384",
+      "coverURL": "https://covers.openlibrary.org/b/id/102388-M.jpg"
+    },
+    "Oh, Say Can You Say?|Dr. Seuss": {
+      "isbn": "9780394842554",
+      "coverURL": "https://covers.openlibrary.org/b/id/255237-M.jpg"
+    },
+    "Old Possum's Book of Practical Cats|Thomas Stearns Eliot": {
+      "isbn": "9780156685702",
+      "coverURL": "https://covers.openlibrary.org/b/id/116408-M.jpg"
+    },
+    "Ollie|Olivier Dunrea": {
+      "isbn": "9780618339280",
+      "coverURL": "https://covers.openlibrary.org/b/id/394187-M.jpg"
+    },
+    "Ollie the Stomper|Olivier Dunrea": {
+      "isbn": "9780618339303",
+      "coverURL": "https://covers.openlibrary.org/b/id/394188-M.jpg"
+    },
+    "On the Banks of Plum Creek|Laura Ingalls Wilder": {
+      "isbn": "9780060885403",
+      "coverURL": "https://covers.openlibrary.org/b/id/39050-M.jpg"
+    },
+    "On the Way to the Wedding|Julia Quinn": {
+      "isbn": "9780062353818",
+      "coverURL": "https://covers.openlibrary.org/b/id/10645733-M.jpg"
+    },
+    "One Fish Two Fish Red Fish Blue Fish|Dr. Seuss": {
+      "isbn": "9780394800134",
+      "coverURL": "https://covers.openlibrary.org/b/id/7363356-M.jpg"
+    },
+    "One Plus One|Jojo Moyes": {
+      "isbn": "9780143127505",
+      "coverURL": "https://covers.openlibrary.org/b/id/14656944-M.jpg"
+    },
+    "One Rainy Day|M. Christina Butler": {
+      "isbn": "9780545157193",
+      "coverURL": "https://covers.openlibrary.org/b/id/10793118-M.jpg"
+    },
+    "Otherwise Known as Sheila the Great|Judy Blume": {
+      "isbn": "9781101564080",
+      "coverURL": "https://covers.openlibrary.org/b/id/10830248-M.jpg"
+    },
+    "Out of Bounds|Carolyn Keene": {
+      "isbn": "9781481428026",
+      "coverURL": "https://covers.openlibrary.org/b/id/15149187-M.jpg"
+    },
+    "Over Sea, Under Stone|Susan Cooper": {
+      "isbn": "9781442458956",
+      "coverURL": "https://covers.openlibrary.org/b/id/8598500-M.jpg"
+    },
+    "Paper towns|John Green": {
+      "isbn": "9780525478188",
+      "coverURL": "https://covers.openlibrary.org/b/id/12713482-M.jpg"
+    },
+    "Paris in the Twentieth Century|Jules Verne": {
+      "isbn": "9780679444343",
+      "coverURL": "https://covers.openlibrary.org/b/id/418493-M.jpg"
+    },
+    "Passage|Connie Willis": {
+      "isbn": "9780553580518",
+      "coverURL": "https://covers.openlibrary.org/b/id/6930333-M.jpg"
+    },
+    "Passenger|Andrew Smith": {
+      "isbn": "9781250004871",
+      "coverURL": "https://covers.openlibrary.org/b/id/7956874-M.jpg"
+    },
+    "Pat of Silver Bush|L. M. Montgomery": {
+      "isbn": "9781473373990",
+      "coverURL": "https://covers.openlibrary.org/b/id/14637566-M.jpg"
+    },
+    "People We Meet on Vacation|Emily Henry": {
+      "isbn": "9781984806758",
+      "coverURL": "https://covers.openlibrary.org/b/id/10476782-M.jpg"
+    },
+    "Physik|Angie Sage": {
+      "isbn": "9781408814918",
+      "coverURL": "https://covers.openlibrary.org/b/id/10796159-M.jpg"
+    },
+    "Pippi Longstocking|Astrid Lindgren": {
+      "isbn": "9780192752048",
+      "coverURL": "https://covers.openlibrary.org/b/id/11452388-M.jpg"
+    },
+    "Pirate Latitudes|Michael Crichton": {
+      "isbn": "9780061929373",
+      "coverURL": "https://covers.openlibrary.org/b/id/9281405-M.jpg"
+    },
+    "Planet of the Dragons|Richard Brightfield,Rick Brightfield": {
+      "isbn": "9780553268874",
+      "coverURL": "https://covers.openlibrary.org/b/id/6856307-M.jpg"
+    },
+    "Playing with Fire|Carolyn Keene": {
+      "isbn": "9781481423984",
+      "coverURL": "https://covers.openlibrary.org/b/id/15141276-M.jpg"
+    },
+    "Pollyanna|Eleanor H. Porter": {
+      "isbn": "9780590447690",
+      "coverURL": "https://covers.openlibrary.org/b/id/902113-M.jpg"
+    },
+    "Possessed!|R. A. Montgomery": {
+      "isbn": "9780553567236",
+      "coverURL": "https://covers.openlibrary.org/b/id/8870296-M.jpg"
+    },
+    "Posted|John David Anderson": {
+      "isbn": "9780062338211",
+      "coverURL": "https://covers.openlibrary.org/b/id/8814792-M.jpg"
+    },
+    "Power of Suggestion|Carolyn Keene": {
+      "isbn": "9781481438575",
+      "coverURL": "https://covers.openlibrary.org/b/id/15141315-M.jpg"
+    },
+    "Prairie Fires|Caroline Fraser": {
+      "isbn": "9781250182487",
+      "coverURL": "https://covers.openlibrary.org/b/id/8836978-M.jpg"
+    },
+    "Prelude to Space|Arthur C. Clarke": {
+      "isbn": "9798890261380",
+      "coverURL": "https://covers.openlibrary.org/b/id/207371-M.jpg"
+    },
+    "Prey|Michael Crichton": {
+      "isbn": "9780066214122",
+      "coverURL": "https://covers.openlibrary.org/b/id/12007860-M.jpg"
+    },
+    "Prince Caspian (adult)|C. S. Lewis": {
+      "isbn": "9780060764920",
+      "coverURL": "https://covers.openlibrary.org/b/id/10204220-M.jpg"
+    },
+    "Prisoner of the Ant People|R. A. Montgomery": {
+      "isbn": "9781865049328",
+      "coverURL": "https://covers.openlibrary.org/b/id/8870239-M.jpg"
+    },
+    "Pure Poison|Carolyn Keene": {
+      "isbn": "9781481424011",
+      "coverURL": "https://covers.openlibrary.org/b/id/13073047-M.jpg"
+    },
+    "Queen of Shadows|Sarah J. Maas": {
+      "isbn": "9781639731015",
+      "coverURL": "https://covers.openlibrary.org/b/id/14819403-M.jpg"
+    },
+    "Queste|Angie Sage": {
+      "isbn": "9781408814901",
+      "coverURL": "https://covers.openlibrary.org/b/id/8537049-M.jpg"
+    },
+    "Quicksilver (Standard Edition)|Callie Hart": {
+      "isbn": "9781538775790",
+      "coverURL": ""
+    },
+    "Quidditch Through the Ages|J.K. Rowling,Kennilworthy Whisp": {
+      "isbn": "9781781106747",
+      "coverURL": "https://covers.openlibrary.org/b/id/8273320-M.jpg"
+    },
+    "Rainbow Valley|L. M. Montgomery": {
+      "isbn": "9781465527592",
+      "coverURL": "https://covers.openlibrary.org/b/id/14641168-M.jpg"
+    },
+    "Rama II|Arthur C. Clarke": {
+      "isbn": "9780553286588",
+      "coverURL": "https://covers.openlibrary.org/b/id/369123-M.jpg"
+    },
+    "Rama Revealed|Arthur C. Clarke": {
+      "isbn": "9780553569476",
+      "coverURL": "https://covers.openlibrary.org/b/id/6824595-M.jpg"
+    },
+    "Ramona and Her Father|Beverly Cleary": {
+      "isbn": "9780192751034",
+      "coverURL": "https://covers.openlibrary.org/b/id/15031484-M.jpg"
+    },
+    "Ramona and Her Mother|Beverly Cleary": {
+      "isbn": "9780192751041",
+      "coverURL": "https://covers.openlibrary.org/b/id/117394-M.jpg"
+    },
+    "Ramona Quimby, Age 8|Beverly Cleary": {
+      "isbn": "9780688004774",
+      "coverURL": "https://covers.openlibrary.org/b/id/9258713-M.jpg"
+    },
+    "Ramona the Brave|Beverly Cleary": {
+      "isbn": "9780192751072",
+      "coverURL": "https://covers.openlibrary.org/b/id/14959294-M.jpg"
+    },
+    "Ramona the Pest|Beverly Cleary": {
+      "isbn": "9780061972362",
+      "coverURL": "https://covers.openlibrary.org/b/id/12869819-M.jpg"
+    },
+    "Ramona's World|Beverly Cleary": {
+      "isbn": "9780192750860",
+      "coverURL": "https://covers.openlibrary.org/b/id/14959314-M.jpg"
+    },
+    "Read to Me Grandma|Caroline Repchuk,Georgie Birkett": {
+      "isbn": "9780760734476",
+      "coverURL": "https://covers.openlibrary.org/b/id/12689346-M.jpg"
+    },
+    "Ready Player One|Ernest Cline": {
+      "isbn": "9780307887443",
+      "coverURL": "https://covers.openlibrary.org/b/id/8185004-M.jpg"
+    },
+    "Ready Player Two|Ernest Cline": {
+      "isbn": "9781524761349",
+      "coverURL": "https://covers.openlibrary.org/b/id/12361516-M.jpg"
+    },
+    "Rebecca of Sunnybrook Farm|Kate Douglas Wiggin": {
+      "isbn": "9781442905986",
+      "coverURL": "https://covers.openlibrary.org/b/id/10863873-M.jpg"
+    },
+    "Red Dragon|Thomas Harris": {
+      "isbn": "0440206154",
+      "coverURL": "https://covers.openlibrary.org/b/id/9330546-M.jpg"
+    },
+    "Red Rising|Pierce Brown": {
+      "isbn": "9780345539809",
+      "coverURL": "https://covers.openlibrary.org/b/id/8185003-M.jpg"
+    },
+    "Remember Me to Harold Square|Paula Danziger": {
+      "isbn": "9780385296106",
+      "coverURL": "https://covers.openlibrary.org/b/id/10239251-M.jpg"
+    },
+    "Rendezvous With Rama|Arthur Charles Clarke": {
+      "isbn": "9780553287899",
+      "coverURL": "https://covers.openlibrary.org/b/id/9905165-M.jpg"
+    },
+    "Renegades|Marissa Meyer": {
+      "isbn": "9781250044662",
+      "coverURL": "https://covers.openlibrary.org/b/id/9399502-M.jpg"
+    },
+    "Return to Atlantis|R. A. Montgomery": {
+      "isbn": "9781933390185",
+      "coverURL": "https://covers.openlibrary.org/b/id/12489267-M.jpg"
+    },
+    "Return to the Cave of Time|Edward Packard": {
+      "isbn": "9781442452831",
+      "coverURL": "https://covers.openlibrary.org/b/id/6631564-M.jpg"
+    },
+    "Rich and Dangerous|Carolyn Keene": {
+      "isbn": "9781481423977",
+      "coverURL": "https://covers.openlibrary.org/b/id/15146248-M.jpg"
+    },
+    "Richard Scarry's Animal Nursery Tales|Richard Scarry": {
+      "isbn": "9780307168108",
+      "coverURL": ""
+    },
+    "Richard Scarry's Best Word Book Ever|Richard Scarry": {
+      "isbn": "9780307155108",
+      "coverURL": "https://covers.openlibrary.org/b/id/6983309-M.jpg"
+    },
+    "Richard Scarry's Cars and Trucks and Things That Go|Richard Scarry": {
+      "isbn": "9780307157850",
+      "coverURL": "https://covers.openlibrary.org/b/id/6730081-M.jpg"
+    },
+    "Richard Scarry's Great Big Schoolhouse|Richard Scarry": {
+      "isbn": "9780394808741",
+      "coverURL": "https://covers.openlibrary.org/b/id/9379035-M.jpg"
+    },
+    "Richter Ten|Arthur Charles Clarke,Mike McQuay": {
+      "isbn": "9780553097085",
+      "coverURL": "https://covers.openlibrary.org/b/id/4672308-M.jpg"
+    },
+    "Rilla of Ingleside|L. M. Montgomery": {
+      "isbn": "9781534891548",
+      "coverURL": "https://covers.openlibrary.org/b/id/14638068-M.jpg"
+    },
+    "Rise And Fall Of The Third Reich|William L. Shirer": {
+      "isbn": "9780671728687",
+      "coverURL": "https://covers.openlibrary.org/b/id/9351817-M.jpg"
+    },
+    "River of No Return|Vince Lahey,Edward Packard": {
+      "isbn": "9780553567557",
+      "coverURL": "https://covers.openlibrary.org/b/id/372138-M.jpg"
+    },
+    "Robert Frost's poems|Robert Frost": {
+      "isbn": "0671496174",
+      "coverURL": "https://covers.openlibrary.org/b/id/6558699-M.jpg"
+    },
+    "Robin of Sherwood|Richard Carpenter,Elliot Thorpe,Jennifer Ash": {
+      "isbn": "9781913256623",
+      "coverURL": ""
+    },
+    "Romancing Mister Bridgerton|Julia Quinn": {
+      "isbn": "9780063141247",
+      "coverURL": "https://covers.openlibrary.org/b/id/14656673-M.jpg"
+    },
+    "Romeo and Juliet|William Shakespeare": {
+      "isbn": "9781108621502",
+      "coverURL": "https://covers.openlibrary.org/b/id/8257991-M.jpg"
+    },
+    "Room for a Little One|Martin Waddell": {
+      "isbn": "9781416925187",
+      "coverURL": "https://covers.openlibrary.org/b/id/761469-M.jpg"
+    },
+    "Roughing It|Mark Twain": {
+      "isbn": "9783736802261",
+      "coverURL": "https://covers.openlibrary.org/b/id/9165528-M.jpg"
+    },
+    "Sabotage|Jay Leibold": {
+      "isbn": "9780553245257",
+      "coverURL": "https://covers.openlibrary.org/b/id/12664876-M.jpg"
+    },
+    "Sabriel|Garth Nix": {
+      "isbn": "9780061975134",
+      "coverURL": "https://covers.openlibrary.org/b/id/13165306-M.jpg"
+    },
+    "Saint Anything|Sarah Dessen": {
+      "isbn": "9780147516039",
+      "coverURL": "https://covers.openlibrary.org/b/id/8185000-M.jpg"
+    },
+    "Santa Knows|Cynthia Leitich Smith,Greg Leitich Smith": {
+      "isbn": "9780545053877",
+      "coverURL": ""
+    },
+    "Santa Mouse|Michael Brown": {
+      "isbn": "9781534437937",
+      "coverURL": "https://covers.openlibrary.org/b/id/12098280-M.jpg"
+    },
+    "Sarah Bishop|Scott O'Dell": {
+      "isbn": "9780590446518",
+      "coverURL": "https://covers.openlibrary.org/b/id/383985-M.jpg"
+    },
+    "Scarlet|Marissa Meyer": {
+      "isbn": "9780312642969",
+      "coverURL": "https://covers.openlibrary.org/b/id/7787449-M.jpg"
+    },
+    "Science was Wrong|Stanton T. Friedman,Kathleen Marden": {
+      "isbn": "9781601631022",
+      "coverURL": "https://covers.openlibrary.org/b/id/13253870-M.jpg"
+    },
+    "Sea City, Here We Come! (The Baby-Sitters Club: Super Special #10)|Ann M. Martin": {
+      "isbn": "9780545633222",
+      "coverURL": ""
+    },
+    "Search for the Mountain Gorillas|Jim Wallace": {
+      "isbn": "9781933390253",
+      "coverURL": "https://covers.openlibrary.org/b/id/3062255-M.jpg"
+    },
+    "Search The Amazon|Doug Wilhelm": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/12687113-M.jpg"
+    },
+    "Second Foundation|Isaac Asimov": {
+      "isbn": "9780553293364",
+      "coverURL": "https://covers.openlibrary.org/b/id/9637517-M.jpg"
+    },
+    "Secret of the Dolphins|Edward Packard": {
+      "isbn": "9780553293005",
+      "coverURL": "https://covers.openlibrary.org/b/id/11321839-M.jpg"
+    },
+    "Secret of the Ninja|Jay Leibold": {
+      "isbn": "9781933390673",
+      "coverURL": "https://covers.openlibrary.org/b/id/8516172-M.jpg"
+    },
+    "Secret of the Pyramids|Richard Brightfield": {
+      "isbn": "9780553232950",
+      "coverURL": "https://covers.openlibrary.org/b/id/13466660-M.jpg"
+    },
+    "Secrets Can Kill|Carolyn Keene": {
+      "isbn": "9781481414456",
+      "coverURL": "https://covers.openlibrary.org/b/id/15145959-M.jpg"
+    },
+    "Seven Husbands of Evelyn Hugo|Taylor Jenkins Reid": {
+      "isbn": "9781501161933",
+      "coverURL": "https://covers.openlibrary.org/b/id/8354226-M.jpg"
+    },
+    "Shadow and Bone|Leigh Bardugo": {
+      "isbn": "9781250777881",
+      "coverURL": "https://covers.openlibrary.org/b/id/12856757-M.jpg"
+    },
+    "Shadow of a Doubt|Carolyn Keene": {
+      "isbn": "9780671716561",
+      "coverURL": "https://covers.openlibrary.org/b/id/6562085-M.jpg"
+    },
+    "Shadow of Night|Deborah Harkness": {
+      "isbn": "9780143123620",
+      "coverURL": "https://covers.openlibrary.org/b/id/12284245-M.jpg"
+    },
+    "Shadow of the Swastika|Doug Wilhelm": {
+      "isbn": "9780553566192",
+      "coverURL": "https://covers.openlibrary.org/b/id/13874213-M.jpg"
+    },
+    "Shakespeare's Sonnets|William Shakespeare": {
+      "isbn": "9781439117088",
+      "coverURL": "https://covers.openlibrary.org/b/id/2383682-M.jpg"
+    },
+    "Sharp Objects|Gillian Flynn": {
+      "isbn": "9780307341556",
+      "coverURL": "https://covers.openlibrary.org/b/id/14638448-M.jpg"
+    },
+    "Shoah|Claude Lanzmann": {
+      "isbn": "9780306806650",
+      "coverURL": "https://covers.openlibrary.org/b/id/164726-M.jpg"
+    },
+    "Shoeless Joe|W. P. Kinsella": {
+      "isbn": "9780395957738",
+      "coverURL": "https://covers.openlibrary.org/b/id/257898-M.jpg"
+    },
+    "Showdown|Shannon Gilligan": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/12687098-M.jpg"
+    },
+    "Silent Sister|Megan Davidhizar": {
+      "isbn": "9780593705650",
+      "coverURL": ""
+    },
+    "Silver on the Tree|Susan Cooper": {
+      "isbn": "9780689849183",
+      "coverURL": "https://covers.openlibrary.org/b/id/433452-M.jpg"
+    },
+    "Six of Crows|Leigh Bardugo": {
+      "isbn": "9781250076960",
+      "coverURL": "https://covers.openlibrary.org/b/id/8736828-M.jpg"
+    },
+    "Sixth Grade Can Really Kill You|Barthe DeClements": {
+      "isbn": "9780590437110",
+      "coverURL": "https://covers.openlibrary.org/b/id/6380696-M.jpg"
+    },
+    "Sixth Grade Secrets|Louis Sachar": {
+      "isbn": "9780812491739",
+      "coverURL": "https://covers.openlibrary.org/b/id/1316137-M.jpg"
+    },
+    "Sky Coyote (A Novel of the Company, Book 2)|Kage Baker": {
+      "isbn": "0380731800",
+      "coverURL": "https://covers.openlibrary.org/b/id/8750042-M.jpg"
+    },
+    "Sky-Jam!|Edward Packard": {
+      "isbn": "9780553566239",
+      "coverURL": "https://covers.openlibrary.org/b/id/4673593-M.jpg"
+    },
+    "Smoke Jumpers|R. A. Montgomery": {
+      "isbn": "9781933390291",
+      "coverURL": "https://covers.openlibrary.org/b/id/13156805-M.jpg"
+    },
+    "Snappy Little Dinosaurs|Dugald Steer": {
+      "isbn": "9780761314400",
+      "coverURL": "https://covers.openlibrary.org/b/id/1423791-M.jpg"
+    },
+    "Snappy Little Jungle|Dugald Steer": {
+      "isbn": "9780761315278",
+      "coverURL": "https://covers.openlibrary.org/b/id/1423834-M.jpg"
+    },
+    "Sneezy the Snowman|Maureen Wright": {
+      "isbn": "9780761457114",
+      "coverURL": "https://covers.openlibrary.org/b/id/9004334-M.jpg"
+    },
+    "Snowboard Racer|Anson Montgomery": {
+      "isbn": "9780553566208",
+      "coverURL": "https://covers.openlibrary.org/b/id/372065-M.jpg"
+    },
+    "Snowbound (The Baby-Sitters Club: Super Special #7)|Ann M. Martin": {
+      "isbn": "9780545632621",
+      "coverURL": ""
+    },
+    "Snowmen at Night|Caralyn Buehner": {
+      "isbn": "9780803730410",
+      "coverURL": "https://covers.openlibrary.org/b/id/575397-M.jpg"
+    },
+    "Someday Angeline|Louis Sachar": {
+      "isbn": "9780747587231",
+      "coverURL": "https://covers.openlibrary.org/b/id/10808205-M.jpg"
+    },
+    "Something Wicked This Way Comes|Ray Bradbury": {
+      "isbn": "9780380729401",
+      "coverURL": "https://covers.openlibrary.org/b/id/9345410-M.jpg"
+    },
+    "Son of a Witch|Gregory Maguire": {
+      "isbn": "9780060747220",
+      "coverURL": "https://covers.openlibrary.org/b/id/9776999-M.jpg"
+    },
+    "Soul Harvest|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9781414341231",
+      "coverURL": "https://covers.openlibrary.org/b/id/1471464-M.jpg"
+    },
+    "South Pole Sabotage|Seddon Johnson": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/12683247-M.jpg"
+    },
+    "Space and Beyond|R. A. Montgomery": {
+      "isbn": "9781933390031",
+      "coverURL": "https://covers.openlibrary.org/b/id/3062258-M.jpg"
+    },
+    "Space camp|Clark": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "Space Shuttle The First 20 Years|Unknown": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "Sphere|Michael Crichton": {
+      "isbn": "9780345353146",
+      "coverURL": "https://covers.openlibrary.org/b/id/12884213-M.jpg"
+    },
+    "Spy for George Washington|Jay Leibold": {
+      "isbn": "9780553251340",
+      "coverURL": "https://covers.openlibrary.org/b/id/12664902-M.jpg"
+    },
+    "Stacey's Mistake: Classic Edition (The Baby-Sitters Club #18)|Ann M. Martin": {
+      "isbn": "9780545535151",
+      "coverURL": ""
+    },
+    "Stampede|Laban Carrick Hill": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/12687293-M.jpg"
+    },
+    "Star Trek Alphabet Book (Star Trek)|Golden Books": {
+      "isbn": "9780593121870",
+      "coverURL": ""
+    },
+    "Stargirl|Jerry Spinelli": {
+      "isbn": "9780375822339",
+      "coverURL": "https://covers.openlibrary.org/b/id/14860101-M.jpg"
+    },
+    "Starring the Baby-Sitters Club! (The Baby-Sitters Club: Super Special #9)|Ann M. Martin": {
+      "isbn": "9780545633208",
+      "coverURL": ""
+    },
+    "Stars Above: A Lunar Chronicles Collection|Marissa Meyer": {
+      "isbn": "9781250091840",
+      "coverURL": "https://covers.openlibrary.org/b/id/7412689-M.jpg"
+    },
+    "Statue of Liberty Adventure|Ellen Kushner": {
+      "isbn": "9780553281767",
+      "coverURL": "https://covers.openlibrary.org/b/id/11015491-M.jpg"
+    },
+    "Stitch In Time|Elston": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/3057105-M.jpg"
+    },
+    "Stock Car Champion|R. A. Montgomery": {
+      "isbn": "9780553282948",
+      "coverURL": "https://covers.openlibrary.org/b/id/8870335-M.jpg"
+    },
+    "Stormchaser|Paul Stewart,Chris Riddell": {
+      "isbn": "9780385750707",
+      "coverURL": "https://covers.openlibrary.org/b/id/244430-M.jpg"
+    },
+    "Stranger Things: Heroes and Monsters (Choose Your Own Adventure)|Rana Tahir": {
+      "isbn": "9780593644744",
+      "coverURL": "https://covers.openlibrary.org/b/id/14144175-M.jpg"
+    },
+    "Stuart Little|E. B. White": {
+      "isbn": "9780062408211",
+      "coverURL": "https://covers.openlibrary.org/b/id/10522876-M.jpg"
+    },
+    "Such a Quiet Place|Megan Miranda": {
+      "isbn": "9781982147297",
+      "coverURL": "https://covers.openlibrary.org/b/id/10861715-M.jpg"
+    },
+    "Summer Falls and Other Stories|Amelia Williams,Justin Richards,Melody Malone": {
+      "isbn": "9781849907231",
+      "coverURL": "https://covers.openlibrary.org/b/id/14391524-M.jpg"
+    },
+    "Sunken Treasure|Edward Packard": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/8869440-M.jpg"
+    },
+    "Sunrise on the Reaping (a Hunger Games Novel)|Suzanne Collins": {
+      "isbn": "9781546171461",
+      "coverURL": "https://covers.openlibrary.org/b/id/14847912-M.jpg"
+    },
+    "Super Fly Guy|Tedd Arnold": {
+      "isbn": "9780439639040",
+      "coverURL": "https://covers.openlibrary.org/b/id/278779-M.jpg"
+    },
+    "Supercomputer|Edward Packard": {
+      "isbn": "9780553246780",
+      "coverURL": "https://covers.openlibrary.org/b/id/12664877-M.jpg"
+    },
+    "Superfolks|Robert Mayer": {
+      "isbn": "9780312339920",
+      "coverURL": "https://covers.openlibrary.org/b/id/180600-M.jpg"
+    },
+    "Superfudge|Judy Blume": {
+      "isbn": "9780142408803",
+      "coverURL": "https://covers.openlibrary.org/b/id/110528-M.jpg"
+    },
+    "Supernova|Marissa Meyer": {
+      "isbn": "9781250078384",
+      "coverURL": "https://covers.openlibrary.org/b/id/9083719-M.jpg"
+    },
+    "Swing!|Rufus Butler Seder": {
+      "isbn": "9780761151272",
+      "coverURL": ""
+    },
+    "Sycamore Row (HC)|John Grisham": {
+      "isbn": "9780385537131",
+      "coverURL": "https://covers.openlibrary.org/b/id/12452200-M.jpg"
+    },
+    "Syren|Angie Sage": {
+      "isbn": "9781408814895",
+      "coverURL": "https://covers.openlibrary.org/b/id/10185413-M.jpg"
+    },
+    "Tales & Poems ...|Edgar Allan Poe": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/11763627-M.jpg"
+    },
+    "Tales of a Fourth Grade Nothing|Judy Blume": {
+      "isbn": "9781101564073",
+      "coverURL": "https://covers.openlibrary.org/b/id/11793487-M.jpg"
+    },
+    "Tales of Time and Space|Ross R. Olney": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "Tattoo of Death|R. A. Montgomery,Jose Luis Marron": {
+      "isbn": "9781420703177",
+      "coverURL": ""
+    },
+    "Ten Kids, No Pets|Ann M. Martin": {
+      "isbn": "9780545593601",
+      "coverURL": "https://covers.openlibrary.org/b/id/6296645-M.jpg"
+    },
+    "Ten Little Monkeys Jumping on the Bed|Ann Love": {
+      "isbn": "9780859534505",
+      "coverURL": "https://covers.openlibrary.org/b/id/14812563-M.jpg"
+    },
+    "Ten Little Rabbits|Virginia Grossman": {
+      "isbn": "9780811810579",
+      "coverURL": "https://covers.openlibrary.org/b/id/599564-M.jpg"
+    },
+    "Ten Timid Ghosts|Jennifer O'Connell": {
+      "isbn": "9780439158046",
+      "coverURL": "https://covers.openlibrary.org/b/id/6598777-M.jpg"
+    },
+    "Tennyson\u2019s Poems|R. H. Winnick": {
+      "isbn": "9781783746644",
+      "coverURL": "https://covers.openlibrary.org/b/id/14639929-M.jpg"
+    },
+    "Terror in Australia|Shannon Gilligan": {
+      "isbn": "9780553272772",
+      "coverURL": "https://covers.openlibrary.org/b/id/12683243-M.jpg"
+    },
+    "Terror Island|Tony Koltz": {
+      "isbn": "9780553258851",
+      "coverURL": "https://covers.openlibrary.org/b/id/12687120-M.jpg"
+    },
+    "Terror on the Titanic|Jim Wallace,R. A. Montgomery": {
+      "isbn": "9780553486506",
+      "coverURL": "https://covers.openlibrary.org/b/id/6880827-M.jpg"
+    },
+    "Thanks for the Trouble|Tommy Wallach": {
+      "isbn": "9781481418812",
+      "coverURL": "https://covers.openlibrary.org/b/id/11852482-M.jpg"
+    },
+    "the 5th wave|Rick Yancey": {
+      "isbn": "9780142425831",
+      "coverURL": "https://covers.openlibrary.org/b/id/7393265-M.jpg"
+    },
+    "The 500 Hats of Bartholomew Cubbins|Dr. Seuss": {
+      "isbn": "9780394844848",
+      "coverURL": "https://covers.openlibrary.org/b/id/255241-M.jpg"
+    },
+    "The Adventures of Harold and the Purple Crayon (omnibus)|Crockett Johnson": {
+      "isbn": "9780060291297",
+      "coverURL": "https://covers.openlibrary.org/b/id/10543129-M.jpg"
+    },
+    "The Amazing and Death-Defying Diary of Eugene Dingman|Paul Zindel": {
+      "isbn": "9780833525130",
+      "coverURL": "https://covers.openlibrary.org/b/id/4966440-M.jpg"
+    },
+    "The Amazing Bubble Gum Caper|Jane O'Connor,Joyce Milton": {
+      "isbn": "9780590328937",
+      "coverURL": "https://covers.openlibrary.org/b/id/9502234-M.jpg"
+    },
+    "The Andromeda Strain|Michael Crichton": {
+      "isbn": "9780345378484",
+      "coverURL": "https://covers.openlibrary.org/b/id/10653129-M.jpg"
+    },
+    "The Appeal (HC)|John Grisham": {
+      "isbn": "9780385515047",
+      "coverURL": "https://covers.openlibrary.org/b/id/11412543-M.jpg"
+    },
+    "The Arm of the Starfish|Madeleine L'Engle": {
+      "isbn": "9781466814462",
+      "coverURL": "https://covers.openlibrary.org/b/id/6793472-M.jpg"
+    },
+    "The Ask and the Answer: Chaos Walking: Book Two|Patrick Ness": {
+      "isbn": "9780763648374",
+      "coverURL": "https://covers.openlibrary.org/b/id/6675177-M.jpg"
+    },
+    "The Assassin's Blade|Sarah J. Maas": {
+      "isbn": "9781639731091",
+      "coverURL": "https://covers.openlibrary.org/b/id/13837492-M.jpg"
+    },
+    "The Associate (HC)|John Grisham": {
+      "isbn": "9780385517836",
+      "coverURL": "https://covers.openlibrary.org/b/id/6804940-M.jpg"
+    },
+    "The Atlas Six|Olivie Blake": {
+      "isbn": "9781250854544",
+      "coverURL": "https://covers.openlibrary.org/b/id/15133388-M.jpg"
+    },
+    "The Babysitters Remember|Ann M. Martin": {
+      "isbn": "9780590559102",
+      "coverURL": "https://covers.openlibrary.org/b/id/11548076-M.jpg"
+    },
+    "The Ballad of Songbirds and Snakes|Suzanne Collins": {
+      "isbn": "9781338635171",
+      "coverURL": "https://covers.openlibrary.org/b/id/10242930-M.jpg"
+    },
+    "The Bears and the Great Big Storm; Originally Published As the Bears in the Bed and the Great Big Storm|Paul Bright": {
+      "isbn": "9780545204712",
+      "coverURL": ""
+    },
+    "The Best Christmas Pageant Ever|Barbara Robinson": {
+      "isbn": "9780573617454",
+      "coverURL": "https://covers.openlibrary.org/b/id/4679376-M.jpg"
+    },
+    "The Biggest Snowball Ever!|John Rogan": {
+      "isbn": "9780590638340",
+      "coverURL": "https://covers.openlibrary.org/b/id/6386229-M.jpg"
+    },
+    "The Black Widow|Carolyn Keene": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/6963794-M.jpg"
+    },
+    "The Bomber Mafia|Malcolm Gladwell": {
+      "isbn": "9780316296816",
+      "coverURL": "https://covers.openlibrary.org/b/id/12003582-M.jpg"
+    },
+    "The Book of Doors|Gareth Brown": {
+      "isbn": "9780063323988",
+      "coverURL": "https://covers.openlibrary.org/b/id/14573402-M.jpg"
+    },
+    "The Book of Life|Deborah Harkness": {
+      "isbn": "9780143127529",
+      "coverURL": "https://covers.openlibrary.org/b/id/8568029-M.jpg"
+    },
+    "The book of Luke|Jennifer O'Connell": {
+      "isbn": "9781416520405",
+      "coverURL": "https://covers.openlibrary.org/b/id/8112141-M.jpg"
+    },
+    "The Book Swap|Tessa Bickers": {
+      "isbn": "9780369751294",
+      "coverURL": "https://covers.openlibrary.org/b/id/14810054-M.jpg"
+    },
+    "The Brethren (HC)|John Grisham": {
+      "isbn": "9780385497466",
+      "coverURL": "https://covers.openlibrary.org/b/id/10666874-M.jpg"
+    },
+    "The Broker (hc)(pb)|John Grisham": {
+      "isbn": "9780385340540",
+      "coverURL": "https://covers.openlibrary.org/b/id/9323337-M.jpg"
+    },
+    "The Case of the Silk King|Shannon Gilligan": {
+      "isbn": "9781933390659",
+      "coverURL": "https://covers.openlibrary.org/b/id/3062270-M.jpg"
+    },
+    "The Cat in the Hat|Dr. Seuss": {
+      "isbn": "9780394800011",
+      "coverURL": "https://covers.openlibrary.org/b/id/14827224-M.jpg"
+    },
+    "The Cave of Time|Edward Packard": {
+      "isbn": "9780553269659",
+      "coverURL": "https://covers.openlibrary.org/b/id/4672785-M.jpg"
+    },
+    "The Cay|Theodore Taylor": {
+      "isbn": "9780440229124",
+      "coverURL": "https://covers.openlibrary.org/b/id/281275-M.jpg"
+    },
+    "The Chamber (HC)|John Grisham": {
+      "isbn": "9780385474405",
+      "coverURL": "https://covers.openlibrary.org/b/id/14419932-M.jpg"
+    },
+    "The Charlie Brown Dictionary|Charles M. Schulz": {
+      "isbn": "0529044633",
+      "coverURL": "https://covers.openlibrary.org/b/id/6472169-M.jpg"
+    },
+    "The Chocolate Touch|Patrick Skene Catling": {
+      "isbn": "9780062283610",
+      "coverURL": "https://covers.openlibrary.org/b/id/8434088-M.jpg"
+    },
+    "The City of Ember|Jeanne DuPrau": {
+      "isbn": "9780375822742",
+      "coverURL": "https://covers.openlibrary.org/b/id/15099839-M.jpg"
+    },
+    "The Client (HC)|John Grisham": {
+      "isbn": "9780385424714",
+      "coverURL": "https://covers.openlibrary.org/b/id/12617820-M.jpg"
+    },
+    "The Complete Fairy Tales of the Brothers Grimm|Jacob Grimm,Wilhelm Grimm": {
+      "isbn": "9780553371017",
+      "coverURL": "https://covers.openlibrary.org/b/id/369541-M.jpg"
+    },
+    "The Complete Grimm's Fairy Tales|Jacob Grimm,Wilhelm Grimm": {
+      "isbn": "9781911405955",
+      "coverURL": "https://covers.openlibrary.org/b/id/9136852-M.jpg"
+    },
+    "The Complete Poems|Walt Whitman": {
+      "isbn": "9780140422221",
+      "coverURL": "https://covers.openlibrary.org/b/id/13351832-M.jpg"
+    },
+    "The Confession (HC)|John Grisham": {
+      "isbn": "9780385528047",
+      "coverURL": "https://covers.openlibrary.org/b/id/14816149-M.jpg"
+    },
+    "The Country Bunny and the Little Gold Shoes, as Told to Jenifer|DuBose Heyward": {
+      "isbn": "9780395185575",
+      "coverURL": "https://covers.openlibrary.org/b/id/6747417-M.jpg"
+    },
+    "The Curse of the Gloamglozer|Paul Stewart,Chris Riddell": {
+      "isbn": "9780385750769",
+      "coverURL": "https://covers.openlibrary.org/b/id/6301251-M.jpg"
+    },
+    "The Dark Forest|Cixin Liu": {
+      "isbn": "9780765386694",
+      "coverURL": "https://covers.openlibrary.org/b/id/14570131-M.jpg"
+    },
+    "The Dark Is Rising|Susan Cooper": {
+      "isbn": "9781416949695",
+      "coverURL": "https://covers.openlibrary.org/b/id/4812189-M.jpg"
+    },
+    "The Dead of Night|John Marsden": {
+      "isbn": "9780395837344",
+      "coverURL": "https://covers.openlibrary.org/b/id/8303861-M.jpg"
+    },
+    "The Devil in Massachusetts|Marion L. Starkey": {
+      "isbn": "9781789125627",
+      "coverURL": "https://covers.openlibrary.org/b/id/4610409-M.jpg"
+    },
+    "The Dixon Cornbelt League and Other Baseball Stories|W. P. Kinsella": {
+      "isbn": "9780060926854",
+      "coverURL": "https://covers.openlibrary.org/b/id/4941849-M.jpg"
+    },
+    "The Edge Chronicles 11 : The Nameless One|Paul Stewart,Chris Riddell": {
+      "isbn": "9780857532343",
+      "coverURL": "https://covers.openlibrary.org/b/id/10660308-M.jpg"
+    },
+    "The Electric War|Mike Winchell": {
+      "isbn": "9781250120168",
+      "coverURL": "https://covers.openlibrary.org/b/id/8801868-M.jpg"
+    },
+    "The Elite|Kiera Cass": {
+      "isbn": "9780062059970",
+      "coverURL": "https://covers.openlibrary.org/b/id/7284838-M.jpg"
+    },
+    "The Exploration of Space|Arthur Charles Clarke": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/6975771-M.jpg"
+    },
+    "The Eyre Affair|Jasper Fforde": {
+      "isbn": "9780142001806",
+      "coverURL": "https://covers.openlibrary.org/b/id/6499696-M.jpg"
+    },
+    "The Field Guide|Tony DiTerlizzi,Holly Black": {
+      "isbn": "9780689859366",
+      "coverURL": "https://covers.openlibrary.org/b/id/15093539-M.jpg"
+    },
+    "The Fifth Season|N. K. Jemisin": {
+      "isbn": "9780316229296",
+      "coverURL": "https://covers.openlibrary.org/b/id/14614853-M.jpg"
+    },
+    "The Finches' Fabulous Furnace|Roger Wolcott Drury": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "The Firm (HC)(pb)|John Grisham": {
+      "isbn": "9780385416344",
+      "coverURL": "https://covers.openlibrary.org/b/id/12452017-M.jpg"
+    },
+    "The First Four Years|Laura Ingalls Wilder": {
+      "isbn": "9780062484116",
+      "coverURL": "https://covers.openlibrary.org/b/id/30796-M.jpg"
+    },
+    "The First Olympics|Ben M. Baglio": {
+      "isbn": "9780553270631",
+      "coverURL": "https://covers.openlibrary.org/b/id/12683233-M.jpg"
+    },
+    "The Five Chinese Brothers|Claire Huchet Bishop,Kurt Wiese": {
+      "isbn": "9781555929107",
+      "coverURL": "https://covers.openlibrary.org/b/id/6929635-M.jpg"
+    },
+    "The Forbidden Castle|Edward Packard": {
+      "isbn": "9781442452800",
+      "coverURL": "https://covers.openlibrary.org/b/id/11633677-M.jpg"
+    },
+    "The Garden of Rama|Arthur C. Clarke,Gentry Lee": {
+      "isbn": "9780553298178",
+      "coverURL": "https://covers.openlibrary.org/b/id/8733230-M.jpg"
+    },
+    "The Gentleman's Guide to Vice and Virtue|Mackenzi Lee": {
+      "isbn": "9780062382818",
+      "coverURL": "https://covers.openlibrary.org/b/id/10327477-M.jpg"
+    },
+    "The Ghost at Dawn's House: Classic Edition (The Baby-Sitters Club #9)|Ann M. Martin": {
+      "isbn": "9780545532556",
+      "coverURL": ""
+    },
+    "The Ghost from the Grand Banks|Arthur Charles Clarke": {
+      "isbn": "9780553072228",
+      "coverURL": "https://covers.openlibrary.org/b/id/6970715-M.jpg"
+    },
+    "The Ghost of Crutchfield Hall|Mary Downing Hahn": {
+      "isbn": "9780547385600",
+      "coverURL": "https://covers.openlibrary.org/b/id/6592150-M.jpg"
+    },
+    "The Ghosts of Virginia, Vol. 1-4|Jr. Taylor L. B.": {
+      "isbn": "096282710X",
+      "coverURL": "https://covers.openlibrary.org/b/id/4814989-M.jpg"
+    },
+    "The Girl from the Well|Rin Chupeco": {
+      "isbn": "9781492608684",
+      "coverURL": "https://covers.openlibrary.org/b/id/8945874-M.jpg"
+    },
+    "The Girl with the Dragon Tattoo|Stieg Larsson": {
+      "isbn": "9780307454546",
+      "coverURL": "https://covers.openlibrary.org/b/id/10544669-M.jpg"
+    },
+    "The Giving Tree|Shel Silverstein": {
+      "isbn": "9780061965104",
+      "coverURL": "https://covers.openlibrary.org/b/id/8981758-M.jpg"
+    },
+    "The Golden Compass|Philip Pullman": {
+      "isbn": "9780679893103",
+      "coverURL": "https://covers.openlibrary.org/b/id/12606617-M.jpg"
+    },
+    "The Golden Road|L. M. Montgomery": {
+      "isbn": "9780613094863",
+      "coverURL": "https://covers.openlibrary.org/b/id/1317476-M.jpg"
+    },
+    "The Goonies: The Illustrated Storybook|Brooke Vitale": {
+      "isbn": "9781647221782",
+      "coverURL": "https://covers.openlibrary.org/b/id/13863842-M.jpg"
+    },
+    "The Great Train Robbery|Michael Crichton": {
+      "isbn": "9780345390929",
+      "coverURL": "https://covers.openlibrary.org/b/id/6509227-M.jpg"
+    },
+    "The Great Waldo Search|Martin Handford": {
+      "isbn": "9780590451154",
+      "coverURL": ""
+    },
+    "The Greatest Zombie Movie Ever|Jeff Strand": {
+      "isbn": "9781492628149",
+      "coverURL": "https://covers.openlibrary.org/b/id/13050874-M.jpg"
+    },
+    "The Grey King|Susan Cooper": {
+      "isbn": "9781665932943",
+      "coverURL": "https://covers.openlibrary.org/b/id/433450-M.jpg"
+    },
+    "The Gruffalo|Julia Donaldson": {
+      "isbn": "9780803731097",
+      "coverURL": "https://covers.openlibrary.org/b/id/8561698-M.jpg"
+    },
+    "The Gruffalo's Child|Julia Donaldson": {
+      "isbn": "9780803730090",
+      "coverURL": "https://covers.openlibrary.org/b/id/15113186-M.jpg"
+    },
+    "The Guest List|Lucy Foley": {
+      "isbn": "9780063215382",
+      "coverURL": "https://covers.openlibrary.org/b/id/13346960-M.jpg"
+    },
+    "The Hammer of God|Arthur C. Clarke": {
+      "isbn": "9780553568714",
+      "coverURL": "https://covers.openlibrary.org/b/id/6507655-M.jpg"
+    },
+    "The Handmaid's Tale (Movie Tie-in)|Margaret Atwood": {
+      "isbn": "9780525435006",
+      "coverURL": "https://covers.openlibrary.org/b/id/8504766-M.jpg"
+    },
+    "The Happiness Blueprint|Ally Zetterberg": {
+      "isbn": "9780369748751",
+      "coverURL": ""
+    },
+    "The Happy Hollisters and the Ice Carnival Mystery|Jerry West": {
+      "isbn": "9781949436068",
+      "coverURL": "https://covers.openlibrary.org/b/id/14706039-M.jpg"
+    },
+    "The Hate U Give|Angie Thomas": {
+      "isbn": "9780062498533",
+      "coverURL": "https://covers.openlibrary.org/b/id/14859361-M.jpg"
+    },
+    "The Heir|Kiera Cass": {
+      "isbn": "9780062349859",
+      "coverURL": "https://covers.openlibrary.org/b/id/14847643-M.jpg"
+    },
+    "The Herself the Elf Storybook|Lisa Norby": {
+      "isbn": "9780590329118",
+      "coverURL": "https://covers.openlibrary.org/b/id/6862894-M.jpg"
+    },
+    "The Hitchhiker's Guide to the Galaxy|Douglas Adams": {
+      "isbn": "9780345391803",
+      "coverURL": "https://covers.openlibrary.org/b/id/11972784-M.jpg"
+    },
+    "The Hobbit|Tolkien": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/14627509-M.jpg"
+    },
+    "The Horse and his Boy|C. S. Lewis": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/9184792-M.jpg"
+    },
+    "The House at the Edge of Magic|Amy Sparkes": {
+      "isbn": "9781665982542",
+      "coverURL": "https://covers.openlibrary.org/b/id/12113583-M.jpg"
+    },
+    "The House in the Cerulean Sea|TJ Klune": {
+      "isbn": "9781250217318",
+      "coverURL": "https://covers.openlibrary.org/b/id/10207033-M.jpg"
+    },
+    "The Hunger Games|Suzanne Collins": {
+      "isbn": "9780439023481",
+      "coverURL": "https://covers.openlibrary.org/b/id/14552116-M.jpg"
+    },
+    "The Hunting Party|Lucy Foley": {
+      "isbn": "9780062868916",
+      "coverURL": "https://covers.openlibrary.org/b/id/8797519-M.jpg"
+    },
+    "The Ickabog|J. K. Rowling": {
+      "isbn": "9781338732870",
+      "coverURL": "https://covers.openlibrary.org/b/id/10328306-M.jpg"
+    },
+    "The Illustrated Man|Ray Bradbury": {
+      "isbn": "9780553274493",
+      "coverURL": "https://covers.openlibrary.org/b/id/14642738-M.jpg"
+    },
+    "The Imagineering Story|Leslie Iwerks": {
+      "isbn": "9781368049368",
+      "coverURL": "https://covers.openlibrary.org/b/id/14408288-M.jpg"
+    },
+    "The Immortals|Paul Stewart": {
+      "isbn": "9780375837432",
+      "coverURL": "https://covers.openlibrary.org/b/id/8310435-M.jpg"
+    },
+    "The Indwelling|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9781414334967",
+      "coverURL": "https://covers.openlibrary.org/b/id/7717045-M.jpg"
+    },
+    "The Inheritance Games|Jennifer Lynn Barnes": {
+      "isbn": "9780759555402",
+      "coverURL": "https://covers.openlibrary.org/b/id/14351078-M.jpg"
+    },
+    "The Innocent Man (HC)|John Grisham": {
+      "isbn": "9780385517232",
+      "coverURL": "https://covers.openlibrary.org/b/id/14637059-M.jpg"
+    },
+    "The Invisible Life of Addie LaRue|V. E. Schwab": {
+      "isbn": "9780765387561",
+      "coverURL": "https://covers.openlibrary.org/b/id/10092261-M.jpg"
+    },
+    "The Isles of the Gods|Amie Kaufman": {
+      "isbn": "9780593479315",
+      "coverURL": "https://covers.openlibrary.org/b/id/13913020-M.jpg"
+    },
+    "The Judge's List (HC)|John Grisham": {
+      "isbn": "9780385546027",
+      "coverURL": "https://covers.openlibrary.org/b/id/12218798-M.jpg"
+    },
+    "The Knife of Never Letting Go|Patrick Ness": {
+      "isbn": "9780763645762",
+      "coverURL": "https://covers.openlibrary.org/b/id/10533854-M.jpg"
+    },
+    "The Last Battle|C. S. Lewis": {
+      "isbn": "9780001844414",
+      "coverURL": "https://covers.openlibrary.org/b/id/10629212-M.jpg"
+    },
+    "The Last Days of Hitler|Hugh Trevor Roper": {
+      "isbn": "9781743298886",
+      "coverURL": "https://covers.openlibrary.org/b/id/143328-M.jpg"
+    },
+    "The Last Juror (hc)|John Grisham": {
+      "isbn": "9780385510431",
+      "coverURL": "https://covers.openlibrary.org/b/id/10693525-M.jpg"
+    },
+    "The Last of the Sky Pirates|Paul Stewart,Chris Riddell": {
+      "isbn": "9780385750783",
+      "coverURL": "https://covers.openlibrary.org/b/id/244436-M.jpg"
+    },
+    "The Last Train from Hiroshima|Charles Pellegrino": {
+      "isbn": "9780805087963",
+      "coverURL": "https://covers.openlibrary.org/b/id/10659869-M.jpg"
+    },
+    "The Left Hand of the Electron|Isaac Asimov": {
+      "isbn": "9780586041215",
+      "coverURL": "https://covers.openlibrary.org/b/id/13490210-M.jpg"
+    },
+    "The Life and Death of Adolf Hitler|Robert Payne": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/6960266-M.jpg"
+    },
+    "The Light of Other Days|Arthur C. Clarke,Stephen Baxter": {
+      "isbn": "9780812576405",
+      "coverURL": "https://covers.openlibrary.org/b/id/10289447-M.jpg"
+    },
+    "The Lion, the Witch and the Wardrobe|C. S. Lewis": {
+      "isbn": "9780007206100",
+      "coverURL": "https://covers.openlibrary.org/b/id/13454-M.jpg"
+    },
+    "The Litigators (HC)(pb)|John Grisham": {
+      "isbn": "9780385535137",
+      "coverURL": "https://covers.openlibrary.org/b/id/9323431-M.jpg"
+    },
+    "The Little Mouse, the Red Ripe Strawberry, and the Big Hungry Bear|Audrey Wood": {
+      "isbn": "9780859530125",
+      "coverURL": "https://covers.openlibrary.org/b/id/11025269-M.jpg"
+    },
+    "The Little Old Man Who Could Not Read|Irma Simonton Black": {
+      "isbn": "9798888180532",
+      "coverURL": "https://covers.openlibrary.org/b/id/7359701-M.jpg"
+    },
+    "The littlest angel|Charles Tazewell": {
+      "isbn": "0895429233",
+      "coverURL": "https://covers.openlibrary.org/b/id/6964844-M.jpg"
+    },
+    "The Long Dark Tea-time of the Soul|Douglas Adams": {
+      "isbn": "9780671694043",
+      "coverURL": "https://covers.openlibrary.org/b/id/14653547-M.jpg"
+    },
+    "The Long Winter|Laura Ingalls Wilder": {
+      "isbn": "9780060581855",
+      "coverURL": "https://covers.openlibrary.org/b/id/12058520-M.jpg"
+    },
+    "The Lord of the Rings|John Ronald Reuel Tolkien": {
+      "isbn": "9780618129027",
+      "coverURL": "https://covers.openlibrary.org/b/id/12003171-M.jpg"
+    },
+    "The Lost Bookshop|Evie Woods": {
+      "isbn": "9780008609214",
+      "coverURL": "https://covers.openlibrary.org/b/id/14645954-M.jpg"
+    },
+    "The Lost Jewels of Nabooti|R. A. Montgomery": {
+      "isbn": "9781933390048",
+      "coverURL": "https://covers.openlibrary.org/b/id/11673617-M.jpg"
+    },
+    "The Lost Tribe|Louise Munro Foley": {
+      "isbn": "9780553233667",
+      "coverURL": "https://covers.openlibrary.org/b/id/9543211-M.jpg"
+    },
+    "The Lost World|Michael Crichton": {
+      "isbn": "9780679419464",
+      "coverURL": "https://covers.openlibrary.org/b/id/14629031-M.jpg"
+    },
+    "The Luckiest Day of Your Life|Edward Packard,Tom La Padula": {
+      "isbn": "9780553293043",
+      "coverURL": "https://covers.openlibrary.org/b/id/4673152-M.jpg"
+    },
+    "The Lying Game|Ruth Ware": {
+      "isbn": "9781501156205",
+      "coverURL": "https://covers.openlibrary.org/b/id/8791985-M.jpg"
+    },
+    "The machineries of joy|Ray Bradbury": {
+      "isbn": "0586043616",
+      "coverURL": "https://covers.openlibrary.org/b/id/9346519-M.jpg"
+    },
+    "The Magic of the Unicorn|Deborah Lerme Goodman": {
+      "isbn": "9781432877965",
+      "coverURL": "https://covers.openlibrary.org/b/id/11084049-M.jpg"
+    },
+    "The Magician's Nephew (Digest Edition)|C. S. Lewis": {
+      "isbn": "9780613930147",
+      "coverURL": "https://covers.openlibrary.org/b/id/13169248-M.jpg"
+    },
+    "The Making of the Atomic Bomb|Richard Rhodes": {
+      "isbn": "9781451677614",
+      "coverURL": "https://covers.openlibrary.org/b/id/12678742-M.jpg"
+    },
+    "The Marbury Lens|Andrew Smith": {
+      "isbn": "9781250010278",
+      "coverURL": "https://covers.openlibrary.org/b/id/6667365-M.jpg"
+    },
+    "The mark|Tim LaHaye": {
+      "isbn": "9781868524341",
+      "coverURL": "https://covers.openlibrary.org/b/id/549834-M.jpg"
+    },
+    "The Martian|Andy Weir": {
+      "isbn": "9780804139021",
+      "coverURL": "https://covers.openlibrary.org/b/id/14641755-M.jpg"
+    },
+    "The Missing of Clairdelune|Christelle Dabos": {
+      "isbn": "9781609456085",
+      "coverURL": "https://covers.openlibrary.org/b/id/10231151-M.jpg"
+    },
+    "The Mona Lisa is Missing!|Ramsey Montgomery,R. A. Montgomery": {
+      "isbn": "9780553270044",
+      "coverURL": ""
+    },
+    "The Monster at the End of This Book (Sesame Street)|Jon Stone": {
+      "isbn": "9780307010858",
+      "coverURL": "https://covers.openlibrary.org/b/id/8580218-M.jpg"
+    },
+    "The Monster's Ring|Bruce Coville": {
+      "isbn": "9780152046187",
+      "coverURL": "https://covers.openlibrary.org/b/id/113563-M.jpg"
+    },
+    "The Moon by Night|Madeleine L'Engle": {
+      "isbn": "9781466814158",
+      "coverURL": "https://covers.openlibrary.org/b/id/283451-M.jpg"
+    },
+    "The Mystery of Chimney Rock|Edward Packard": {
+      "isbn": "9781937133054",
+      "coverURL": "https://covers.openlibrary.org/b/id/6542695-M.jpg"
+    },
+    "The Mystery of the Highland Crest|Louise Munro Foley": {
+      "isbn": "9780553243444",
+      "coverURL": "https://covers.openlibrary.org/b/id/7308388-M.jpg"
+    },
+    "The Mystery of Ura Senke|Shannon Gilligan": {
+      "isbn": "9780760897010",
+      "coverURL": "https://covers.openlibrary.org/b/id/2129632-M.jpg"
+    },
+    "The Night Circus|Erin Morgenstern": {
+      "isbn": "9780307744432",
+      "coverURL": "https://covers.openlibrary.org/b/id/8750523-M.jpg"
+    },
+    "The Night is for Hunting|John Marsden": {
+      "isbn": "9780618070268",
+      "coverURL": "https://covers.openlibrary.org/b/id/6759698-M.jpg"
+    },
+    "The Obelisk Gate|N. K. Jemisin": {
+      "isbn": "9780316229265",
+      "coverURL": "https://covers.openlibrary.org/b/id/14593831-M.jpg"
+    },
+    "The October Country|Ray Bradbury": {
+      "isbn": "9780586042298",
+      "coverURL": "https://covers.openlibrary.org/b/id/13523857-M.jpg"
+    },
+    "The One|Kiera Cass": {
+      "isbn": "9780062060006",
+      "coverURL": "https://covers.openlibrary.org/b/id/13316603-M.jpg"
+    },
+    "The One That Got Away with Murder|Trish Lundy": {
+      "isbn": "9781250292155",
+      "coverURL": ""
+    },
+    "The other side of dawn|John Marsden": {
+      "isbn": "9780618070282",
+      "coverURL": "https://covers.openlibrary.org/b/id/6646781-M.jpg"
+    },
+    "The Party's Over|Caroline B. Cooney": {
+      "isbn": "9781480451742",
+      "coverURL": "https://covers.openlibrary.org/b/id/12405363-M.jpg"
+    },
+    "The Pelican Brief (HC)(pb)|John Grisham": {
+      "isbn": "9780385421980",
+      "coverURL": "https://covers.openlibrary.org/b/id/10669503-M.jpg"
+    },
+    "The Phantom Menace: Star Wars: Episode I|Terry Brooks": {
+      "isbn": "9780345434111",
+      "coverURL": "https://covers.openlibrary.org/b/id/10893643-M.jpg"
+    },
+    "The Phantom Submarine|Richard Brightfield": {
+      "isbn": "9780553236354",
+      "coverURL": "https://covers.openlibrary.org/b/id/13160070-M.jpg"
+    },
+    "The Pirates! In an Adventure with Scientists|Gideon Defoe": {
+      "isbn": "9781408824955",
+      "coverURL": "https://covers.openlibrary.org/b/id/10399247-M.jpg"
+    },
+    "The Polar Bear Express|Edward Packard": {
+      "isbn": "9780553152999",
+      "coverURL": "https://covers.openlibrary.org/b/id/12690158-M.jpg"
+    },
+    "The Poseidon Adventure|Paul Gallico": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/111374-M.jpg"
+    },
+    "The Power Dome|Edward Packard": {
+      "isbn": "9780553567434",
+      "coverURL": "https://covers.openlibrary.org/b/id/6807776-M.jpg"
+    },
+    "The Princess Bride|William Goldman": {
+      "isbn": "9780151015443",
+      "coverURL": "https://covers.openlibrary.org/b/id/10656795-M.jpg"
+    },
+    "The Race Forever|R. A. Montgomery": {
+      "isbn": "9780942545173",
+      "coverURL": "https://covers.openlibrary.org/b/id/10178875-M.jpg"
+    },
+    "The Racketeer (HC)|John Grisham": {
+      "isbn": "9780385535144",
+      "coverURL": "https://covers.openlibrary.org/b/id/14843872-M.jpg"
+    },
+    "The Rainmaker (HC)(pb)|John Grisham": {
+      "isbn": "9780385424738",
+      "coverURL": "https://covers.openlibrary.org/b/id/14833597-M.jpg"
+    },
+    "The Reading List|Sara Nisha Adams": {
+      "isbn": "9780063025295",
+      "coverURL": "https://covers.openlibrary.org/b/id/10872325-M.jpg"
+    },
+    "The Real History Behind the Templars|Sharan Newman": {
+      "isbn": "9781440623288",
+      "coverURL": "https://covers.openlibrary.org/b/id/2416110-M.jpg"
+    },
+    "The Reality Machine|Edward Packard": {
+      "isbn": "9780553564013",
+      "coverURL": "https://covers.openlibrary.org/b/id/8871762-M.jpg"
+    },
+    "The Reckoning (pb)|John Grisham": {
+      "isbn": "9780525620938",
+      "coverURL": "https://covers.openlibrary.org/b/id/10097257-M.jpg"
+    },
+    "The Remnant|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9780842332309",
+      "coverURL": "https://covers.openlibrary.org/b/id/638825-M.jpg"
+    },
+    "The Restaurant at the End of the Universe|Douglas Adams": {
+      "isbn": "9780345391810",
+      "coverURL": "https://covers.openlibrary.org/b/id/11464420-M.jpg"
+    },
+    "The Right Stuff|Tom Wolfe": {
+      "isbn": "9781429961325",
+      "coverURL": "https://covers.openlibrary.org/b/id/3326778-M.jpg"
+    },
+    "The Rooster Bar (HC)|John Grisham": {
+      "isbn": "9780385541176",
+      "coverURL": "https://covers.openlibrary.org/b/id/14322407-M.jpg"
+    },
+    "The Rules of Survival|Nancy Werlin": {
+      "isbn": "9780142410714",
+      "coverURL": "https://covers.openlibrary.org/b/id/1119250-M.jpg"
+    },
+    "The Runaway Jury (HC)|John Grisham": {
+      "isbn": "9780440221470",
+      "coverURL": "https://covers.openlibrary.org/b/id/10690905-M.jpg"
+    },
+    "The Sea-wolf|Jack London": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/8236975-M.jpg"
+    },
+    "The Secret Garden|Frances Hodgson Burnett": {
+      "isbn": "9780517147481",
+      "coverURL": "https://covers.openlibrary.org/b/id/320763-M.jpg"
+    },
+    "The Secret History of MI6|Keith Jeffery": {
+      "isbn": "9780143119999",
+      "coverURL": "https://covers.openlibrary.org/b/id/8559241-M.jpg"
+    },
+    "The Secret of 13|B. B. Hiller": {
+      "isbn": "9780590332941",
+      "coverURL": "https://covers.openlibrary.org/b/id/12703636-M.jpg"
+    },
+    "The Secret Service|Philip H. Melanson,Peter F. Stevens": {
+      "isbn": "9781567316865",
+      "coverURL": ""
+    },
+    "The Secret Treasure of Tibet|Richard Brightfield": {
+      "isbn": "9780553245226",
+      "coverURL": "https://covers.openlibrary.org/b/id/13158355-M.jpg"
+    },
+    "The Seeing Stone|Tony DiTerlizzi,Holly Black": {
+      "isbn": "9780689859373",
+      "coverURL": "https://covers.openlibrary.org/b/id/437783-M.jpg"
+    },
+    "The Selection|Kiera Cass": {
+      "isbn": "9780062059949",
+      "coverURL": "https://covers.openlibrary.org/b/id/13325417-M.jpg"
+    },
+    "The Shape of Me and Other Stuff|Dr. Seuss": {
+      "isbn": "9780679886310",
+      "coverURL": "https://covers.openlibrary.org/b/id/423176-M.jpg"
+    },
+    "The Silver Chair|C. S. Lewis": {
+      "isbn": "9780064405041",
+      "coverURL": "https://covers.openlibrary.org/b/id/7362906-M.jpg"
+    },
+    "The Siren|Kiera Cass": {
+      "isbn": "9780062391995",
+      "coverURL": "https://covers.openlibrary.org/b/id/13326736-M.jpg"
+    },
+    "The snowy day|Ezra Jack Keats,Marilyn Sanabria,Shang yi bian ji bu": {
+      "isbn": "0590030310",
+      "coverURL": "https://covers.openlibrary.org/b/id/12997438-M.jpg"
+    },
+    "The Songs of Distant Earth|Arthur C. Clarke": {
+      "isbn": "9780795325847",
+      "coverURL": "https://covers.openlibrary.org/b/id/382269-M.jpg"
+    },
+    "The Splendid and the Vile|Erik Larson": {
+      "isbn": "9780385348737",
+      "coverURL": "https://covers.openlibrary.org/b/id/13800305-M.jpg"
+    },
+    "The Star Wars Trilogy|George Lucas,Donald F. Glut,James Kahn": {
+      "isbn": "9780345384386",
+      "coverURL": "https://covers.openlibrary.org/b/id/10860207-M.jpg"
+    },
+    "The Stone Sky|N. K. Jemisin": {
+      "isbn": "9780316229241",
+      "coverURL": "https://covers.openlibrary.org/b/id/8191910-M.jpg"
+    },
+    "The Story Girl|L. M. Montgomery": {
+      "isbn": "9798736977932",
+      "coverURL": "https://covers.openlibrary.org/b/id/14635988-M.jpg"
+    },
+    "The Street Lawyer (HC)(pb)|John Grisham": {
+      "isbn": "9780385490993",
+      "coverURL": "https://covers.openlibrary.org/b/id/14322400-M.jpg"
+    },
+    "The Summons (hc)|John Grisham": {
+      "isbn": "9780385503822",
+      "coverURL": "https://covers.openlibrary.org/b/id/11412525-M.jpg"
+    },
+    "The Suspect Next Door|Carolyn Keene": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/12667259-M.jpg"
+    },
+    "The Swiss Family Robinson|Johann D. Wyss": {
+      "isbn": "9780143104995",
+      "coverURL": "https://covers.openlibrary.org/b/id/1119602-M.jpg"
+    },
+    "The Tail of Emily Windsnap|Liz Kessler": {
+      "isbn": "9780763652401",
+      "coverURL": "https://covers.openlibrary.org/b/id/516389-M.jpg"
+    },
+    "The Tales of Beedle the Bard|J. K. Rowling": {
+      "isbn": "9780545128285",
+      "coverURL": "https://covers.openlibrary.org/b/id/14642824-M.jpg"
+    },
+    "The Taming of the Shrew|William Shakespeare": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/7889534-M.jpg"
+    },
+    "The Terrorist Trap|Shannon Gilligan": {
+      "isbn": "9780553292893",
+      "coverURL": "https://covers.openlibrary.org/b/id/12984098-M.jpg"
+    },
+    "The Testament (HC)|John Grisham": {
+      "isbn": "9780385493802",
+      "coverURL": "https://covers.openlibrary.org/b/id/14359893-M.jpg"
+    },
+    "The Third Planet from Altair|Edward Packard": {
+      "isbn": "9780397318278",
+      "coverURL": "https://covers.openlibrary.org/b/id/8870172-M.jpg"
+    },
+    "The Three Little Pigs (Disney Classic)|RH Disney": {
+      "isbn": "9780736423120",
+      "coverURL": "https://covers.openlibrary.org/b/id/9250658-M.jpg"
+    },
+    "The Three-Body Problem|Cixin Liu": {
+      "isbn": "9780765382030",
+      "coverURL": "https://covers.openlibrary.org/b/id/8478888-M.jpg"
+    },
+    "The Thrill of the Grass|W. P. Kinsella": {
+      "isbn": "9780140073867",
+      "coverURL": "https://covers.openlibrary.org/b/id/93968-M.jpg"
+    },
+    "The Throne of Zeus|Deborah Lerme Goodman": {
+      "isbn": "9781937133306",
+      "coverURL": "https://covers.openlibrary.org/b/id/12664894-M.jpg"
+    },
+    "The Time Machine|Herbert George Wells": {
+      "isbn": "9780441009190",
+      "coverURL": "https://covers.openlibrary.org/b/id/283984-M.jpg"
+    },
+    "The Toynbee convector.|Ray Bradbury": {
+      "isbn": "0586205780",
+      "coverURL": "https://covers.openlibrary.org/b/id/9258791-M.jpg"
+    },
+    "The Trigger|Arthur C. Clarke,Michael Kube-McDowell": {
+      "isbn": "9780795325908",
+      "coverURL": ""
+    },
+    "The Trumpet of Terror|Deborah Lerme Goodman": {
+      "isbn": "9781937133290",
+      "coverURL": "https://covers.openlibrary.org/b/id/12683218-M.jpg"
+    },
+    "The Truth about Stacey|Ann M. Martin": {
+      "isbn": "9780606147897",
+      "coverURL": "https://covers.openlibrary.org/b/id/6620165-M.jpg"
+    },
+    "The Twenty-four Days Before Christmas|Madeleine L'Engle": {
+      "isbn": "9781429945646",
+      "coverURL": "https://covers.openlibrary.org/b/id/281945-M.jpg"
+    },
+    "The Twenty-One Balloons|William Pene du Bois": {
+      "isbn": "9780140320978",
+      "coverURL": "https://covers.openlibrary.org/b/id/7401967-M.jpg"
+    },
+    "The Ugly Truth|Jeff Kinney": {
+      "isbn": "9781410498731",
+      "coverURL": "https://covers.openlibrary.org/b/id/13891306-M.jpg"
+    },
+    "The Underground Railroad|Doug Wilhelm": {
+      "isbn": "9780553567441",
+      "coverURL": "https://covers.openlibrary.org/b/id/4673560-M.jpg"
+    },
+    "The Universe in a Nutshell|Stephen Hawking": {
+      "isbn": "9780553802023",
+      "coverURL": "https://covers.openlibrary.org/b/id/8731043-M.jpg"
+    },
+    "The Vanishing Act|Carolyn Keene": {
+      "isbn": "9781481424837",
+      "coverURL": "https://covers.openlibrary.org/b/id/15145820-M.jpg"
+    },
+    "The Very Hungry Caterpillar|Eric Carle": {
+      "isbn": "9780399226908",
+      "coverURL": "https://covers.openlibrary.org/b/id/7835968-M.jpg"
+    },
+    "The Very Secret Society of Irregular Witches|Sangu Mandanna": {
+      "isbn": "9780593439357",
+      "coverURL": "https://covers.openlibrary.org/b/id/13028647-M.jpg"
+    },
+    "The Vintage Bradbury|Ray Bradbury": {
+      "isbn": "9780679729464",
+      "coverURL": "https://covers.openlibrary.org/b/id/420008-M.jpg"
+    },
+    "The Viscount Who Loved Me|Julia Quinn": {
+      "isbn": "9780063138629",
+      "coverURL": "https://covers.openlibrary.org/b/id/14653310-M.jpg"
+    },
+    "The Voyage of the Dawn Treader|C. S. Lewis": {
+      "isbn": "9780061974267",
+      "coverURL": "https://covers.openlibrary.org/b/id/9184719-M.jpg"
+    },
+    "The Way I Used to Be|Amber Smith": {
+      "isbn": "9781481449366",
+      "coverURL": "https://covers.openlibrary.org/b/id/7434787-M.jpg"
+    },
+    "The Wicked Sister|Karen Dionne": {
+      "isbn": "9780735213043",
+      "coverURL": "https://covers.openlibrary.org/b/id/10313765-M.jpg"
+    },
+    "The Winter Knights|Paul Stewart,Chris Riddell": {
+      "isbn": "9780375937415",
+      "coverURL": "https://covers.openlibrary.org/b/id/234260-M.jpg"
+    },
+    "The Woman in the Window [Movie Tie-in]|A. J. Finn": {
+      "isbn": "9780062905086",
+      "coverURL": ""
+    },
+    "The Works of Jules Verne|Jules Verne": {
+      "isbn": "9780681980044",
+      "coverURL": "https://covers.openlibrary.org/b/id/13344278-M.jpg"
+    },
+    "The Worst-Case Scenario Survival Handbook: Travel|Joshua Piven,David Borgenicht": {
+      "isbn": "9780811873581",
+      "coverURL": "https://covers.openlibrary.org/b/id/11544707-M.jpg"
+    },
+    "The Wrong Track|Carolyn Keene": {
+      "isbn": "9781481428538",
+      "coverURL": "https://covers.openlibrary.org/b/id/15140529-M.jpg"
+    },
+    "The X-files Classics|Stefan Petrucha,Chris Carter": {
+      "isbn": "9781613776636",
+      "coverURL": ""
+    },
+    "The Xfiles Classics|Kevin J. Anderson": {
+      "isbn": "9781613778593",
+      "coverURL": "https://covers.openlibrary.org/b/id/7697073-M.jpg"
+    },
+    "The Young Unicorns|Madeleine L'Engle": {
+      "isbn": "9781466814219",
+      "coverURL": "https://covers.openlibrary.org/b/id/283483-M.jpg"
+    },
+    "The Zombie Survival Guide|Max Brooks": {
+      "isbn": "9781400049622",
+      "coverURL": "https://covers.openlibrary.org/b/id/6307937-M.jpg"
+    },
+    "Then There Were Five|Elizabeth Enright": {
+      "isbn": "9781250102850",
+      "coverURL": "https://covers.openlibrary.org/b/id/102626-M.jpg"
+    },
+    "There was a cold lady who swallowed some snow|Lucille Colandro,Jared D. Lee": {
+      "isbn": "0439567033",
+      "coverURL": "https://covers.openlibrary.org/b/id/7271433-M.jpg"
+    },
+    "There was an Old Lady who Swallowed a Bell!|Lucille Colandro": {
+      "isbn": "9780545043618",
+      "coverURL": "https://covers.openlibrary.org/b/id/7432142-M.jpg"
+    },
+    "These Happy Golden Years|Laura Ingalls Wilder": {
+      "isbn": "9780062484109",
+      "coverURL": "https://covers.openlibrary.org/b/id/5082694-M.jpg"
+    },
+    "Thieves' Gambit|Kayvion Lewis": {
+      "isbn": "9780593625385",
+      "coverURL": "https://covers.openlibrary.org/b/id/14427992-M.jpg"
+    },
+    "Things in Jars|Jess Kidd": {
+      "isbn": "9781982121297",
+      "coverURL": "https://covers.openlibrary.org/b/id/10327528-M.jpg"
+    },
+    "Things We Hide from the Light|Lucy Score": {
+      "isbn": "9781728276113",
+      "coverURL": "https://covers.openlibrary.org/b/id/13195225-M.jpg"
+    },
+    "Thirteen Reasons Why|Jay Asher": {
+      "isbn": "9781595141712",
+      "coverURL": "https://covers.openlibrary.org/b/id/12648223-M.jpg"
+    },
+    "This is Not the End|Chandler Baker": {
+      "isbn": "9781484790090",
+      "coverURL": "https://covers.openlibrary.org/b/id/8812784-M.jpg"
+    },
+    "This Place Has No Atmosphere|Paula Danziger": {
+      "isbn": "9781101665855",
+      "coverURL": "https://covers.openlibrary.org/b/id/10239248-M.jpg"
+    },
+    "This Side of Evil|Carolyn Keene": {
+      "isbn": "9781481415651",
+      "coverURL": "https://covers.openlibrary.org/b/id/13048190-M.jpg"
+    },
+    "Three Billy Goats Gruff|Nick Page,Claire Page": {
+      "isbn": "9781846101656",
+      "coverURL": "https://covers.openlibrary.org/b/id/5000553-M.jpg"
+    },
+    "Three Wishes # 15|Shannon Gilligan": {
+      "isbn": "9780553152418",
+      "coverURL": "https://covers.openlibrary.org/b/id/12689049-M.jpg"
+    },
+    "Throne of Glass|Sarah J. Maas": {
+      "isbn": "9781639730957",
+      "coverURL": "https://covers.openlibrary.org/b/id/13271151-M.jpg"
+    },
+    "Through the Black Hole|Edward Packard": {
+      "isbn": "9781442452848",
+      "coverURL": "https://covers.openlibrary.org/b/id/9658345-M.jpg"
+    },
+    "Tigger|Lynne Suesse,Deborah Upton": {
+      "isbn": "9780785344094",
+      "coverURL": "https://covers.openlibrary.org/b/id/7164747-M.jpg"
+    },
+    "Till Death Do Us Part|Carolyn Keene": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/15145053-M.jpg"
+    },
+    "Timeline|Michael Crichton": {
+      "isbn": "9780345417626",
+      "coverURL": "https://covers.openlibrary.org/b/id/8401119-M.jpg"
+    },
+    "Tinker Bell|Lisa Ann Marsoli": {
+      "isbn": "9780736425292",
+      "coverURL": "https://covers.openlibrary.org/b/id/9495499-M.jpg"
+    },
+    "Tinkerbell [Disney Fairies]|Disney": {
+      "isbn": "1412753465",
+      "coverURL": "https://covers.openlibrary.org/b/id/10814147-M.jpg"
+    },
+    "Titan|Stephen Baxter": {
+      "isbn": "9780061057137",
+      "coverURL": "https://covers.openlibrary.org/b/id/44314-M.jpg"
+    },
+    "Titanic, Destination Disaster|John P. Eaton,Charles A. Haas": {
+      "isbn": "9780393315134",
+      "coverURL": "https://covers.openlibrary.org/b/id/249197-M.jpg"
+    },
+    "Titanic's Last Secrets|Brad Matsen": {
+      "isbn": "9780446543392",
+      "coverURL": "https://covers.openlibrary.org/b/id/6421852-M.jpg"
+    },
+    "To All the Boys I've Loved Before|Jenny Han": {
+      "isbn": "9781442426719",
+      "coverURL": "https://covers.openlibrary.org/b/id/8573109-M.jpg"
+    },
+    "To Say Nothing of the Dog|Connie Willis": {
+      "isbn": "9780553575385",
+      "coverURL": "https://covers.openlibrary.org/b/id/14547358-M.jpg"
+    },
+    "To Sir Phillip, With Love|Julia Quinn": {
+      "isbn": "9780062353733",
+      "coverURL": "https://covers.openlibrary.org/b/id/12646284-M.jpg"
+    },
+    "Together We Caught Fire|Eva V. Gibson": {
+      "isbn": "9781534450226",
+      "coverURL": "https://covers.openlibrary.org/b/id/9274814-M.jpg"
+    },
+    "Tomorrow, When the War Began|John Marsden": {
+      "isbn": "9780547511979",
+      "coverURL": "https://covers.openlibrary.org/b/id/391828-M.jpg"
+    },
+    "Too Many Tribbles! (Star Trek)|Frank Berrios": {
+      "isbn": "9781984848000",
+      "coverURL": ""
+    },
+    "Tower of Dawn|Sarah J. Maas": {
+      "isbn": "9781639731053",
+      "coverURL": "https://covers.openlibrary.org/b/id/13315546-M.jpg"
+    },
+    "Trail of Lies|Carolyn Keene": {
+      "isbn": "9781481428194",
+      "coverURL": "https://covers.openlibrary.org/b/id/15140808-M.jpg"
+    },
+    "Treasure Diver|Julius Goodman": {
+      "isbn": "9780553240504",
+      "coverURL": "https://covers.openlibrary.org/b/id/8870052-M.jpg"
+    },
+    "Treasury of fairy tales|contributing writers, Dorothea Goldenberg, Bette Killion,Jim Salvati ... [et al.] book illustrations": {
+      "isbn": "078530701X",
+      "coverURL": "https://covers.openlibrary.org/b/id/6571039-M.jpg"
+    },
+    "Trial by Fire|Carolyn Keene": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/13079031-M.jpg"
+    },
+    "Tribulation Force|Tim LaHaye,Jerry B. Jenkins": {
+      "isbn": "9780842329217",
+      "coverURL": "https://covers.openlibrary.org/b/id/7017975-M.jpg"
+    },
+    "Trouble in Tahiti|Carolyn Keene": {
+      "isbn": "9781481424806",
+      "coverURL": "https://covers.openlibrary.org/b/id/6571332-M.jpg"
+    },
+    "Trouble on Planet Earth|R. A. Montgomery": {
+      "isbn": "9781428709935",
+      "coverURL": "https://covers.openlibrary.org/b/id/11732948-M.jpg"
+    },
+    "Troubling a Star|Madeleine L'Engle": {
+      "isbn": "9781466814202",
+      "coverURL": "https://covers.openlibrary.org/b/id/224185-M.jpg"
+    },
+    "Twilight|Stephenie Meyer": {
+      "isbn": "9780316015844",
+      "coverURL": "https://covers.openlibrary.org/b/id/12642040-M.jpg"
+    },
+    "Two Points to Murder|Carolyn Keene": {
+      "isbn": "9781481414524",
+      "coverURL": "https://covers.openlibrary.org/b/id/15142029-M.jpg"
+    },
+    "Two to Tango|Barbara J. Mumma,Random House": {
+      "isbn": "9780449134665",
+      "coverURL": "https://covers.openlibrary.org/b/id/12967847-M.jpg"
+    },
+    "Typhoon!|Edward Packard": {
+      "isbn": "9780553566246",
+      "coverURL": "https://covers.openlibrary.org/b/id/6760781-M.jpg"
+    },
+    "U.N. Adventure|Ramsey Montgomery": {
+      "isbn": "9780553563962",
+      "coverURL": "https://covers.openlibrary.org/b/id/7100272-M.jpg"
+    },
+    "Under Rose-Tainted Skies|Louise Gornall": {
+      "isbn": "9781328742049",
+      "coverURL": "https://covers.openlibrary.org/b/id/8831139-M.jpg"
+    },
+    "Under the Dome|Stephen King": {
+      "isbn": "9781439148501",
+      "coverURL": "https://covers.openlibrary.org/b/id/14651549-M.jpg"
+    },
+    "Under the Whispering Door|TJ Klune": {
+      "isbn": "9781250217394",
+      "coverURL": "https://covers.openlibrary.org/b/id/11943757-M.jpg"
+    },
+    "Underground Kingdom|Edward Packard": {
+      "isbn": "9780553232929",
+      "coverURL": "https://covers.openlibrary.org/b/id/9851305-M.jpg"
+    },
+    "Underground To Canada|Barbara Smucker": {
+      "isbn": "9780143187899",
+      "coverURL": "https://covers.openlibrary.org/b/id/8777189-M.jpg"
+    },
+    "Understood Betsy|Dorothy Canfield Fisher": {
+      "isbn": "9781625581365",
+      "coverURL": "https://covers.openlibrary.org/b/id/5596279-M.jpg"
+    },
+    "Us Against You|Fredrik Backman": {
+      "isbn": "9781501160806",
+      "coverURL": "https://covers.openlibrary.org/b/id/8798371-M.jpg"
+    },
+    "Vanished!|Deborah Lerme Goodman": {
+      "isbn": "9780553259414",
+      "coverURL": "https://covers.openlibrary.org/b/id/12683221-M.jpg"
+    },
+    "Venus|Ben Bova": {
+      "isbn": "9780812579406",
+      "coverURL": "https://covers.openlibrary.org/b/id/9691093-M.jpg"
+    },
+    "Volcano!|Meryl Siegman": {
+      "isbn": "9780553261974",
+      "coverURL": "https://covers.openlibrary.org/b/id/13275446-M.jpg"
+    },
+    "Vox|Paul Stewart,Chris Riddell": {
+      "isbn": "9780385750806",
+      "coverURL": "https://covers.openlibrary.org/b/id/244438-M.jpg"
+    },
+    "War of the Worlds|Kevin J. Anderson,Connie Willis,Robert Silverberg": {
+      "isbn": "0553575988",
+      "coverURL": "https://covers.openlibrary.org/b/id/372604-M.jpg"
+    },
+    "War with the Mutant Spider Ants|Edward Packard": {
+      "isbn": "9780553563993",
+      "coverURL": "https://covers.openlibrary.org/b/id/12726423-M.jpg"
+    },
+    "We Seven|Malcolm Scott Carpenter": {
+      "isbn": "",
+      "coverURL": ""
+    },
+    "We Were Liars|E. Lockhart": {
+      "isbn": "9780385741279",
+      "coverURL": "https://covers.openlibrary.org/b/id/8184975-M.jpg"
+    },
+    "Welcome Back, Stacey! (The Baby-Sitters Club #28)|Ann M. Martin": {
+      "isbn": "9780545630801",
+      "coverURL": "https://covers.openlibrary.org/b/id/6288605-M.jpg"
+    },
+    "West from Home|Laura Ingalls Wilder": {
+      "isbn": "9780060241100",
+      "coverURL": "https://covers.openlibrary.org/b/id/6612687-M.jpg"
+    },
+    "When Darkness Falls|Docia S. Williams": {
+      "isbn": "9781556225369",
+      "coverURL": "https://covers.openlibrary.org/b/id/776878-M.jpg"
+    },
+    "When He Was Wicked|Julia Quinn": {
+      "isbn": "9780062353788",
+      "coverURL": "https://covers.openlibrary.org/b/id/10539479-M.jpg"
+    },
+    "When Worlds Collide|Philip Wylie,Edwin Balmer": {
+      "isbn": "9780613353779",
+      "coverURL": "https://covers.openlibrary.org/b/id/1321596-M.jpg"
+    },
+    "Where the Crawdads Sing: Reese's Book Club|Delia Owens": {
+      "isbn": "9780735219106",
+      "coverURL": "https://covers.openlibrary.org/b/id/10671924-M.jpg"
+    },
+    "Where the Deer and the Antelope Play|Nick Offerman": {
+      "isbn": "9781101984703",
+      "coverURL": "https://covers.openlibrary.org/b/id/11088719-M.jpg"
+    },
+    "Where the Sidewalk Ends|Shel Silverstein": {
+      "isbn": "9780060256678",
+      "coverURL": "https://covers.openlibrary.org/b/id/14827238-M.jpg"
+    },
+    "Where the Wild Things Are|Maurice Sendak": {
+      "isbn": "9780064431781",
+      "coverURL": "https://covers.openlibrary.org/b/id/50842-M.jpg"
+    },
+    "Where's My Teddy?|Jez Alborough": {
+      "isbn": "9781564022806",
+      "coverURL": "https://covers.openlibrary.org/b/id/6575319-M.jpg"
+    },
+    "Where's the Poop?|Julie Markes": {
+      "isbn": "9780060530891",
+      "coverURL": "https://covers.openlibrary.org/b/id/27757-M.jpg"
+    },
+    "Where's Waldo Now?|Martin Handford": {
+      "isbn": "9780763634995",
+      "coverURL": "https://covers.openlibrary.org/b/id/516817-M.jpg"
+    },
+    "Where's Waldo?|Martin Handford": {
+      "isbn": "1564020444",
+      "coverURL": "https://covers.openlibrary.org/b/id/4830350-M.jpg"
+    },
+    "White Water Terror|Carolyn Keene": {
+      "isbn": "9781481414500",
+      "coverURL": "https://covers.openlibrary.org/b/id/15140397-M.jpg"
+    },
+    "Who Killed Harlowe Thrombey?|Edward Packard": {
+      "isbn": "9780553231816",
+      "coverURL": "https://covers.openlibrary.org/b/id/13111574-M.jpg"
+    },
+    "Who Put That Hair in My Toothbrush?|Jerry Spinelli": {
+      "isbn": "9780316808415",
+      "coverURL": "https://covers.openlibrary.org/b/id/190401-M.jpg"
+    },
+    "Whoo's there?|Charles Reasoner": {
+      "isbn": "9780843175141",
+      "coverURL": "https://covers.openlibrary.org/b/id/6998172-M.jpg"
+    },
+    "Wicked|Gregory Maguire": {
+      "isbn": "9780060987107",
+      "coverURL": "https://covers.openlibrary.org/b/id/11882334-M.jpg"
+    },
+    "Win, Place Or Die|Carolyn Keene": {
+      "isbn": "9780671716622",
+      "coverURL": "https://covers.openlibrary.org/b/id/407242-M.jpg"
+    },
+    "Wings of Fear|Carolyn Keene": {
+      "isbn": "9781481415644",
+      "coverURL": "https://covers.openlibrary.org/b/id/15140392-M.jpg"
+    },
+    "Winner\u2019s Waltz|Barbara J. Mumma": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/13031798-M.jpg"
+    },
+    "Winnie the Pooh: The Trouble with Honey|Disney Book Group": {
+      "isbn": "9780786849413",
+      "coverURL": ""
+    },
+    "Winter|Marissa Meyer": {
+      "isbn": "9780312642983",
+      "coverURL": "https://covers.openlibrary.org/b/id/7384926-M.jpg"
+    },
+    "Worst Day Of Your Life|Edward Packard": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/12449232-M.jpg"
+    },
+    "Wuthering Heights|Emily Bront\u00eb": {
+      "isbn": "9780880299183",
+      "coverURL": "https://covers.openlibrary.org/b/id/14834844-M.jpg"
+    },
+    "X-Files Classics Volume 2|Stefan Petrucha,John Rozum": {
+      "isbn": "9781613777183",
+      "coverURL": ""
+    },
+    "X-Files Classics Volume 4|John Rozum,Dwight Jon Zimmerman": {
+      "isbn": "9781613779880",
+      "coverURL": "https://covers.openlibrary.org/b/id/8986771-M.jpg"
+    },
+    "You are a Millionaire|Jay Leibold": {
+      "isbn": "9780836813135",
+      "coverURL": "https://covers.openlibrary.org/b/id/6639997-M.jpg"
+    },
+    "You Are an Alien|Edward Packard": {
+      "isbn": "9780553560107",
+      "coverURL": "https://covers.openlibrary.org/b/id/12687138-M.jpg"
+    },
+    "You'll Be the Death of Me|Karen M. McManus": {
+      "isbn": "9780241473665",
+      "coverURL": "https://covers.openlibrary.org/b/id/13881813-M.jpg"
+    },
+    "Your Code Name Is Jonah|Edward Packard": {
+      "isbn": "",
+      "coverURL": "https://covers.openlibrary.org/b/id/8871689-M.jpg"
+    },
+    "Your Former Friend, Matthew|LouAnn Gaeddert": {
+      "isbn": "9780525440864",
+      "coverURL": "https://covers.openlibrary.org/b/id/9696148-M.jpg"
+    },
+    "Zia|Scott O'Dell": {
+      "isbn": "9780613956147",
+      "coverURL": "https://covers.openlibrary.org/b/id/255488-M.jpg"
+    },
+    "Zodiac Academy 1: The Awakening|Caroline Peckham,Susanne Valenti": {
+      "isbn": "9781916926257",
+      "coverURL": "https://covers.openlibrary.org/b/id/14803787-M.jpg"
+    }
+  },
+  "last_index": 981
+}

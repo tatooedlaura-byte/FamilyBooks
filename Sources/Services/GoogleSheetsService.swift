@@ -3,7 +3,7 @@ import Foundation
 class GoogleSheetsService {
     // CONFIGURE THESE VALUES
     private static let defaultApiKey = "AIzaSyDYaCJGAUrZyrqaDEMKCSVa3BgQNapZfV0"
-    private static let defaultSpreadsheetId = "1VHGjb2sZ9dtJgxtGZ_oH1VyWGhe5kMkWMQt3fUpZczI"
+    private static let defaultSpreadsheetId = "1rNKYn1ZjIdEU8rx18fOd_pNCwN5E4EGjEUyNWnW67xA"
 
     static var currentSpreadsheetId: String {
         UserDefaults.standard.string(forKey: "googleSpreadsheetId") ?? defaultSpreadsheetId
